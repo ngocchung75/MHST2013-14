@@ -1,0 +1,66 @@
+# edX translation file
+# This English source file is machine-generated. Do not check it into github
+# Copyright (C) 2013 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Translators:
+# ngocchung75 <ngocchung75@gmail.com>, 2013
+# thehung12a3 <hoangthehung92@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-studio\n"
+"Report-Msgid-Bugs-To: translation_team@edx.org\n"
+"POT-Creation-Date: 2013-05-14 10:24-0400\n"
+"PO-Revision-Date: 2013-07-07 09:20+0000\n"
+"Last-Translator: ngocchung75 <ngocchung75@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/edx-studio-1/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/templates/index.html:5 cms/templates/index.html:41
+msgid "My Courses"
+msgstr "Khóa học của tôi"
+
+#: cms/templates/index.html:46
+msgid "Page Actions"
+msgstr "Trang Thiết Lập Nhanh"
+
+#: cms/templates/index.html:50
+msgid "New Course"
+msgstr "Khóa Học mới"
+
+#: cms/templates/index.html:52
+msgid "Email staff to create course"
+msgstr "Gửi email cho nhân viên để tạo khóa học"
+
+#: cms/templates/index.html:65
+#, python-format
+msgid "Welcome, %(name)s"
+msgstr "Xin chào, %(name)s"
+
+#: cms/templates/index.html:66
+msgid "Here are all of the courses you are currently authoring in Studio:"
+msgstr "Sau đây là tất cả các khóa học hiện bạn là tác giả trong Studio:"
+
+#: cms/templates/index.html:88
+msgid ""
+"In order to start authoring courses using edX Studio, please click on the "
+"activation link in your email."
+msgstr "Để bắt đầu tạo các khóa học sử dụng edX Studio, bạn hãy click vào liên kết kích hoạt trong email của bạn."
+
+#: cms/templates/widgets/footer.html:7
+msgid "All rights reserved."
+msgstr "Tất cả các quyền đều được bảo lưu."
+
+#: cms/templates/widgets/footer.html:20
+msgid "Use our feedback tool, Tender, to share your feedback"
+msgstr "Sử dụng công cụ lấy ý kiến phản hồi Tender của chúng tôi để chia sẽ thông tin phản hồi của bạn "
+
+#: cms/templates/widgets/footer.html:20
+msgid "Contact Us"
+msgstr "Liên Hệ"

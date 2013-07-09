@@ -1,0 +1,132 @@
+## mako
+<%namespace name='static' file='static_content.html'/>
+<%namespace file='main.html' import="login_query, stanford_theme_enabled"/>
+<%!
+from django.core.urlresolvers import reverse
+
+# App that handles subdomain specific branding
+import branding
+# app that handles site status messages
+from status.status import get_site_status_msg
+%>
+
+## Provide a hook for themes to inject branding on top.
+<%block name="navigation_top" />
+
+<%block cached="False">
+<%
+try:
+    course_id = course.id
+except:
+    # can't figure out a better way to get at a possibly-defined course var
+    course_id = None
+site_status_msg = get_site_status_msg(course_id)
+%>
+% if site_status_msg:
+<div class="site-status">
+  <div class="inner-wrapper">
+    <span class="white-error-icon"></span>
+    <p>${site_status_msg}</p>
+  </div>
+</div>
+% endif
+</%block>
+
+
+% if course:
+  <header class="global slim" aria-label="Global Navigation">
+% else:
+  <header class="global" aria-label="Global Navigation">
+% endif
+  <nav>
+
+  <h1 class="logo">
+    <a href="${marketing_link('ROOT')}">
+      <%block name="navigation_logo">
+        <img src="${static.url(branding.get_logo_url(request.META.get('HTTP_HOST')))}" alt="edX home" />
+      </%block>
+    </a>
+  </h1>
+
+    % if course:
+      <h2><span class="provider">${course.org}:</span> ${course.number} ${course.display_name_with_default}</h2>
+    % endif
+
+    % if user.is_authenticated():
+
+    <ol class="left nav-global authenticated">
+      <%block name="navigation_global_links_authenticated">
+        <li class="nav-global-01">
+          <a href="${marketing_link('COURSES')}">Find Courses</a>
+        </li>
+      </%block>
+    </ol>
+    <ol class="user">
+      <li class="primary">
+        <a href="${reverse('dashboard')}" class="user-link">
+          <span class="avatar"></span>
+          <span class="sr">Dashboard for: </span> ${user.username}
+        </a>
+      </li>
+      <li class="primary">
+        <a href="#" class="dropdown"><span class="sr">More options dropdown</span> &#9662</a>
+        <ul class="dropdown-menu">
+          <%block name="navigation_dropdown_menu_links" >
+            <li><a href="${marketing_link('FAQ')}">Help</a></li>
+          </%block>
+          <li><a href="${reverse('logout')}">Log Out</a></li>
+        </ul>
+      </li>
+    </ol>
+
+    % else:
+    <ol class="left nav-global">
+      <%block name="navigation_global_links">
+        % if settings.MITX_FEATURES.get('ENABLE_MKTG_SITE'):
+          <li class="nav-global-01">
+            <a href="${marketing_link('HOW_IT_WORKS')}">How it Works</a>
+          </li>
+          <li class="nav-global-02">
+            <a href="${marketing_link('COURSES')}">Courses</a>
+          </li>
+          <li class="nav-global-03">
+            <a href="${marketing_link('SCHOOLS')}">Schools</a>
+          </li>
+        % endif
+      </%block>
+      % if not settings.MITX_FEATURES['DISABLE_LOGIN_BUTTON']:
+          % if course and settings.MITX_FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+          <li class="nav-global-04">
+            <a class="cta cta-register" href="${reverse('course-specific-register', args=[course.id])}">Register Now</a>
+          </li>
+          % else:
+          <li class="nav-global-04">
+            <a class="cta cta-register" href="/register">Register Now</a>
+          </li>
+          % endif
+      % endif
+    </ol>
+
+    <ol class="right nav-courseware">
+    <li class="nav-courseware-01">
+      % if not settings.MITX_FEATURES['DISABLE_LOGIN_BUTTON']:
+          % if course and settings.MITX_FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+          <a class="cta cta-login" href="${reverse('course-specific-login', args=[course.id])}${login_query()}">Log in</a>
+          % else:
+          <a class="cta cta-login" href="/login${login_query()}">Log in</a>
+          % endif
+      % endif
+    </li>
+    </ol>
+    % endif
+  </nav>
+</header>
+% if course:
+<div class="ie-banner"><strong>Warning:</strong> Your browser is not fully supported. We strongly recommend using <a href="https://www.google.com/intl/en/chrome/browser/" target="_blank">Chrome</a> or <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>.</div>
+% endif
+
+%if not user.is_authenticated():
+  <%include file="forgot_password_modal.html" />
+%endif
+
+<%include file="help_modal.html"/>

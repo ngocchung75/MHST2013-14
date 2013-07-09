@@ -1,0 +1,328 @@
+#lean_overlay {
+    background: transparent;
+    @include background-image(radial-gradient(50% 30%, circle cover, rgba(0,0,0, 0.3), rgba(0,0,0, 0.8)));
+    display: none;
+    height:100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    z-index:100;
+}
+
+.modal {
+  background: rgba(0,0,0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  @include border-radius(0px);
+  @include box-shadow(0 15px 80px 15px rgba(0,0,0, 0.5));
+  color: #fff;
+  display: none;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  width: grid-width(5);
+  z-index: 12;
+
+  &.video-modal {
+    left: 50%;
+    padding: 10px;
+    width: 582px;
+
+    .inner-wrapper {
+      background: #000;
+      @include box-shadow(none);
+      height: 315px;
+      padding: 10px;
+      width: 560px;
+    }
+  }
+
+  &.home-page-video-modal {
+    left: 50%;
+    padding: 10px;
+    width: 662px;
+
+    .inner-wrapper {
+      background: #000;
+      @include box-shadow(none);
+      height: 360px;
+      padding: 10px;
+      width: 640px;
+    }
+  }
+
+  .inner-wrapper {
+    background: $modal-bg-color;
+    @include border-radius(0px);
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    @include box-shadow(inset 0 1px 0 0 rgba(255, 255, 255, 0.7));
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 2;
+
+    header {
+      margin-bottom: 30px;
+      overflow: hidden;
+      padding: 28px 20px 0px;
+      position: relative;
+      z-index: 2;
+
+      &::before {
+        @include background-image(radial-gradient(50% 50%, circle closest-side, rgba(255,255,255, 0.8) 0%, rgba(255,255,255, 0) 100%));
+        content: "";
+        display: block;
+        height: 400px;
+        left: 0px;
+        margin: 0 auto;
+        position: absolute;
+        top: -140px;
+        width: 100%;
+        z-index: 1;
+      }
+
+      hr {
+        @extend .faded-hr-divider-light;
+        border: none;
+        margin: 0px;
+        position: relative;
+        z-index: 2;
+
+        &::after {
+          @extend .faded-hr-divider;
+          bottom: 0px;
+          content: "";
+          display: block;
+          position: absolute;
+          top: -1px;
+        }
+      }
+
+      h2 {
+        position: relative;
+        text-align: center;
+        text-shadow: 0 1px rgba(255,255,255, 0.4);
+        z-index: 2;
+      }
+    }
+
+    .modal-form-error {
+      background: $error-red;
+      border: 1px solid rgb(202, 17, 17);
+      color: rgb(143, 14, 14);
+      display: none;
+      margin-bottom: 20px;
+      padding: 12px;
+    }
+
+    .notice {
+      background: $yellow;
+      border: 1px solid darken($yellow, 60%);
+      color: darken($yellow, 60%);
+      display: none;
+      margin-bottom: 20px;
+      padding: 12px;
+    }
+
+    .activation-message, .message {
+      padding: 0 40px 10px;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    form {
+      margin-bottom: 12px;
+      padding: 0px 40px;
+      position: relative;
+      z-index: 2;
+
+      .input-group {
+        @include clearfix;
+        border-bottom: 1px solid rgb(210,210,210);
+        @include box-shadow(0 1px 0 0 rgba(255,255,255, 0.6));
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+      }
+
+      label {
+        color: $text-color;
+
+        &.field-error {
+          display: block;
+          color: #8F0E0E;
+
+          + input, + textarea {
+            border: 1px solid #CA1111;
+            color: #8F0E0E;
+          }
+        }
+      }
+
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      textarea {
+        background: rgb(255,255,255);
+        display: block;
+        height: 45px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      input[type="email"],
+      input[type="text"],
+      input[type="password"] {
+        background: rgb(255,255,255);
+        display: block;
+        height: 45px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      label.remember-me,
+      label.terms-of-service,
+      label.honor-code {
+        background: rgb(233,233,233);
+        border: 1px solid rgb(200,200,200);
+        @include border-radius(3px);
+        @include box-shadow(0 1px 0 0 rgba(255,255,255, 0.6));
+        display: block;
+        margin-bottom: 20px;
+        padding: 8px 10px;
+
+        &:hover {
+          background: rgb(230,230,230);
+        }
+
+        &.field-error {
+          border: 1px solid #CA1111;
+        }
+
+        a {
+          font-family: $serif;
+          font-style: italic;
+        }
+      }
+
+      .citizenship, .gender, .date-of-birth {
+        margin-bottom: 20px;
+        float: left;
+        width: flex-grid(4);
+
+        label {
+          display: block;
+        }
+
+        select {
+          width: 100%;
+          @include box-sizing(border-box);
+          display: block;
+        }
+      }
+
+      .citizenship, .gender {
+        margin-right: flex-gutter();
+      }
+
+      .submit {
+        padding-top: 10px;
+
+        input[type="submit"] {
+          display: block;
+          height: 45px;
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
+    }
+
+    .login-extra {
+      position: relative;
+      z-index: 2;
+
+      p {
+        color: $lighter-base-font-color;
+        font-style: italic;
+        text-align: center;
+
+        span {
+          color: $lighter-base-font-color;
+          font-family: $serif;
+          font-style: italic;
+        }
+
+        a {
+          color: $lighter-base-font-color;
+          font-family: $serif;
+          font-style: italic;
+          text-decoration: underline;
+
+          &:hover {
+            color: $base-font-color;
+          }
+        }
+
+        span + a {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .close-modal {
+      @include border-radius(2px);
+      cursor: pointer;
+      @include inline-block;
+      padding: 10px;
+      position: absolute;
+      right: 2px;
+      top: 0px;
+      z-index: 3;
+
+      .inner {
+        p {
+          color: $lighter-base-font-color;
+          font: normal 1.2rem/1.2rem $sans-serif;
+          text-align: center;
+          text-shadow: 0 1px rgba(255,255,255, 0.8);
+          @include transition(all, 0.15s, ease-out);
+        }
+      }
+
+      &:hover {
+        p {
+          color: $base-font-color;
+        }
+      }
+    }
+  }
+
+  #help_wrapper {
+    padding: 0 ($baseline*1.5) ($baseline*1.5) ($baseline*1.5);
+
+    header {
+      margin-bottom: $baseline;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+
+  }
+
+  .tip {
+    font-size: 12px;
+    display: block;
+    color: $dark-gray;
+  }
+
+
+}
+
+.leanModal_box {
+  @extend .modal;
+}
+

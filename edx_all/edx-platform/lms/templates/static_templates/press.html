@@ -1,0 +1,39 @@
+<%! from django.core.urlresolvers import reverse %>
+<%namespace name='static' file='../static_content.html'/>
+
+<%inherit file="../main.html" />
+
+<%block name="title"><title>edX in the Press</title></%block>
+
+<section class="container about">
+  <nav>
+    <a href="${reverse('about_edx')}">Vision</a>
+    <a href="${reverse('faq_edx')}">Faq</a>
+    <a href="${reverse('press')}" class="active">Press</a>
+    <a href="${reverse('contact')}">Contact</a>
+  </nav>
+
+  <section class="press">
+    % for article in articles:
+      <article class="press-story">
+        <div class="article-cover">
+          <a href="${article.url}" target="_blank"/><img src="${static.url('images/press/' + article.image)}" /></a>
+        </div>
+        <div class="press-info">
+          <header>
+            <h3>${article.title}</h3>
+            % if article.deck:
+              <p>${article.deck}</p>
+            % endif
+            <span class="post-date">${article.publication} | ${article.publish_date} 
+            % if article.author:
+              | By ${article.author}
+            % endif
+            </span><br/>
+          </header>
+          <a href="${article.url}" target="_blank">${article.url}</a>
+        </div>
+      </article>
+    % endfor
+  </section>
+</section>

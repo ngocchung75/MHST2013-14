@@ -1,0 +1,4 @@
+{
+ "locales" : ["en", "vi"],
+ "dummy-locale" : "fr"
+}

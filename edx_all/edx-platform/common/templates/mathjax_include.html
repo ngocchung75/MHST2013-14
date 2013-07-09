@@ -1,0 +1,36 @@
+## mako
+## File:   templates/mathjax_include.html
+##
+## Advanced mathjax using 2.0-latest CDN for Dynamic Math
+##
+## This enables ASCIIMathJAX, and is used by js_textbox
+
+
+%if mathjax_mode is not Undefined and mathjax_mode == 'wiki':
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"]],
+              displayMath: [ ['$$','$$'], ["\\[","\\]"]]}
+  });
+</script>
+%else:
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [
+        ["\\(","\\)"],
+        ['[mathjaxinline]','[/mathjaxinline]']
+      ],
+      displayMath: [
+        ["\\[","\\]"],
+        ['[mathjax]','[/mathjax]']
+      ]
+    }
+  });
+</script>
+%endif
+
+<!-- This must appear after all mathjax-config blocks, so it is after the imports from the other templates.
+     It can't be run through static.url because MathJax uses crazy url introspection to do lazy loading of
+     MathJax extension libraries -->
+<script type="text/javascript" src="https://edx-static.s3.amazonaws.com/mathjax-MathJax-07669ac/MathJax.js?config=TeX-MML-AM_HTMLorMML-full"></script>

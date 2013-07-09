@@ -1,0 +1,19 @@
+
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.utils import translation    %>
+<%!translation.activate('vi')%>
+<%inherit file="base.html" />
+
+<%block name="content">
+
+<section class="tos">
+<div>
+
+<section class="activation">
+  <h1>${_("Account already active")}!</h1>
+  <p> ${_("This account has already been activated")}. <a href="/signin">${_("Log in here")}</a>.</p>
+</section>
+</div>
+</section>
+
+</%block>

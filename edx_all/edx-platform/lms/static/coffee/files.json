@@ -1,0 +1,6 @@
+{
+  "js_files": [
+    "/static/js/vendor/jquery.leanModal.min.js",
+    "/static/js/vendor/flot/jquery.flot.js"
+  ]
+}

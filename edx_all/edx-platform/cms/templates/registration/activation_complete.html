@@ -1,0 +1,32 @@
+<%! from django.core.urlresolvers import reverse %>
+<%inherit file="../base.html" />
+
+<%namespace name='static' file='../static_content.html'/>
+
+%if not user_logged_in: 
+<%block name="bodyclass">
+  not-signedin 
+</%block>
+%endif
+
+<%block name="content">
+<section class="container activation">
+
+  <section class="message">
+
+    <p style='padding-top:100px; text-align:center;'>
+      %if not already_active:
+        Thanks for activating your account.
+      %else:
+        This account has already been activated.
+      %endif
+
+      %if user_logged_in:
+        Visit your <a href="/">dashboard</a> to see your courses.
+      %else:
+        You can now <a href="${reverse('login')}">login</a>.
+      %endif
+    </p>
+  </section>
+</section>
+</%block>

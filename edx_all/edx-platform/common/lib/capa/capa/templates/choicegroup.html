@@ -1,0 +1,64 @@
+<form class="choicegroup capa_inputtype" id="inputtype_${id}">
+    <div class="indicator_container">
+    % if input_type == 'checkbox' or not value:
+        % if status == 'unsubmitted' or show_correctness == 'never':
+        <span class="unanswered" style="display:inline-block;" id="status_${id}"></span>
+        % elif status == 'correct':
+        <span class="correct" id="status_${id}"><span class="sr">Status: correct</span></span>
+        % elif status == 'incorrect':
+        <span class="incorrect" id="status_${id}"><span class="sr">Status: incorrect</span></span>
+        % elif status == 'incomplete':
+        <span class="incorrect" id="status_${id}"><span class="sr">Status: incomplete</span></span>
+        % endif
+    % endif
+    </div>
+
+    <fieldset>
+
+        % for choice_id, choice_description in choices:
+        <label for="input_${id}_${choice_id}"
+            % if input_type == 'radio' and ( (isinstance(value, basestring) and (choice_id == value))  or  (not isinstance(value, basestring) and choice_id in value) ):
+            <%
+                if status == 'correct':
+                    correctness = 'correct'
+                elif status == 'incorrect':
+                    correctness = 'incorrect'
+                else:
+                    correctness = None
+            %>
+            % if correctness and not show_correctness=='never':
+            class="choicegroup_${correctness}"
+            % endif
+            % endif
+            >
+            <input type="${input_type}" name="input_${id}${name_array_suffix}" id="input_${id}_${choice_id}" aria-describedby="answer_${id}" value="${choice_id}"
+            % if input_type == 'radio' and ( (isinstance(value, basestring) and (choice_id == value))  or  (not isinstance(value, basestring) and choice_id in value) ):
+            checked="true"
+            % elif input_type != 'radio' and choice_id in value:
+            checked="true"
+            % endif
+
+            /> ${choice_description}
+
+            % if input_type == 'radio' and ( (isinstance(value, basestring) and (choice_id == value))  or  (not isinstance(value, basestring) and choice_id in value) ):
+            <%
+                if status == 'correct':
+                    correctness = 'correct'
+                elif status == 'incorrect':
+                    correctness = 'incorrect'
+                else:
+                    correctness = None
+            %>
+            % if correctness and not show_correctness=='never':
+            <span class="sr" aria-describedby="input_${id}_${choice_id}">Status: ${correctness}</span>
+            % endif
+            % endif
+        </label>
+        % endfor
+        <span id="answer_${id}"></span>
+    </fieldset>
+
+    % if show_correctness == "never" and (value or status not in ['unsubmitted']):
+    <div class="capa_alert">${submitted_message}</div>
+    %endif
+</form>

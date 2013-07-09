@@ -1,0 +1,646 @@
+# #-#-#-#-#  django-partial.po (edx-studio)  #-#-#-#-#
+# edX translation file
+# Translations in this file have been downloaded from translation team <translation_team@edx.org>.
+# Copyright (C) 2013 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Translators:
+# EdX Team <info@edx.org>, 2013
+# #-#-#-#-#  messages.po (edx-studio)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2013 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Translators:
+# EdX Team <info@edx.org>, 2013
+# #-#-#-#-#  mako.po (edx-studio)  #-#-#-#-#
+# edX translation file
+# Translations in this file have been downloaded from translation team <translation_team@edx.org>
+# Copyright (C) 2013 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Translators:
+# EdX Team <info@edx.org>, 2013
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-studio\n"
+"Report-Msgid-Bugs-To: translation_team@edx.org\n"
+"POT-Creation-Date: 2013-05-14 10:24-0400\n"
+"PO-Revision-Date: 2013-07-06 09:41+0000\n"
+"Last-Translator: thehung12a3 <hoangthehung92@gmail.com>\n"
+"Language-Team: translation team <translation_team@edx.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:23
+msgid "Navigation"
+msgstr "Navigation"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:123
+msgid "About these documents"
+msgstr "About these documents"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:126
+msgid "Index"
+msgstr "Index"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:129
+#: lms/templates/wiki/plugins/attachments/index.html:40
+msgid "Search"
+msgstr "Search"
+
+#: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:132
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lms/djangoapps/django_comment_client/base/views.py:454
+#, python-format
+msgid "allowed file types are '%(file_types)s'"
+msgstr "allowed file types are '%(file_types)s'"
+
+#: lms/djangoapps/django_comment_client/base/views.py:474
+#, python-format
+msgid "maximum upload file size is %(file_size)sK"
+msgstr "maximum upload file size is %(file_size)sK"
+
+#: lms/djangoapps/django_comment_client/base/views.py:483
+msgid ""
+"Error uploading file. Please contact the site administrator. Thank you."
+msgstr ""
+"Error uploading file. Please contact the site administrator. Thank you."
+
+#: lms/djangoapps/simplewiki/admin.py:28
+msgid "Slug cannot start with _ character.Reserved for internal use."
+msgstr "Slug cannot start with _ character.Reserved for internal use."
+
+#: lms/djangoapps/simplewiki/admin.py:34
+msgid "Article slug and parent must be unique together."
+msgstr "Article slug and parent must be unique together."
+
+#: lms/djangoapps/simplewiki/models.py:21
+msgid "namespace"
+msgstr "namespace"
+
+#: lms/djangoapps/simplewiki/models.py:39
+msgid "Article title"
+msgstr "Article title"
+
+#: lms/djangoapps/simplewiki/models.py:41
+msgid "slug"
+msgstr "slug"
+
+#: lms/djangoapps/simplewiki/models.py:42
+msgid "Letters, numbers, underscore and hyphen."
+msgstr "Letters, numbers, underscore and hyphen."
+
+#: lms/djangoapps/simplewiki/models.py:44
+msgid "Namespace"
+msgstr "Namespace"
+
+#: lms/djangoapps/simplewiki/models.py:45
+msgid "Created by"
+msgstr "Created by"
+
+#: lms/djangoapps/simplewiki/models.py:48
+msgid "Locked for editing"
+msgstr "Locked for editing"
+
+#: lms/djangoapps/simplewiki/models.py:49
+msgid "Permissions"
+msgstr "Permissions"
+
+#: lms/djangoapps/simplewiki/models.py:51
+msgid "Permission group"
+msgstr "Permission group"
+
+#: lms/djangoapps/simplewiki/models.py:54
+msgid "Related articles"
+msgstr "Related articles"
+
+#: lms/djangoapps/simplewiki/models.py:55
+msgid "Sets a symmetrical relation other articles"
+msgstr "Sets a symmetrical relation other articles"
+
+#: lms/djangoapps/simplewiki/models.py:131
+msgid "Root article"
+msgstr "Root article"
+
+#: lms/djangoapps/simplewiki/models.py:137
+#: lms/djangoapps/simplewiki/models.py:151
+#: lms/djangoapps/simplewiki/models.py:235
+msgid "Article"
+msgstr "Article"
+
+#: lms/djangoapps/simplewiki/models.py:138
+msgid "Articles"
+msgstr "Articles"
+
+#: lms/djangoapps/simplewiki/models.py:152
+msgid "Attachment"
+msgstr "Attachment"
+
+#: lms/djangoapps/simplewiki/models.py:153
+#: lms/templates/wiki/plugins/attachments/index.html:85
+msgid "Uploaded by"
+msgstr "Uploaded by"
+
+#: lms/djangoapps/simplewiki/models.py:154
+msgid "Upload date"
+msgstr "Upload date"
+
+#: lms/djangoapps/simplewiki/models.py:237
+msgid "Description of change"
+msgstr "Description of change"
+
+#: lms/djangoapps/simplewiki/models.py:238
+msgid "Modified by"
+msgstr "Modified by"
+
+#: lms/djangoapps/simplewiki/models.py:240
+msgid "Revision date"
+msgstr "Revision date"
+
+#: lms/djangoapps/simplewiki/models.py:241
+msgid "Contents (Use MarkDown format)"
+msgstr "Contents (Use MarkDown format)"
+
+#: lms/djangoapps/simplewiki/models.py:243
+msgid "Revision#"
+msgstr "Revision#"
+
+#: lms/djangoapps/simplewiki/models.py:250
+msgid "Deleted group"
+msgstr "Deleted group"
+
+#: lms/djangoapps/simplewiki/models.py:253
+msgid "Anonymous"
+msgstr "Anonymous"
+
+#: lms/djangoapps/simplewiki/models.py:304
+#: lms/djangoapps/simplewiki/models.py:305
+msgid "Auto-generated stub"
+msgstr "Auto-generated stub"
+
+#: lms/djangoapps/simplewiki/models.py:333
+msgid "article revision"
+msgstr "article revision"
+
+#: lms/djangoapps/simplewiki/models.py:334
+msgid "article revisions"
+msgstr "article revisions"
+
+#: lms/djangoapps/simplewiki/models.py:338
+msgid "Permission name"
+msgstr "Permission name"
+
+#: lms/djangoapps/simplewiki/models.py:340
+#: lms/djangoapps/simplewiki/models.py:342
+msgid "Select none to grant anonymous access."
+msgstr "Select none to grant anonymous access."
+
+#: lms/djangoapps/simplewiki/models.py:348
+msgid "Article permission"
+msgstr "Article permission"
+
+#: lms/djangoapps/simplewiki/models.py:349
+msgid "Article permissions"
+msgstr "Article permissions"
+
+#: lms/djangoapps/simplewiki/models.py:353
+msgid "Contents"
+msgstr "Contents"
+
+#: lms/djangoapps/simplewiki/models.py:361
+#: lms/djangoapps/simplewiki/models.py:369
+msgid "Title"
+msgstr "Title"
+
+#: lms/djangoapps/simplewiki/views.py:170
+msgid ""
+"Headline\n"
+"===\n"
+"\n"
+msgstr ""
+"Headline\n"
+"===\n"
+"\n"
+
+#: lms/templates/registration/change_password.html:12
+#: lms/templates/registration/logged_out.html:4
+#: lms/templates/registration/password_change_done.html:5
+#: lms/templates/registration/password_change_form.html:6
+msgid "Home"
+msgstr "Home"
+
+#: lms/templates/registration/change_password.html:16
+#: lms/templates/registration/change_password.html:49
+#: lms/templates/registration/password_change_done.html:4
+#: lms/templates/registration/password_change_form.html:5
+msgid "Change password"
+msgstr "Change password"
+
+#: lms/templates/registration/change_password.html:25
+#: lms/templates/registration/password_change_form.html:16
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Please correct the error below."
+msgstr[1] "Please correct the errors below."
+
+#: lms/templates/registration/change_password.html:29
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr "Enter a new password for the user <strong>%(username)s</strong>."
+
+#: lms/templates/registration/change_password.html:36
+msgid "Password"
+msgstr "Password"
+
+#: lms/templates/registration/change_password.html:42
+#: lms/templates/registration/password_change_form.html:38
+msgid "Password (again)"
+msgstr "Password (again)"
+
+#: lms/templates/registration/change_password.html:43
+msgid "Enter the same password as above, for verification."
+msgstr "Enter the same password as above, for verification."
+
+#: lms/templates/registration/logged_out.html:8
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Thanks for spending some quality time with the Web site today."
+
+#: lms/templates/registration/logged_out.html:10
+msgid "Log in again"
+msgstr "Log in again"
+
+#: lms/templates/registration/password_change_done.html:4
+#: lms/templates/registration/password_change_form.html:5
+msgid "Documentation"
+msgstr "Documentation"
+
+#: lms/templates/registration/password_change_done.html:4
+#: lms/templates/registration/password_change_form.html:5
+msgid "Log out"
+msgstr "Log out"
+
+#: lms/templates/registration/password_change_done.html:5
+#: lms/templates/registration/password_change_form.html:6
+#: lms/templates/registration/password_change_form.html:8
+#: lms/templates/registration/password_change_form.html:20
+msgid "Password change"
+msgstr "Password change"
+
+#: lms/templates/registration/password_change_done.html:7
+#: lms/templates/registration/password_change_done.html:11
+msgid "Password change successful"
+msgstr "Password change successful"
+
+#: lms/templates/registration/password_change_done.html:13
+msgid "Your password was changed."
+msgstr "Your password was changed."
+
+#: lms/templates/registration/password_change_form.html:22
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new"
+" password twice so we can verify you typed it in correctly."
+msgstr ""
+"Please enter your old password, for security's sake, and then enter your new"
+" password twice so we can verify you typed it in correctly."
+
+#: lms/templates/registration/password_change_form.html:28
+msgid "Old password"
+msgstr "Old password"
+
+#: lms/templates/registration/password_change_form.html:33
+msgid "New password"
+msgstr "New password"
+
+#: lms/templates/registration/password_change_form.html:44
+msgid "Change my password"
+msgstr "Change my password"
+
+#: lms/templates/registration/password_reset_email.html:2
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at edx.org."
+msgstr ""
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at edx.org."
+
+#: lms/templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "Please go to the following page and choose a new password:"
+
+#: lms/templates/registration/password_reset_email.html:11
+msgid "Thanks for using our site!"
+msgstr "Thanks for using our site!"
+
+#: lms/templates/registration/password_reset_email.html:13
+msgid "The edX Team"
+msgstr "The edX Team"
+
+#: lms/templates/wiki/article.html:31
+msgid "Last modified:"
+msgstr "Last modified:"
+
+#: lms/templates/wiki/article.html:48
+msgid "This article was last modified:"
+msgstr "This article was last modified:"
+
+#: lms/templates/wiki/create.html:5 lms/templates/wiki/create.html.py:30
+msgid "Add new article"
+msgstr "Add new article"
+
+#: lms/templates/wiki/create.html:37
+msgid "Create article"
+msgstr "Create article"
+
+#: lms/templates/wiki/create.html:42 lms/templates/wiki/delete.html:13
+#: lms/templates/wiki/delete.html.py:54
+msgid "Go back"
+msgstr "Go back"
+
+#: lms/templates/wiki/delete.html:5 lms/templates/wiki/delete.html.py:50
+#: lms/templates/wiki/edit.html:23
+msgid "Delete article"
+msgstr "Delete article"
+
+#: lms/templates/wiki/delete.html:9
+#: lms/templates/wiki/plugins/attachments/index.html:92
+msgid "Delete"
+msgstr "Delete"
+
+#: lms/templates/wiki/delete.html:12
+msgid "You cannot delete a root article."
+msgstr "You cannot delete a root article."
+
+#: lms/templates/wiki/delete.html:18
+msgid ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+msgstr ""
+"You cannot delete this article because you do not have permission to delete "
+"articles with children. Try to remove the children manually one-by-one."
+
+#: lms/templates/wiki/delete.html:24
+msgid ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+msgstr ""
+"You are deleting an article. This means that its children will be deleted as"
+" well. If you choose to purge, children will also be purged!"
+
+#: lms/templates/wiki/delete.html:26
+msgid "Articles that will be deleted"
+msgstr "Articles that will be deleted"
+
+#: lms/templates/wiki/delete.html:32
+msgid "...and more!"
+msgstr "...and more!"
+
+#: lms/templates/wiki/delete.html:40
+msgid "You are deleting an article. Please confirm."
+msgstr "You are deleting an article. Please confirm."
+
+#: lms/templates/wiki/edit.html:5
+msgid "Edit"
+msgstr "Edit"
+
+#: lms/templates/wiki/edit.html:14 lms/templates/wiki/edit.html.py:34
+msgid "Save changes"
+msgstr "Save changes"
+
+#: lms/templates/wiki/edit.html:18
+msgid "Preview"
+msgstr "Preview"
+
+#: lms/templates/wiki/edit.html:39
+msgid "Back to editor"
+msgstr "Back to editor"
+
+#: lms/templates/wiki/history.html:5
+msgid "History"
+msgstr "History"
+
+#: lms/templates/wiki/history.html:56
+msgid ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+msgstr ""
+"Click each revision to see a list of edited lines. Click the Preview button "
+"to see how the article looked at this stage. At the bottom of this page, you"
+" can change to a particular revision or merge an old revision with the "
+"current one."
+
+#: lms/templates/wiki/history.html:75
+msgid "no log message"
+msgstr "no log message"
+
+#: lms/templates/wiki/history.html:87
+msgid "Preview this revision"
+msgstr "Preview this revision"
+
+#: lms/templates/wiki/history.html:101
+msgid "Auto log:"
+msgstr "Auto log:"
+
+#: lms/templates/wiki/history.html:109
+msgid "Change"
+msgstr "Change"
+
+#: lms/templates/wiki/history.html:127 lms/templates/wiki/history.html:132
+msgid "Merge selected with current..."
+msgstr "Merge selected with current..."
+
+#: lms/templates/wiki/history.html:137
+msgid "Switch to selected version"
+msgstr "Switch to selected version"
+
+#: lms/templates/wiki/history.html:153 lms/templates/wiki/history.html:180
+msgid "Back to history view"
+msgstr "Back to history view"
+
+#: lms/templates/wiki/history.html:158 lms/templates/wiki/history.html:163
+msgid "Switch to this version"
+msgstr "Switch to this version"
+
+#: lms/templates/wiki/history.html:171
+msgid "Merge with current"
+msgstr "Merge with current"
+
+#: lms/templates/wiki/history.html:172
+msgid ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+msgstr ""
+"When you merge a revision with the current, all data will be retained from "
+"both versions and merged at its approximate location from each revision."
+
+#: lms/templates/wiki/history.html:172
+msgid "After this, it's important to do a manual review."
+msgstr "After this, it's important to do a manual review."
+
+#: lms/templates/wiki/history.html:185 lms/templates/wiki/history.html:190
+msgid "Create new merged version"
+msgstr "Create new merged version"
+
+#: lms/templates/wiki/preview_inline.html:13
+msgid "Previewing revision"
+msgstr "Previewing revision"
+
+#: lms/templates/wiki/preview_inline.html:20
+msgid "Previewing merge between"
+msgstr "Previewing merge between"
+
+#: lms/templates/wiki/preview_inline.html:22
+msgid "and"
+msgstr "and"
+
+#: lms/templates/wiki/includes/anonymous_blocked.html:7
+#, python-format
+msgid ""
+"\n"
+"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
+"  "
+msgstr ""
+"\n"
+"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
+"  "
+
+#: lms/templates/wiki/includes/anonymous_blocked.html:11
+msgid "You need to log in or sign up to use this function."
+msgstr "You need to log in or sign up to use this function."
+
+#: lms/templates/wiki/plugins/attachments/index.html:5
+msgid "Attachments"
+msgstr "Attachments"
+
+#: lms/templates/wiki/plugins/attachments/index.html:14
+msgid "Upload new file"
+msgstr "Upload new file"
+
+#: lms/templates/wiki/plugins/attachments/index.html:17
+msgid "Search and add file"
+msgstr "Search and add file"
+
+#: lms/templates/wiki/plugins/attachments/index.html:27
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lms/templates/wiki/plugins/attachments/index.html:36
+msgid ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+msgstr ""
+"You can reuse files from other articles. These files are subject to updates "
+"on other articles which may or may not be a good thing."
+
+#: lms/templates/wiki/plugins/attachments/index.html:65
+msgid ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+msgstr ""
+"The following files are available for this article. Copy the markdown tag to"
+" directly refer to a file from the article text."
+
+#: lms/templates/wiki/plugins/attachments/index.html:74
+msgid "deleted"
+msgstr "deleted"
+
+#: lms/templates/wiki/plugins/attachments/index.html:84
+msgid "Markdown tag"
+msgstr "Markdown tag"
+
+#: lms/templates/wiki/plugins/attachments/index.html:86
+msgid "Size"
+msgstr "Size"
+
+#: lms/templates/wiki/plugins/attachments/index.html:87
+msgid "File History"
+msgstr "File History"
+
+#: lms/templates/wiki/plugins/attachments/index.html:94
+msgid "Detach"
+msgstr "Detach"
+
+#: lms/templates/wiki/plugins/attachments/index.html:97
+msgid "Replace"
+msgstr "Replace"
+
+#: lms/templates/wiki/plugins/attachments/index.html:104
+msgid "Restore"
+msgstr "Restore"
+
+#: lms/templates/wiki/plugins/attachments/index.html:115
+msgid "anonymous (IP logged)"
+msgstr "anonymous (IP logged)"
+
+#: lms/templates/wiki/plugins/attachments/index.html:122
+msgid "File history"
+msgstr "File history"
+
+#: lms/templates/wiki/plugins/attachments/index.html:122
+msgid "revisions"
+msgstr "revisions"
+
+#: lms/templates/wiki/plugins/attachments/index.html:130
+msgid "There are no attachments for this article."
+msgstr "There are no attachments for this article."
+
+# empty
+msgid "This is a key string."
+msgstr "This is a key string."
+
+#: cms/templates/index.html:5 cms/templates/index.html:41
+msgid "My Courses"
+msgstr "My Courses 1"
+
+#: cms/templates/index.html:46
+msgid "Page Actions"
+msgstr "Page Actions1"
+
+#: cms/templates/index.html:50
+msgid "New Course"
+msgstr "New Course1"
+
+#: cms/templates/index.html:52
+msgid "Email staff to create course"
+msgstr "Email staff to create course"
+
+#: cms/templates/index.html:65
+#, python-format
+msgid "Welcome, %(name)s"
+msgstr "Welcome1, %(name)s"
+
+#: cms/templates/index.html:66
+msgid "Here are all of the courses you are currently authoring in Studio:"
+msgstr "Here are all of the courses you are currently authoring in Studio:"
+
+#: cms/templates/index.html:88
+msgid ""
+"In order to start authoring courses using edX Studio, please click on the "
+"activation link in your email."
+msgstr ""
+"In order to start authoring courses using edX Studio, please click on the "
+"activation link in your email."
+
+#: cms/templates/widgets/footer.html:7
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: cms/templates/widgets/footer.html:20
+msgid "Use our feedback tool, Tender, to share your feedback"
+msgstr "Use our feedback tool, Tender, to share your feedback"
+
+#: cms/templates/widgets/footer.html:20
+msgid "Contact Us"
+msgstr "Contact Us"

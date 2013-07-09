@@ -1,0 +1,11 @@
+<div id="tab_${id}" class="tab">
+  <ul class="navigation"></ul>
+</div>
+
+<%block name="js_extra">
+<script type="text/javascript">
+  $(function(){
+      new Tab('${id}', ${items});
+  });
+</script>
+</%block>

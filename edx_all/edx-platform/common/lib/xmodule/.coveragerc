@@ -1,0 +1,14 @@
+# .coveragerc for common/lib/xmodule
+[run]
+data_file = reports/common/lib/xmodule/.coverage
+source = common/lib/xmodule
+
+[report]
+ignore_errors = True
+
+[html]
+title = XModule Python Test Coverage Report
+directory = reports/common/lib/xmodule/cover
+
+[xml]
+output = reports/common/lib/xmodule/coverage.xml

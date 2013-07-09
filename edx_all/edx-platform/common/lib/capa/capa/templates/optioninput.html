@@ -1,0 +1,32 @@
+<form class="option-input">
+   <select name="input_${id}" id="input_${id}" aria-describedby="answer_${id}">
+      <option value="option_${id}_dummy_default">  </option>
+      % for option_id, option_description in options:
+          <option value="${option_id}"
+          % if (option_id==value):
+        	selected="true"
+          % endif
+          > ${option_description}</option>
+      % endfor
+    </select>
+
+  <span id="answer_${id}"></span>
+
+  % if status == 'unsubmitted':
+  <span class="unanswered" style="display:inline-block;" id="status_${id}" aria-describedby="input_${id}">
+    <span class="sr">Status: unsubmitted</span>
+  </span>
+  % elif status == 'correct':
+  <span class="correct" id="status_${id}" aria-describedby="input_${id}">
+    <span class="sr">Status: correct</span>
+  </span>
+  % elif status == 'incorrect':
+  <span class="incorrect" id="status_${id}" aria-describedby="input_${id}">
+    <span class="sr">Status: incorrect</span>
+  </span>
+  % elif status == 'incomplete':
+  <span class="incorrect" id="status_${id}" aria-describedby="input_${id}">
+    <span class="sr">Status: incomplete</span>
+  </span>
+  % endif
+</form>
