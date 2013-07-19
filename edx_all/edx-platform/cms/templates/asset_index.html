@@ -1,8 +1,6 @@
 <%inherit file="base.html" />
-<%! from django.utils.translation import ugettext as _ %>
-<%! from django.utils import translation    %>
-<%!translation.activate('vi')%>
 <%! from django.core.urlresolvers import reverse %>
+<%! from django.utils.translation import ugettext as _ %>
 <%block name="bodyclass">is-signedin course uploads</%block>
 <%block name="title">Files &amp; Uploads</%block>
 
@@ -42,15 +40,15 @@
   <div class="wrapper-mast wrapper">
     <header class="mast has-actions has-subtitle">
       <h1 class="page-header">
-        <small class="subtitle">${_("Content")}</small>
-        <span class="sr">&gt; </span>Files &amp; ${_("Uploads")}
+        <small class="subtitle">Content</small>
+        <span class="sr">&gt; </span>Files &amp; Uploads
       </h1>
 
       <nav class="nav-actions">
-        <h3 class="sr">${_("Page Actions")}</h3>
+        <h3 class="sr">Page Actions</h3>
         <ul>
           <li class="nav-item">
-            <a href="#" class="button upload-button new-button"><i class="icon-cloud-upload"></i> ${_("Upload New File")}</a>
+            <a href="#" class="button upload-button new-button"><i class="icon-plus"></i> Upload New File</a>
           </li>
         </ul>
       </nav>

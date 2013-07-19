@@ -1,12 +1,12 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%! from django.utils import translation    %>
-<%!translation.activate('vi')%>
+
 <%inherit file="base.html" />
 <%namespace name='static' file='static_content.html'/>
 
 <%! from django.core.urlresolvers import reverse %>
 <%block name="title">${_("Course Export")}</%block>
-<%block name="bodyclass">${_("is-signedin course tools export")}</%block>
+<%block name="bodyclass">is-signedin course tools export</%block>
 
 <%block name="content">
 <div class="wrapper-mast wrapper">

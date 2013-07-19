@@ -15,9 +15,7 @@ def push():
 def pull():
     for locale in CONFIGURATION.locales:
         if locale != CONFIGURATION.source_locale:
-
-            execute('tx pull -l %s' % CONFIGURATION.source_locale)
-
+            execute('tx pull -l %s' % locale)
     clean_translated_locales()
 
 
@@ -31,9 +29,7 @@ def clean_translated_locales():
             clean_locale(locale)
         
 def clean_locale(locale):
-
     """
-
     Strips out the warning from all of a locale's translated po files
     about being an English source file.
     Iterates over machine-generated files.
@@ -42,14 +38,12 @@ def clean_locale(locale):
     for filename in ('django-partial.po', 'djangojs.po', 'mako.po'):
         clean_file(dirname.joinpath(filename))
 
-
 def clean_file(file):
     """
     Strips out the warning from a translated po file about being an English source file.
     Replaces warning with a note about coming from Transifex.
     """
     po = pofile(file)
-
     if po.header.find(SOURCE_WARN) != -1:
         new_header = get_new_header(po)
         new = po.header.replace(SOURCE_WARN, new_header)
@@ -64,20 +58,13 @@ def get_new_header(po):
         return TRANSIFEX_HEADER % team
 
 if __name__ == '__main__':
-    # if len(sys.argv)<2:
-    #     raise Exception("missing argument: push or pull")
-    # arg = sys.argv[1]
-    # if arg == 'push':
-    #     push()
-    # elif arg == 'pull':
-    #     pull()
-    # else:
-    #     raise Exception("unknown argument: (%s)" % arg)
-
-    pull()
-
-    # pass
-
-
-
+    if len(sys.argv)<2:
+        raise Exception("missing argument: push or pull")
+    arg = sys.argv[1]
+    if arg == 'push':
+        push()
+    elif arg == 'pull':
+        pull()
+    else:
+        raise Exception("unknown argument: (%s)" % arg)
         

@@ -1,12 +1,12 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%! from django.utils import translation    %>
-<%!translation.activate('vi')%>
+
 
 
 <%inherit file="base.html" />
 
 <%block name="title">${_("My Courses")}</%block>
-<%block name="bodyclass">${_("is-signedin index dashboard")}</%block>
+<%block name="bodyclass">is-signedin index dashboard</%block>
 
 <%block name="header_extras">
   <script type="text/template" id="new-course-template">

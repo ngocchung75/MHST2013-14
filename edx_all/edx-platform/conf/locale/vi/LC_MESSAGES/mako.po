@@ -1,0 +1,1689 @@
+# Translations template for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# 
+# Translators:
+# ngocchung75 <ngocchung75@gmail.com>, 2013
+# thehung12a3 <hoangthehung92@gmail.com>, 2013
+# hunglv2001 <hunglv2001@gmail.com>, 2013
+# mannd <mannd@live.com>, 2013
+# quynhlien <phanthiquynhlien41@gmail.com>, 2013
+# ngannguyen1391 <ngannguyen.1391@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: hung-edx-studio\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-07-08 15:28+0700\n"
+"PO-Revision-Date: 2013-07-09 06:51+0000\n"
+"Last-Translator: ngocchung75 <ngocchung75@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/hung-edx-studio/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/templates/404.html:6
+msgid "Page Not Found"
+msgstr "Không tìm thấy trang"
+
+#: cms/templates/404.html:13
+msgid "Page not found"
+msgstr "Không tìm thấy trang"
+
+#: cms/templates/404.html:14
+msgid "The page that you were looking for was not found. Go back to the"
+msgstr "Các trang mà bạn đang tìm kiếm không được tìm thấy. Quay trở lại"
+
+#: cms/templates/404.html:14
+msgid "homepage"
+msgstr "trang chủ"
+
+#: cms/templates/404.html:14
+msgid "or let us know about any pages that may have been moved at"
+msgstr "hoặc cho chúng tôi biết về bất kỳ trang nào có thể đã được di chuyển ở"
+
+#: cms/templates/500.html:7
+msgid "Studio Server Error"
+msgstr "Lỗi Máy chủ Studio"
+
+#: cms/templates/500.html:13
+msgid "Studio"
+msgstr "Studio"
+
+#: cms/templates/500.html:13
+msgid "servers encountered an error"
+msgstr "các máy chủ gặp lỗi"
+
+#: cms/templates/500.html:14
+msgid ""
+"An error occurred in Studio and the page could not be loaded.Please try "
+"again in a few moments.We've logged the error and our staff is currently "
+"working to resolve this error as soon as possible.If the problem persists, "
+"please email us at"
+msgstr "Lỗi đã xuất hiện ở Studio và trang này không thể tải. Làm ơn thử lại trong ít trong ít phút. Chúng tôi đã đăng nhập lỗi và nhân viên của chúng tôi đang giải quyết lỗi này sớm nhất khi có thể. Nếu vẫn còn vấn đề gì, hãy liên lạc với chúng tôi qua email"
+
+#: cms/templates/activation_active.html:13
+msgid "Account already active"
+msgstr "Tài khoản đã hoạt động"
+
+#: cms/templates/activation_active.html:14
+msgid "This account has already been activated"
+msgstr "Tài khoản này đã được kích hoạt"
+
+#: cms/templates/activation_active.html:14
+#: cms/templates/activation_complete.html:12
+msgid "Log in here"
+msgstr "Đăng nhập ở đây"
+
+#: cms/templates/activation_complete.html:11
+msgid "Activation Complete!"
+msgstr "Hoàn thành kích hoạt!"
+
+#: cms/templates/activation_complete.html:12
+msgid "Thanks for activating your account."
+msgstr "Cảm ơn bạn đã kích hoạt tài khoản"
+
+#: cms/templates/activation_invalid.html:10
+msgid "Activation Invalid"
+msgstr "Kích hoạt không hợp lệ"
+
+#: cms/templates/activation_invalid.html:12
+msgid ""
+"Something went wrong. Check to make sure the URL you went to was correct-- "
+"e-mail programs will sometimes split it into two lines.If you still have "
+"issues, e-mail us to let us know what happened at"
+msgstr "Một số thứ đã sai. Hãy kiểm tra để chắc chắn rằng URL chính xác--những chương trình thư sẽ tách ra theo 2 đường dây. Nếu bạn vẫn gặp vấn đề, hãy email chúng tôi để chúng tôi biết chuyện gì đã xảy ra."
+
+#: cms/templates/activation_invalid.html:17
+msgid "Or you can go back to the"
+msgstr "Hoặc bạn có thể quay trở lại"
+
+#: cms/templates/activation_invalid.html:17
+msgid "home page"
+msgstr "Trang chủ"
+
+#: cms/templates/asset_index.html:37 cms/templates/asset_index.html:97
+msgid "Delete this asset"
+msgstr "Xóa tài sản này"
+
+#: cms/templates/asset_index.html:45 cms/templates/course_info.html:50
+#: cms/templates/edit-tabs.html:25 cms/templates/overview.html:127
+msgid "Content"
+msgstr "Nội dung"
+
+#: cms/templates/asset_index.html:46
+msgid "Uploads"
+msgstr "Cập nhật"
+
+#: cms/templates/asset_index.html:50 cms/templates/course_info.html:55
+#: cms/templates/edit-tabs.html:30 cms/templates/index.html:47
+#: cms/templates/manage_users.html:18 cms/templates/overview.html:132
+msgid "Page Actions"
+msgstr "Hoạt động của trang"
+
+#: cms/templates/asset_index.html:53
+msgid "Upload New File"
+msgstr "Cập nhật tập tin mới"
+
+#: cms/templates/asset_index.html:150
+msgid "Your file has been deleted."
+msgstr "Tập tin của bạn đã bị xóa."
+
+#: cms/templates/asset_index.html:155
+msgid "close alert"
+msgstr "Tắt báo động"
+
+#: cms/templates/checklists.html:6 cms/templates/checklists.html:37
+msgid "Course Checklists"
+msgstr "Danh sách kiểm tra tiến trình"
+
+#: cms/templates/checklists.html:7
+msgid "is-signedin course uxdesign checklists"
+msgstr "được ký kết trong danh sách kiểm tra thiết kế khóa học"
+
+#: cms/templates/checklists.html:36 cms/templates/export.html:15
+#: cms/templates/import.html:15
+msgid "Tools"
+msgstr "Công cụ"
+
+#: cms/templates/checklists.html:46
+msgid "Current Checklists"
+msgstr "Kiểm tra danh sách hiện tại"
+
+#: cms/templates/checklists.html:52
+msgid "What are checklists?"
+msgstr "Bản danh sách là gì?"
+
+#: cms/templates/checklists.html:54
+msgid ""
+"Running a course on edX is a complex undertaking. Course checklists are "
+"designed to help you understand and keep track of all the steps necessary to"
+" get your course ready for students."
+msgstr "Đang chạy trên edX là một nhiệm vụ rắc rối. Bản liệt kê những mục cần kiểm tra đã được thiết kế để giúp bạn hiểu và theo dõi  những bước cần thiết để được duyệt."
+
+#: cms/templates/checklists.html:57
+msgid ""
+"These checklists are shared among your course team, and any changes you make"
+" are immediately visible to other members of the team and saved "
+"automatically."
+msgstr "Bản liệt kê những mục cần kiểm tra đã chia sẻ giữa đội của bạn, và các thành viên trong đội có thể thấy được trực tiếp những thay đổi mà bạn làm và đã được lưu lại một."
+
+#: cms/templates/checklists.html:62
+msgid "Studio checklists"
+msgstr "Bạn liệt kê những mục studio cần kiểm tra"
+
+#: cms/templates/component.html:17
+msgid "Editor"
+msgstr "Biên tập viên"
+
+#: cms/templates/component.html:20 cms/templates/settings.html:56
+#: cms/templates/settings_advanced.html:50
+#: cms/templates/settings_discussions_faculty.html:32
+#: cms/templates/settings_graders.html:47
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: cms/templates/component.html:31 cms/templates/edit-static-page.html:36
+#: cms/templates/editable_preview.html:14 cms/templates/overview.html:239
+msgid "Save"
+msgstr "Lưu"
+
+#: cms/templates/component.html:32 cms/templates/editable_preview.html:14
+#: cms/templates/overview.html:239 cms/templates/unit.html:119
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: cms/templates/component.html:38 cms/templates/editable_preview.html:7
+#: cms/templates/overview.html:174 cms/templates/component.html:39
+#: cms/templates/editable_preview.html:8
+msgid "Delete"
+msgstr "Xóa"
+
+#: cms/templates/component.html:41
+msgid "Drag to reorder"
+msgstr "Kéo để sắp xếp lại"
+
+#: cms/templates/course_info.html:8 cms/templates/course_info.html:51
+msgid "Course Updates"
+msgstr "Cập nhật khoá học"
+
+#: cms/templates/course_info.html:9
+msgid "is-signedin course course-info updates"
+msgstr "is- kí hiệu tiến trình cập nhật tiến trình không chính xác "
+
+#: cms/templates/course_info.html:58
+msgid "New Update"
+msgstr "Cập nhật mới"
+
+#: cms/templates/course_info.html:68
+msgid ""
+"Course updates are announcements or notifications you want to share with "
+"your class. Other course authors have used them for important exam/date "
+"reminders, change in schedules, and to call out any important steps students"
+" need to be aware of."
+msgstr "Cập nhật tiến trình mà bạn muốn chia sẻ với lớp của bạn thì thông báo. Những người khác được sử dụng chúng cho cuộc thi quan trọng/những nhắc nhở theo ngày, thay đổi thời khác biểu, và  tiết lộ những bước quan trong mà sinh viên cần nhận thức được."
+
+#: cms/templates/edit-static-page.html:6
+msgid "Editing Static Page"
+msgstr "Chỉnh sửa trang tĩnh"
+
+#: cms/templates/edit-static-page.html:7
+msgid "is-signedin course pages edit-static-page"
+msgstr "được ký kết trong các trang khóa học sửa trang tĩnh"
+
+#: cms/templates/edit-static-page.html:15
+#: cms/templates/edit_subsection.html:24 cms/templates/unit.html:50
+msgid "Display Name:"
+msgstr "Tên hiển thị:"
+
+#: cms/templates/edit-static-page.html:19
+msgid "Page Content:"
+msgstr "Nội dung trang:"
+
+#: cms/templates/edit-static-page.html:26
+msgid "Page Settings"
+msgstr "Cài đặt trang"
+
+#: cms/templates/edit-static-page.html:29 cms/templates/unit.html:133
+msgid "Visibility:"
+msgstr "Tầm nhìn:"
+
+#: cms/templates/edit-static-page.html:31 cms/templates/unit.html:135
+msgid "Public"
+msgstr "Dùng chung"
+
+#: cms/templates/edit-static-page.html:32 cms/templates/unit.html:136
+msgid "Private"
+msgstr "Riêng tư"
+
+#: cms/templates/edit-static-page.html:37 cms/templates/unit.html:152
+msgid "Preview"
+msgstr "Xem trước"
+
+#: cms/templates/edit-tabs.html:6 cms/templates/edit-tabs.html:26
+#: cms/templates/export.html:32
+msgid "Static Pages"
+msgstr "Các trang tĩnh"
+
+#: cms/templates/edit-tabs.html:7
+msgid "is-signedin course pages static-pages"
+msgstr "được kí hiệu tiến trình những trang tĩnh"
+
+#: cms/templates/edit-tabs.html:33
+msgid "New Page"
+msgstr "Cập nhật mới"
+
+#: cms/templates/edit-tabs.html:43
+msgid ""
+"Static Pages are additional pages that supplement your Courseware. Other "
+"course authors have used them to share a syllabus, calendar, handouts, and "
+"more."
+msgstr "Những trang tĩnh là thêm vào những trang mà khoá học đã cung cấp. Những người tạo ra tiến trình khác đã sử dụng chúng để chia sẻ chương trình học, các vấn đề, lịch, bản tin, và nhiều hơn nữa."
+
+#: cms/templates/edit-tabs.html:47
+msgid "How do Static Pages look to students in my course?"
+msgstr "Làm thế nào để trang tĩnh cho phép xem được các sinh viên trong khóa học của tôi?"
+
+#: cms/templates/edit-tabs.html:75
+msgid "How Static Pages are Used in Your Course"
+msgstr "Làm thế nào để những trang tĩnh được sử dụng trong tiến trình của bạn."
+
+#: cms/templates/edit-tabs.html:78
+msgid ""
+"These pages will be presented in your course's main navigation alongside "
+"Courseware, Course Info, Discussion, etc."
+msgstr "Những trang này sẽ được hiện trong tiến trình chuyển hướng chính của bạn cùng với chương trình học, thông tin khoá học, thảo luận, v.v..."
+
+#: cms/templates/edit-tabs.html:83 cms/templates/howitworks.html:159
+#: cms/templates/howitworks.html:172 cms/templates/howitworks.html:185
+msgid "close modal"
+msgstr "Đóng phương thức"
+
+#: cms/templates/edit_subsection.html:11
+msgid "CMS Subsection"
+msgstr "CMS tiểu mục"
+
+#: cms/templates/edit_subsection.html:12
+msgid "is-signedin course subsection"
+msgstr "được ký kết trong tiểu mục khóa học"
+
+#: cms/templates/edit_subsection.html:36
+msgid "Subsection Settings"
+msgstr "Cài đặt các tiểu mục"
+
+#: cms/templates/edit_subsection.html:41 cms/templates/overview.html:227
+msgid "Release Day"
+msgstr "Ngày phát hành"
+
+#: cms/templates/edit_subsection.html:47 cms/templates/overview.html:231
+msgid "Release Time"
+msgstr "Thời gian phát hành"
+
+#: cms/templates/edit_subsection.html:66
+msgid "Graded as:"
+msgstr "Phân loại như :"
+
+#: cms/templates/edit_subsection.html:72
+msgid "Set a due date"
+msgstr "Thiết lập ngày hết hạn"
+
+#: cms/templates/edit_subsection.html:75
+msgid "Due Day"
+msgstr "Thời hạn ngày"
+
+#: cms/templates/edit_subsection.html:81
+msgid "Due Time"
+msgstr "Thời hạn giờ"
+
+#: cms/templates/edit_subsection.html:86
+msgid "Remove due date"
+msgstr "Xóa thời hạn ngày"
+
+#: cms/templates/edit_subsection.html:90
+msgid "Preview Drafts"
+msgstr "Xem trước bản thảo"
+
+#: cms/templates/edit_subsection.html:92 cms/templates/index.html:82
+#: cms/templates/overview.html:141 cms/templates/unit.html:153
+msgid "View Live"
+msgstr "Xem trực tiếp"
+
+#: cms/templates/editable_preview.html:12
+msgid "Edit Video Component"
+msgstr "Chỉnh sửa các thành phần video"
+
+#: cms/templates/error.html:19
+msgid "we can't find that page."
+msgstr "Chúng tôi không thể tìm thấy trang đó."
+
+#: cms/templates/error.html:22
+msgid "there was a problem with the server."
+msgstr "Có một vấn đề với máy chủ."
+
+#: cms/templates/error.html:24
+msgid "Back to dashboard"
+msgstr "Trở lại bảng điều khiển"
+
+#: cms/templates/export.html:8 cms/templates/export.html:16
+msgid "Course Export"
+msgstr "Xuất khóa học"
+
+#: cms/templates/export.html:9
+msgid "is-signedin course tools export"
+msgstr "được kí hiệu công cụ xuất khoá học"
+
+#: cms/templates/export.html:25
+msgid "About Exporting Courses"
+msgstr "Xuất các khóa học"
+
+#: cms/templates/export.html:26
+msgid ""
+"When exporting your course, you will receive a .tar.gz formatted file that "
+"contains the following course data:"
+msgstr "Khi xuất tiến trình của bạn, bạn sẽ nhận a .tar.gz tập hồ sơ chứa đựng dữ liệu khoá học đang theo"
+
+#: cms/templates/export.html:29
+msgid "Course Structure (Sections and sub-section ordering)"
+msgstr "Cấu trúc tiến trình ( những mục và trình tự các mục)"
+
+#: cms/templates/export.html:30
+msgid "Individual Units"
+msgstr "Các đơn vị cá nhân"
+
+#: cms/templates/export.html:31
+msgid "Individual Problems"
+msgstr "Những vấn đề cá nhân"
+
+#: cms/templates/export.html:33
+msgid "Course Assets"
+msgstr "Tài sản khóa học"
+
+#: cms/templates/export.html:36
+msgid "Your course export"
+msgstr "Xuất khóa học của bạn"
+
+#: cms/templates/export.html:36
+msgid "will not include"
+msgstr "Sẽ không bao gồm"
+
+#: cms/templates/export.html:36
+msgid ""
+"student data, forum/discussion data, course settings, certificates, grading "
+"information, or user data."
+msgstr "Dữ liệu sinh viên, diễn đàn / thảo luận dữ liệu, cài đặt khóa học, giấy chứng nhận, thông tin phân loại, hay dữ liệu người dùng."
+
+#: cms/templates/export.html:42
+msgid "Export Course"
+msgstr "Xuất Khóa học"
+
+#: cms/templates/export.html:46
+msgid "Download Files"
+msgstr "Tải về tập tin"
+
+#: cms/templates/howitworks.html:7
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: cms/templates/howitworks.html:8
+msgid "not-signedin index howitworks"
+msgstr "không ký kết trong chỉ số cách thức hoạt động"
+
+#: cms/templates/howitworks.html:15
+msgid "Welcome to"
+msgstr "Chào mừng bạn đến"
+
+#: cms/templates/howitworks.html:16
+msgid ""
+"Studio helps manage your courses online, so you can focus on teaching them"
+msgstr "Studio giúp quản lý các khóa học trực tuyến của bạn, vì vậy bạn có thể tập trung vào việc giảng dạy "
+
+#: cms/templates/howitworks.html:24
+msgid "Studio's Many Features"
+msgstr "Nhiều tính năng của Studio's"
+
+#: cms/templates/howitworks.html:32
+msgid "Studio Helps You Keep Your Courses Organized"
+msgstr "Studio giúp bạn luôn tổ chức khóa học của bạn"
+
+#: cms/templates/howitworks.html:40
+msgid "Keeping Your Course Organized"
+msgstr "Tổ chức giữ các khóa học của bạn"
+
+#: cms/templates/howitworks.html:41
+msgid ""
+"The backbone of your course is how it is organized. Studio offers an "
+"<strong>Outline</strong> editor, providing a simple hierarchy and easy drag "
+"and drop to help you and your students stay organized."
+msgstr "Cốt lõi của tiến trình là làm thế nào thành lập tổ chức. Studio đưa ra an<strong>Outline</strong> editor, cung cấp hệ thống cấp bậc đơn giả và dễ dàng kéo và thả để giúp bạn và sinh viên của bạn ở lại tổ chức"
+
+#: cms/templates/howitworks.html:45
+msgid "Simple Organization For Content"
+msgstr "Đối với nội dung tổ chức đơn giản"
+
+#: cms/templates/howitworks.html:46
+msgid "Studio uses a simple hierarchy of"
+msgstr "Studio sử dụng một hệ thống phân cấp đơn giản"
+
+#: cms/templates/howitworks.html:46 cms/templates/howitworks.html:56
+msgid "sections"
+msgstr "Các mục"
+
+#: cms/templates/howitworks.html:46
+msgid "and"
+msgstr "và"
+
+#: cms/templates/howitworks.html:46
+msgid "subsections"
+msgstr "Tiểu mục"
+
+#: cms/templates/howitworks.html:46
+msgid "to organize your content."
+msgstr "để xây dựng nội dung của bạn"
+
+#: cms/templates/howitworks.html:50
+msgid "Change Your Mind Anytime"
+msgstr "Thay đổi tâm trí của bạn bất cứ lúc nào"
+
+#: cms/templates/howitworks.html:51
+msgid ""
+"Draft your outline and build content anywhere. Simple drag and drop tools "
+"let your reorganize quickly."
+msgstr "Soạn thảo đề cương và xây dựng nội dung ở bất cứ nơi nào. Đơn giản kéo và thả các công cụ để tổ chức lại một cách nhanh chóng."
+
+#: cms/templates/howitworks.html:55
+msgid "Go A Week Or A Semester At A Time"
+msgstr "Đi một tuần hoặc một học kỳ tại một thời điểm"
+
+#: cms/templates/howitworks.html:56
+msgid "Build and release"
+msgstr "Xây dựng và phát hành"
+
+#: cms/templates/howitworks.html:56
+msgid ""
+"to your students incrementally. You don't have to have it all done at once."
+msgstr "đối với học sinh tăng dần. Bạn không cần phải có tất cả được thực hiện cùng một lúc"
+
+#: cms/templates/howitworks.html:66 cms/templates/howitworks.html:74
+msgid "Learning is More than Just Lectures"
+msgstr "Học hỏi nhiều hơn là chỉ các bài giảng"
+
+#: cms/templates/howitworks.html:75
+msgid ""
+"Studio lets you weave your content together in a way that reinforces "
+"learning &mdash; short video lectures interleaved with exercises and more. "
+"Insert videos and author a wide variety of exercise types with just a few "
+"clicks."
+msgstr "Studio ngăn bạn lồng các nội dung lại với nhau trong một cách mà củng cố kiến thức; những bức thư video ngắn xen kẻ với bài tập và nhiều thứ. Chèn những video và mở rộng sự đa dạng tác giả của các loại bài tập chỉ vài cái nhập chuột."
+
+#: cms/templates/howitworks.html:79
+msgid "Create Learning Pathways"
+msgstr "Tạo con đường học"
+
+#: cms/templates/howitworks.html:80
+msgid ""
+"Help your students understand a small interactive piece at a time with "
+"multimedia, HTML, and exercises."
+msgstr "Giúp sinh viên hiểu được một phần nhỏ tương tác tại một thời điểm với đa phương tiện, HTML, và các bài tập."
+
+#: cms/templates/howitworks.html:84
+msgid "Work Visually, Organize Quickly"
+msgstr "Làm việc trực quan, Tổ chức nhanh chóng"
+
+#: cms/templates/howitworks.html:85
+msgid ""
+"Work visually and see exactly what your students will see. Reorganize all "
+"your content with drag and drop"
+msgstr "Làm việc trực quan và xem chính xác những gì sinh viên của bạn sẽ thấy. Tổ chức lại tất cả các nội dung của bạn bằng cách kéo và thả"
+
+#: cms/templates/howitworks.html:89
+msgid "A Broad Library of Problem Types"
+msgstr "Thư viện rộng của các loại vấn đề"
+
+#: cms/templates/howitworks.html:90
+msgid ""
+"It's more than just multiple choice. Studio has nearly a dozen types of "
+"problems to challenge your learners"
+msgstr "Nó có nhiều sự lựa chọn hơn. Studio có cả tá thể loại các vấn đề để thách thức sự học tập của bạn."
+
+#: cms/templates/howitworks.html:100
+msgid ""
+"Studio Gives You Simple, Fast, and Incremental Publishing. With Friends"
+msgstr "Studio mang đến cho bạn sự đơn giản, nhanh chóng, và gia tăng xuất bản. Với bạn bè"
+
+#: cms/templates/howitworks.html:108
+msgid "Simple, Fast, and Incremental Publishing. With Friends"
+msgstr "Đơn giản, nhanh chóng, và gia tăng xuất bản. Với bạn bè"
+
+#: cms/templates/howitworks.html:109
+msgid ""
+"Studio works like web applications you already know, yet understands how you"
+" build curriculum. Instant publishing to the web when you want it, "
+"incremental release when it makes sense. And with co-authors, you can have a"
+" whole team building a course, together."
+msgstr "Studio làm việc giống như web ứng dụng mà bạn biết, lúc đó bạn hiểu làm thế nào bạn xây dựng các môn học trong một khoá học. Ngay lập tức xuất đến web khi bạn muốn, phát hành tăng khi nó có ý nghĩa. Và với việc cùng chung tác giả, bạn có thể có một đội cùng nhau xây dựng một khoá học."
+
+#: cms/templates/howitworks.html:113
+msgid "Instant Changes"
+msgstr "Thay đổi ngay lập tức"
+
+#: cms/templates/howitworks.html:114
+msgid ""
+"Caught a bug? No problem. When you want, your changes to live when you hit "
+"Save."
+msgstr "Bạn bị lỗi? Không vấn đề gì. Khi bạn muốn, thay đổi trực tiếp khi bạn nhấn vào lưu"
+
+#: cms/templates/howitworks.html:118
+msgid "Release-On Date Publishing"
+msgstr "Phát hành-Vào ngày xuất bản"
+
+#: cms/templates/howitworks.html:119
+msgid "When you've finished a"
+msgstr "Khi bạn đã hoàn thành "
+
+#: cms/templates/howitworks.html:119
+msgid "section"
+msgstr "mục"
+
+#: cms/templates/howitworks.html:119
+msgid ""
+"pick when you want it to go live and Studio takes care of the rest. Build "
+"your course incrementally."
+msgstr " khi bạn muốn chọn nó đi trực tiếp và Studio sẽ lo phần còn lại. Xây dựng khóa học của bạn từng bước."
+
+#: cms/templates/howitworks.html:123
+msgid "Work in Teams"
+msgstr "Làm việc trong các nhóm"
+
+#: cms/templates/howitworks.html:124
+msgid ""
+"Co-authors have full access to all the same authoring tools. Make your "
+"course better through a team effort."
+msgstr "Những người đồng tác giả của bạn có thể truy cập vào tất cả các công cụ xử lý tương tự. Làm cho khoá học của bạn tốt hơn thông  nổ lực của một nhóm"
+
+#: cms/templates/howitworks.html:136
+msgid "Sign Up for Studio Today!"
+msgstr "Đăng ký dùng Studio ngay hôm nay!"
+
+#: cms/templates/howitworks.html:141
+msgid "Sign Up &amp; Start Making an edX Course"
+msgstr "Đăng ký và bắt đầu kiếm một khóa học EDX"
+
+#: cms/templates/howitworks.html:144
+msgid "Already have a Studio Account? Sign In"
+msgstr "Đã có Tài khoản Studio? Đăng nhập"
+
+#: cms/templates/howitworks.html:151
+msgid "Outlining Your Course"
+msgstr "Đề cương khóa học của bạn"
+
+#: cms/templates/howitworks.html:154
+msgid ""
+"Simple two-level outline to organize your couse. Drag and drop, and see your"
+" course at a glance."
+msgstr "2 cấp độ phác thảo đơn giản đối với tổ chức khoá học của bạn. Kéo và thả, và thấy khoá học tại glance"
+
+#: cms/templates/howitworks.html:164
+msgid "More than Just Lectures"
+msgstr "Nhiều hơn những bức thư hiện tại"
+
+#: cms/templates/howitworks.html:167
+msgid ""
+"Quickly create videos, text snippets, inline discussions, and a variety of "
+"problem types."
+msgstr "Tạo video nhanh, đoạn văn bản, thảo luận nội tuyến, và đa dạng các loại vấn đề"
+
+#: cms/templates/howitworks.html:177
+msgid "Publishing on Date"
+msgstr "Xuất bản vào ngày"
+
+#: cms/templates/howitworks.html:180
+msgid ""
+"Simply set the date of a section or subsection, and Studio will publish it "
+"to your students for you."
+msgstr "Đơn giản chỉ cần thiết lập ngày của một phần hoặc một tiểu mục, và Studio sẽ xuất bản nó đến sinh viên của bạn cho bạn "
+
+#: cms/templates/import.html:8 cms/templates/import.html:16
+msgid "Course Import"
+msgstr "Import khóa học"
+
+#: cms/templates/import.html:9
+msgid "is-signedin course tools import"
+msgstr "kí hiệu công cụ nhập khoá học"
+
+#: cms/templates/import.html:25
+msgid ""
+"Importing a new course will delete all content currently associated with "
+"your courseand replace it with the contents of the uploaded file."
+msgstr "Nhập một khoá học mới sẽ xoá tất cả nội dung hiện đang liên quan đến khoá học của bạn và thay thế nó bằng các tập tin tải lên"
+
+#: cms/templates/import.html:27
+msgid ""
+"File uploads must be gzipped tar files (.tar.gz) containing, at a minimum, a"
+" <code>course.xml</code> file."
+msgstr "Tài liệu đưa lên phải được nén lại tar files (.tả.gz) containing, at a midimum, a <code>course.xml</code> file."
+
+#: cms/templates/import.html:28
+msgid ""
+"Please note that if your course has any problems with auto-generated "
+"<code>url_name</code> nodes,re-importing your course could cause the loss of"
+" student data associated with those problems."
+msgstr "Làm ơn lưu ý rằng nếu khoá học của bạn có một số vấn đền với auto-generated <code>url_name</code> nodes, re-importing khoá học của bạn sẽ bị mất những dữ liệu hội sinh viên với những vấn đề nêu trên"
+
+#: cms/templates/import.html:32
+msgid "Course to import:"
+msgstr "Import khóa học"
+
+#: cms/templates/import.html:34
+msgid "Choose File"
+msgstr "Chọn file"
+
+#: cms/templates/import.html:35
+msgid "change"
+msgstr "thay đổi"
+
+#: cms/templates/index.html:8 cms/templates/index.html:43
+msgid "My Courses"
+msgstr "Các khóa học của tôi"
+
+#: cms/templates/index.html:9
+msgid "is-signedin index dashboard"
+msgstr "được kí hiệu bảng điều khiển chỉ số"
+
+#: cms/templates/index.html:17 cms/templates/settings.html:84
+msgid "Course Name"
+msgstr "Tên khóa học"
+
+#: cms/templates/index.html:22 cms/templates/settings.html:74
+msgid "Organization"
+msgstr "Tổ chức"
+
+#: cms/templates/index.html:26 cms/templates/settings.html:79
+msgid "Course Number"
+msgstr "Số lượng khóa học"
+
+#: cms/templates/index.html:51
+msgid "New Course"
+msgstr "Khóa học mới"
+
+#: cms/templates/index.html:53
+msgid "Email staff to create course"
+msgstr "Email nhân viên được khoá học tạo ra"
+
+#: cms/templates/index.html:66
+#, python-format
+msgid "Welcome, %(name)s"
+msgstr "Xin chao bạn, %(name)s"
+
+#: cms/templates/index.html:67
+msgid "Here are all of the courses you are currently authoring in Studio:"
+msgstr "Đây là tất cả khoá học mà bạn là tác giả ở studio"
+
+#: cms/templates/index.html:89
+msgid ""
+"In order to start authoring courses using edX Studio, please click on the "
+"activation link in your email."
+msgstr "Để bắt đầu khoá  tác giả sử dụng edX Studio, làm ơn kích vào liên kết kích hoạt trong email của bạn"
+
+#: cms/templates/login.html:15 cms/templates/login.html:40
+msgid "Sign In to edX Studio"
+msgstr "Đăng nhập vào Edx Studio"
+
+#: cms/templates/login.html:16
+msgid "Don't have a Studio Account? Sign up!"
+msgstr "Không có tài khoản Studio? Đăng nhập ngay!"
+
+#: cms/templates/login.html:23
+msgid "Required Information to Sign In to edX Studio"
+msgstr "Yêu cầu thông tin để đăng nhập đối với edX Studio"
+
+#: cms/templates/login.html:27 cms/templates/signup.html:32
+msgid "Email Address"
+msgstr "Địa chỉ Email"
+
+#: cms/templates/login.html:32
+msgid "Forgot password?"
+msgstr "Quên mật khẩu"
+
+#: cms/templates/login.html:33 cms/templates/signup.html:37
+#: cms/templates/temp-course-landing.html:23
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: cms/templates/login.html:49
+msgid "Studio Support"
+msgstr "Phần hỗ trợ"
+
+#: cms/templates/login.html:52
+msgid "Need Help?"
+msgstr "Cần sự trợ giúp?"
+
+#: cms/templates/login.html:52
+msgid "Having trouble with your account? Use"
+msgstr "Đang có rắc rối đối với tài khoản của bạn "
+
+#: cms/templates/login.html:52
+msgid "our support center"
+msgstr "Trung tâm hỗ trợ của chúng tôi"
+
+#: cms/templates/login.html:52
+msgid ""
+"to look over self help steps, find solutions others have found to the same "
+"problem, or let us know of your issue."
+msgstr "nhìn vào các bước giúp đỡ, tìm những giải pháp khác có cùng vấn đề, hoặc liên lạc cho chúg tôi biết vấn đề của bạn"
+
+#: cms/templates/manage_users.html:5
+msgid "Course Team Settings"
+msgstr "Thiết lập đội khoá học"
+
+#: cms/templates/manage_users.html:13
+msgid "Course Settings"
+msgstr "Thiết lập khoá học"
+
+#: cms/templates/manage_users.html:14 cms/templates/settings.html:266
+#: cms/templates/settings_graders.html:145
+msgid "Course Team"
+msgstr "Nhóm khóa học "
+
+#: cms/templates/manage_users.html:22
+msgid "New User"
+msgstr "Người dùng mới"
+
+#: cms/templates/manage_users.html:34
+msgid ""
+"The following list of users have been designated as course staff. This means"
+" that these users will have permissions to modify course content. You may "
+"add additional course staff below, if you are the course instructor. Please "
+"note that they must have already registered and verified their account."
+msgstr "Những người trong danh sách này được chỉ định như thành viên của khóa học. Điều này có nghĩa là những người này có quyền điều chỉnh được nội dung của khóa học. Bạn có thể thêm thành viên khóa học sau, nếu bạn là người giám sát khóa học. Vui lòng chú ý rằng họ vừa mới đăng ký và kích hoạt tài khoản của họ."
+
+#: cms/templates/overview.html:10 cms/templates/overview.html:128
+msgid "Course Outline"
+msgstr "Mục lục khoá học"
+
+#: cms/templates/overview.html:11
+msgid "is-signedin course outline"
+msgstr "được ký kết trong đề cương khóa học"
+
+#: cms/templates/overview.html:85
+msgid "Click here to set the section name"
+msgstr "Bấm vào đây để thiết lập tên mục"
+
+#: cms/templates/overview.html:115
+msgid "New Unit"
+msgstr "Đơn vị mới"
+
+#: cms/templates/overview.html:135
+msgid "Collapse All Sections"
+msgstr "Thu gọn tất cả mục"
+
+#: cms/templates/overview.html:138
+msgid "New Section"
+msgstr "Mục mới"
+
+#: cms/templates/overview.html:168
+msgid "This section has not been released."
+msgstr "Mục này đã không được phát hành."
+
+#: cms/templates/overview.html:169
+msgid "Schedule"
+msgstr "lịch trình"
+
+#: cms/templates/overview.html:171
+msgid "Will Release:"
+msgstr "Sẽ phát hành:"
+
+#: cms/templates/overview.html:187
+msgid "New Subsection"
+msgstr "Tiểu mục mới"
+
+#: cms/templates/overview.html:224
+msgid "Section Release Date"
+msgstr "Ngày phát hành mục"
+
+#: cms/templates/overview.html:236
+msgid "On the date set above, this section"
+msgstr "Vào ngày thiết lập ở trên, mục này"
+
+#: cms/templates/overview.html:236
+msgid ""
+"will be released to students. Any units marked private will only be visible "
+"to admins."
+msgstr "sẽ được phát hành cho sinh viên. Bất kỳ đơn vị được đánh dấu riêng sẽ chỉ được hiển thị cho quản trị viên."
+
+#: cms/templates/settings.html:5
+msgid "Schedule &amp; Details Settings"
+msgstr "Lịch trình &amp; Cài đặt chi tiết"
+
+#: cms/templates/settings.html:6
+msgid "is-signedin course schedule settings"
+msgstr "được ký kết trong các thiết lập lịch trình khóa học"
+
+#: cms/templates/settings.html:57
+msgid "Schedule & Details"
+msgstr "Lịch trình & Chi tiết"
+
+#: cms/templates/settings.html:68
+msgid "Basic Information"
+msgstr "Thông tin cơ bản"
+
+#: cms/templates/settings.html:69
+msgid "The nuts and bolts of your course"
+msgstr "Các Nuts và bolts của khóa học của bạn"
+
+#: cms/templates/settings.html:75 cms/templates/settings.html:80
+#: cms/templates/settings.html:85
+msgid "This field is disabled: this information cannot be changed."
+msgstr "Lĩnh vực này bị vô hiệu hóa: thông tin này không thể thay đổi."
+
+#: cms/templates/settings.html:90
+msgid "Course Summary Page"
+msgstr "Tóm tắt Trang Khóa học"
+
+#: cms/templates/settings.html:90
+msgid "(for student enrollment and access)"
+msgstr "(đối với ghi danh học viên và truy cập)"
+
+#: cms/templates/settings.html:97
+msgid "Send a note to students via email"
+msgstr "Gởi thông báo đến học sinh thông qua email"
+
+#: cms/templates/settings.html:97
+msgid "Invite your students"
+msgstr "Mời các học sinh của bạn"
+
+#: cms/templates/settings.html:104
+msgid "Promoting Your Course with edX"
+msgstr "Thúc đẩy Khóa học của bạn với edX"
+
+#: cms/templates/settings.html:106
+msgid ""
+"Your course summary page will not be viewable until your course has been "
+"announced. To provide content for the page and preview it, follow the "
+"instructions provided by your <abbr title=\"Program Manager\">PM</abbr> or "
+"Conrad Warre <a rel=\"email\" class=\"action action-email\" "
+"href=\"mailto:conrad@edx.org\">(conrad@edx.org)</a>."
+msgstr "Trang tóm tắt nội dung khóa học của bạn sẽ không được hiển thị cho đến khi khóa học của bạn được thông báo. Để cung cấp nội dung cho trang và kiểm tra chúng, hãy làm theo hướng dẫn <abbr title=\"Program Manager\">PM</abbr> or Conrad Warre <a rel=\"email\" class=\"action action-email\" href=\"mailto:conrad@edx.org\">(conrad@edx.org)</a>."
+
+#: cms/templates/settings.html:116
+msgid "Course Schedule"
+msgstr "Lịch học"
+
+#: cms/templates/settings.html:117
+msgid "Dates that control when your course can be viewed."
+msgstr "Ngày kiểm soát khi khóa học của bạn có thể được xem."
+
+#: cms/templates/settings.html:123
+msgid "Course Start Date"
+msgstr "Ngày khóa học bắt đầu"
+
+#: cms/templates/settings.html:125
+msgid "First day the course begins"
+msgstr "Ngày đầu tiên khóa học bắt đầu"
+
+#: cms/templates/settings.html:129
+msgid "Course Start Time"
+msgstr "Khóa học bắt đầu lúc"
+
+#: cms/templates/settings.html:137
+msgid "Course End Date"
+msgstr "Ngày kết thúc khoá học"
+
+#: cms/templates/settings.html:139
+msgid "Last day your course is active"
+msgstr "Ngày cuối khóa học của bạn hoạt động"
+
+#: cms/templates/settings.html:143
+msgid "Course End Time"
+msgstr "Giờ kết thúc "
+
+#: cms/templates/settings.html:154
+msgid "Enrollment Start Date"
+msgstr "Ngày bắt đầu ghi danh"
+
+#: cms/templates/settings.html:156
+msgid "First day students can enroll"
+msgstr "Ngày đầu tiên sinh viên có thể ghi danh"
+
+#: cms/templates/settings.html:160
+msgid "Enrollment Start Time"
+msgstr "Giờ bắt đầu ghi danh"
+
+#: cms/templates/settings.html:168
+msgid "Enrollment End Date"
+msgstr "Ngày kết thúc ghi danh"
+
+#: cms/templates/settings.html:170
+msgid "Last day students can enroll"
+msgstr "Ngày cuối cùng sinh viên có thể ghi danh"
+
+#: cms/templates/settings.html:174
+msgid "Enrollment End Time"
+msgstr "Giờ kết thúc việc ghi danh"
+
+#: cms/templates/settings.html:184
+msgid "These Dates Are Not Used When Promoting Your Course"
+msgstr "Những Ngày đang không được sử dụng Khi Thúc đẩy Khóa học của bạn"
+
+#: cms/templates/settings.html:186
+msgid ""
+"These dates impact <strong>when your courseware can be viewed</strong>, but "
+"they are <strong>not the dates shown on your course summary page</strong>.  "
+"To provide the course start and registration dates as shown on your course "
+"summary page, follow the instructions provided by your <abbr title=\"Program"
+" Manager\">PM</abbr> or Conrad Warre <a rel=\"email\" class=\"action action-"
+"email\" href=\"mailto:conrad@edx.org\">(conrad@edx.org)</a>."
+msgstr "Những ngày này có ảnh hưởng <strong> khi chương trình học của bạn có thể được xem </ strong>, nhưng họ không <strong> ngày ghi trên trang tóm tắt khóa học của bạn </ strong>. Để cung cấp bắt đầu khóa học và đăng ký ngày như hiển thị trên trang tóm tắt khóa học của bạn, hãy làm theo các hướng dẫn được cung cấp bởi <abbr title=\"Program Manager\">PM</abbr> or Conrad Warre <a rel=\"email\" class=\"action action-email\" href=\"mailto:conrad@edx.org\">(conrad@edx.org)</a>."
+
+#: cms/templates/settings.html:195
+msgid "Introducing Your Course"
+msgstr "Giới thiệu khoá học"
+
+#: cms/templates/settings.html:196
+msgid "Information for prospective students"
+msgstr "Thông tin cho sinh viên triển vọng"
+
+#: cms/templates/settings.html:201
+msgid "Course Overview"
+msgstr "Tổng quan về khoá học"
+
+#: cms/templates/settings.html:205
+msgid "your course summary page"
+msgstr "trang tóm tắt khóa học của bạn"
+
+#: cms/templates/settings.html:207
+#, python-format
+msgid ""
+"Introductions, prerequisites, FAQs that are used on %s (formatted in HTML)"
+msgstr "Giới thiệu, điều kiện tiên quyết, Hỏi đáp được sử dụng trên %s (định dạng trong HTML)"
+
+#: cms/templates/settings.html:213
+msgid "Course Introduction Video"
+msgstr "Video giới thiệu Khóa học"
+
+#: cms/templates/settings.html:219
+msgid "Delete Current Video"
+msgstr "Xóa video hiện tại"
+
+#: cms/templates/settings.html:225
+msgid "Enter your YouTube video's ID (along with any restriction parameters)"
+msgstr "Nhập ID video YouTube của bạn (cùng với bất kỳ thông số hạn chế)"
+
+#: cms/templates/settings.html:235
+msgid "Requirements"
+msgstr "yêu cầu"
+
+#: cms/templates/settings.html:236
+msgid "Expectations of the students taking this course"
+msgstr "Mong đợi của sinh viên tham gia khóa học này"
+
+#: cms/templates/settings.html:241
+msgid "Hours of Effort per Week"
+msgstr "Giờ nỗ lực mỗi tuần"
+
+#: cms/templates/settings.html:243
+msgid "Time spent on all course work"
+msgstr "Thời gian dành cho tất cả các môn học"
+
+#: cms/templates/settings.html:252 cms/templates/settings_advanced.html:86
+#: cms/templates/settings_graders.html:131
+msgid "How will these settings be used?"
+msgstr "Làm thế nào các thiết lập này sẽ được sử dụng?"
+
+#: cms/templates/settings.html:253
+msgid ""
+"Your course's schedule settings determine when students can enroll in and "
+"begin a course."
+msgstr "Thiết lập lịch trình khóa học của bạn xác định khi học sinh có thể ghi danh và bắt đầu một khóa học."
+
+#: cms/templates/settings.html:255
+msgid ""
+"Additionally, details provided on this page are also used in edX's catalog "
+"of courses, which new and returning students use to choose new courses to "
+"study."
+msgstr "Ngoài ra, các chi tiết được cung cấp trên trang này cũng được sử dụng trong danh mục của các khóa học edx, trong đó sinh viên mới và quay trở lại sử dụng để lựa chọn các khóa học mới của sinh viên."
+
+#: cms/templates/settings.html:262 cms/templates/settings_graders.html:141
+msgid "Other Course Settings"
+msgstr "Cài đặt Khóa học khác"
+
+#: cms/templates/settings.html:265 cms/templates/settings_graders.html:48
+msgid "Grading"
+msgstr "chấm điểm"
+
+#: cms/templates/settings.html:267 cms/templates/settings_advanced.html:51
+#: cms/templates/settings_graders.html:146
+msgid "Advanced Settings"
+msgstr "Cài đặt nâng cao"
+
+#: cms/templates/settings_advanced.html:62
+msgid "Your policy changes have been saved."
+msgstr "Thay đổi chính sách của bạn đã được lưu."
+
+#: cms/templates/settings_advanced.html:66
+msgid "There was an error saving your information. Please see below."
+msgstr "Có lỗi khi lưu thông tin của bạn. Xin xem dưới đây."
+
+#: cms/templates/settings_advanced.html:71
+msgid "Manual Policy Definition"
+msgstr "Định nghĩa Hướng dẫn sử dụng chính sách"
+
+#: cms/templates/settings_advanced.html:72
+msgid "Manually Edit Course Policy Values (JSON Key / Value pairs)"
+msgstr "Chỉnh sửa bằng tay các giá trị chính sách gôn (JSON khóa / giá trị cặp)"
+
+#: cms/templates/settings_advanced.html:75
+msgid "Warning"
+msgstr "cảnh báo"
+
+#: cms/templates/settings_advanced.html:75
+msgid ""
+"Do not modify these policies unless you are familiar with their purpose."
+msgstr "Không sửa đổi các chính sách này, trừ khi bạn đã quen thuộc với mục đích của họ."
+
+#: cms/templates/settings_advanced.html:87
+msgid ""
+"Manual policies are JSON-based key and value pairs that give you control "
+"over specific course settings that edX Studio will use when displaying and "
+"running your course."
+msgstr "Chính sách là chìa khóa Hướng dẫn sử dụng JSON dựa trên và các cặp giá trị cung cấp cho bạn kiểm soát các thiết lập khóa học cụ thể mà EDX Studio sẽ sử dụng khi hiển thị và chạy khóa học của bạn."
+
+#: cms/templates/settings_advanced.html:89
+msgid ""
+"Any policies you modify here will override any other information you've "
+"defined elsewhere in Studio. With this in mind, please be very careful and "
+"do not edit policies that you are unfamiliar with (both their purpose and "
+"their syntax)."
+msgstr "Bất kỳ chính sách bạn thay đổi ở đây sẽ ghi đè lên bất kỳ thông tin khác mà bạn đã xác định ở những nơi khác trong Studio. Với điều này trong tâm trí, hãy rất cẩn thận và không chỉnh sửa chính sách mà bạn không quen với (cả hai mục đích của họ và cú pháp của họ)."
+
+#: cms/templates/settings_discussions_faculty.html:6
+msgid "Schedule and details"
+msgstr "Lịch trình và Chi tiết"
+
+#: cms/templates/settings_discussions_faculty.html:7
+msgid "is-signedin course settings"
+msgstr "được ký kết trong các thiết lập khóa học"
+
+#: cms/templates/settings_discussions_faculty.html:37
+msgid "Faculty"
+msgstr "Giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:41
+msgid "Faculty Members"
+msgstr "Cán bộ giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:42
+msgid "Individuals instructing and help with this course"
+msgstr "Cá nhân hướng dẫn và giúp đỡ với khóa học này"
+
+#: cms/templates/settings_discussions_faculty.html:50
+#: cms/templates/settings_discussions_faculty.html:87
+msgid "Faculty First Name:"
+msgstr "Họ giảng viên:"
+
+#: cms/templates/settings_discussions_faculty.html:57
+msgid "Faculty Last Name:"
+msgstr "Tên giảng viên:"
+
+#: cms/templates/settings_discussions_faculty.html:64
+#: cms/templates/settings_discussions_faculty.html:101
+msgid "Faculty Photo"
+msgstr "Ảnh giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:75
+#: cms/templates/settings_discussions_faculty.html:113
+msgid "Faculty Bio:"
+msgstr "Giảng viên Bio:"
+
+#: cms/templates/settings_discussions_faculty.html:78
+#: cms/templates/settings_discussions_faculty.html:117
+msgid "A brief description of your education, experience, and expertise"
+msgstr "Một mô tả ngắn gọn về học vấn, kinh nghiệm và chuyên môn của bạn"
+
+#: cms/templates/settings_discussions_faculty.html:82
+msgid "Delete Faculty Member"
+msgstr "Xóa cán bộ giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:105
+msgid "Upload Faculty Photo"
+msgstr "Tải lên hình ảnh giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:107
+msgid "Max size: 30KB"
+msgstr "Kích thước tối đa: 30KB"
+
+#: cms/templates/settings_discussions_faculty.html:125
+msgid "New Faculty Member"
+msgstr "Thành viên mới giảng viên"
+
+#: cms/templates/settings_discussions_faculty.html:134
+msgid "Problems"
+msgstr "vấn đề"
+
+#: cms/templates/settings_discussions_faculty.html:138
+#: cms/templates/settings_discussions_faculty.html:291
+msgid "General Settings"
+msgstr "Cài đặt chung"
+
+#: cms/templates/settings_discussions_faculty.html:139
+msgid "Course-wide settings for all problems"
+msgstr "Thiết lập Khóa học rộng khắp cho tất cả các vấn đề"
+
+#: cms/templates/settings_discussions_faculty.html:143
+#: cms/templates/settings_discussions_faculty.html:217
+msgid "Problem Randomization:"
+msgstr "Vấn đề ngẫu nhiên:"
+
+#: cms/templates/settings_discussions_faculty.html:150
+#: cms/templates/settings_discussions_faculty.html:224
+msgid "Always"
+msgstr "luôn luôn"
+
+#: cms/templates/settings_discussions_faculty.html:151
+#: cms/templates/settings_discussions_faculty.html:225
+msgid "randomize all"
+msgstr "tất cả ngẫu nhiên"
+
+#: cms/templates/settings_discussions_faculty.html:151
+#: cms/templates/settings_discussions_faculty.html:160
+#: cms/templates/settings_discussions_faculty.html:225
+#: cms/templates/settings_discussions_faculty.html:234
+msgid "problems"
+msgstr "vấn đề"
+
+#: cms/templates/settings_discussions_faculty.html:159
+#: cms/templates/settings_discussions_faculty.html:192
+#: cms/templates/settings_discussions_faculty.html:233
+#: cms/templates/settings_discussions_faculty.html:266
+msgid "Never"
+msgstr "không bao giờ"
+
+#: cms/templates/settings_discussions_faculty.html:160
+msgid "do not randomize"
+msgstr "không ngẫu nhiên hoá"
+
+#: cms/templates/settings_discussions_faculty.html:168
+#: cms/templates/settings_discussions_faculty.html:242
+msgid "Per Student"
+msgstr "trung bình mỗi sinh viên"
+
+#: cms/templates/settings_discussions_faculty.html:169
+#: cms/templates/settings_discussions_faculty.html:243
+msgid "randomize problems"
+msgstr "ngẫu nhiên hoá vấn đề"
+
+#: cms/templates/settings_discussions_faculty.html:169
+#: cms/templates/settings_discussions_faculty.html:243
+msgid "per student"
+msgstr "trên mỗi sinh viên"
+
+#: cms/templates/settings_discussions_faculty.html:176
+#: cms/templates/settings_discussions_faculty.html:250
+msgid "Show Answers:"
+msgstr "Hiện trả lời:"
+
+#: cms/templates/settings_discussions_faculty.html:184
+#: cms/templates/settings_discussions_faculty.html:258
+msgid "Answers will be shown after the number of attempts has been met"
+msgstr "Câu trả lời sẽ được hiển thị sau khi số lần đã được đáp ứng"
+
+#: cms/templates/settings_discussions_faculty.html:193
+#: cms/templates/settings_discussions_faculty.html:267
+msgid "Answers will never be shown, regardless of attempts"
+msgstr "Câu trả lời sẽ không bao giờ được hiển thị, bất kể nỗ lực"
+
+#: cms/templates/settings_discussions_faculty.html:200
+msgid "Number of Attempts"
+msgstr "Số lượng nỗ lực"
+
+#: cms/templates/settings_discussions_faculty.html:200
+msgid "Allowed on Problems:"
+msgstr "Cho phép vào vấn đề:"
+
+#: cms/templates/settings_discussions_faculty.html:205
+msgid ""
+"Students will this have this number of chances to answer a problem. To set "
+"infinite atttempts, use "
+msgstr "Sinh viên này sẽ có số này cơ hội để trả lời một vấn đề. Để thiết lập atttempts vô hạn, sử dụng"
+
+#: cms/templates/settings_discussions_faculty.html:213
+msgid "[Assignment Type Name]"
+msgstr "[Phân loại Tên]"
+
+#: cms/templates/settings_discussions_faculty.html:274
+msgid "Number of Attempts <br /> Allowed on Problems: "
+msgstr "Số lượng nỗ lực <br /> Được phép vào vấn đề:"
+
+#: cms/templates/settings_discussions_faculty.html:279
+msgid ""
+"Students will this have this number of chances to answer a problem. To set "
+"infinite atttempts, use"
+msgstr "Sinh viên này sẽ có số này cơ hội để trả lời một vấn đề. Để thiết lập atttempts vô hạn, sử dụng"
+
+#: cms/templates/settings_discussions_faculty.html:287
+msgid "Discussions"
+msgstr "thảo luận"
+
+#: cms/templates/settings_discussions_faculty.html:292
+msgid "Course-wide settings for online discussion"
+msgstr "Thiết lập Khóa học rộng khắp để thảo luận trực tuyến"
+
+#: cms/templates/settings_discussions_faculty.html:296
+#: cms/templates/settings_discussions_faculty.html:320
+msgid "Anonymous Discussions:"
+msgstr "Ẩn danh thảo luận:"
+
+#: cms/templates/settings_discussions_faculty.html:303
+#: cms/templates/settings_discussions_faculty.html:327
+msgid "Allow"
+msgstr "Cho phép"
+
+#: cms/templates/settings_discussions_faculty.html:304
+msgid "Students and faculty"
+msgstr "Các học sinh và người hướng dẫn"
+
+#: cms/templates/settings_discussions_faculty.html:304
+msgid "will be able to post anonymously"
+msgstr "sẽ có thể đăng bài ẩn danh"
+
+#: cms/templates/settings_discussions_faculty.html:312
+#: cms/templates/settings_discussions_faculty.html:336
+msgid "Do not allow"
+msgstr "Không cho phép"
+
+#: cms/templates/settings_discussions_faculty.html:313
+msgid "Posting anonymously is not allowed"
+msgstr "Không cho phép đăng bài ẩn danh"
+
+#: cms/templates/settings_discussions_faculty.html:313
+msgid "Any previous anonymous posts"
+msgstr "Bất kỳ bài viết ẩn danh trước đây"
+
+#: cms/templates/settings_discussions_faculty.html:313
+msgid "will be reverted to non-anonymous"
+msgstr "sẽ được chuyển không ẩn danh"
+
+#: cms/templates/settings_discussions_faculty.html:328
+msgid "Students and faculty <strong>will be able to post anonymously</strong>"
+msgstr "Sinh viên và giảng viên <strong> sẽ có thể đăng bài ẩn danh</strong>"
+
+#: cms/templates/settings_discussions_faculty.html:337
+msgid ""
+"This option is disabled since there are previous discussions that are "
+"anonymous."
+msgstr "Tùy chọn này bị vô hiệu hóa kể từ khi có các cuộc thảo luận trước đó là ẩn danh."
+
+#: cms/templates/settings_discussions_faculty.html:344
+msgid "Discussion Categories"
+msgstr "Thể loại thảo luận"
+
+#: cms/templates/settings_discussions_faculty.html:350
+#: cms/templates/settings_discussions_faculty.html:359
+#: cms/templates/settings_discussions_faculty.html:368
+#: cms/templates/settings_discussions_faculty.html:377
+#: cms/templates/settings_discussions_faculty.html:388
+#: cms/templates/settings_discussions_faculty.html:399
+#: cms/templates/settings_discussions_faculty.html:410
+msgid "Category Name:"
+msgstr "Tên thể loại:"
+
+#: cms/templates/settings_discussions_faculty.html:380
+#: cms/templates/settings_discussions_faculty.html:392
+#: cms/templates/settings_discussions_faculty.html:403
+#: cms/templates/settings_discussions_faculty.html:414
+msgid "Delete Category"
+msgstr "Xóa thể loại"
+
+#: cms/templates/settings_discussions_faculty.html:421
+msgid "New Discussion Category"
+msgstr "Danh mục Thảo luận mới"
+
+#: cms/templates/settings_graders.html:5
+msgid "Grading Settings"
+msgstr "Cài đặt chấm điểm"
+
+#: cms/templates/settings_graders.html:6
+msgid "is-signedin course grading settings"
+msgstr "được ký kết trong khóa học cài đặt chấm điểm"
+
+#: cms/templates/settings_graders.html:59
+msgid "Overall Grade Range"
+msgstr "Phạm vi tổng thể Học sinh lớp"
+
+#: cms/templates/settings_graders.html:60
+msgid "Your overall grading scale for student final gradesz"
+msgstr "Quy mô chấm điểm tổng thể của bạn thuộc các lớp cuối cùng sinh viên"
+
+#: cms/templates/settings_graders.html:95
+msgid "Grading Rules &amp; Policies"
+msgstr "Nội quy chấm điểm & Chính sách"
+
+#: cms/templates/settings_graders.html:96
+msgid "Deadlines, requirements, and logistics around grading student work"
+msgstr "Thời hạn, yêu cầu, và hậu cần xung quanh chấm điểm sinh viên làm việc"
+
+#: cms/templates/settings_graders.html:101
+msgid "Grace Period on Deadline:"
+msgstr "Grace Period on Deadline:"
+
+#: cms/templates/settings_graders.html:103
+msgid "Leeway on due dates"
+msgstr "Mất nhiều thời gian vào ngày đến hạn"
+
+#: cms/templates/settings_graders.html:112
+msgid "Assignment Types"
+msgstr "Các loại phân công"
+
+#: cms/templates/settings_graders.html:113
+msgid "Categories and labels for any exercises that are gradable"
+msgstr "Loại và nhãn hiệu cho bất kỳ bài tập là gradable"
+
+#: cms/templates/settings_graders.html:122
+msgid "New Assignment Type"
+msgstr "Loại Nhiệm vụ được giao mới"
+
+#: cms/templates/settings_graders.html:132
+msgid ""
+"Your grading settings will be used to calculate students grades and "
+"performance."
+msgstr "Thiết lập phân loại của bạn sẽ được dùng để tính điểm sinh viên và hiệu năng. "
+
+#: cms/templates/settings_graders.html:134
+msgid ""
+"Overall grade range will be used in students' final grades, which are "
+"calculated by the weighting you determine for each custom assignment type."
+msgstr "Tổng thể phạm vi học lớp sẽ được sử dụng trong cả các lớp cuối cùng của học sinh, mà được tính theo trọng bạn xác định đối với từng loại nhiệm vụ tùy chỉnh."
+
+#: cms/templates/settings_graders.html:144
+msgid "Details &amp; Schedule"
+msgstr "Chi tiết &amp; Lịch trình"
+
+#: cms/templates/signup.html:16
+msgid "Sign Up for edX Studio"
+msgstr "Đăng ký cho edX Studio"
+
+#: cms/templates/signup.html:17
+msgid "Already have a Studio Account? Sign in"
+msgstr "Đã có Tài khoản Studio? Đăng nhập"
+
+#: cms/templates/signup.html:20
+msgid ""
+"Ready to start creating online courses? Sign up below and start creating "
+"your first edX course today."
+msgstr "Sẵn sàng để bắt đầu tạo các khóa học trực tuyến? Đăng ký bên dưới và bắt đầu tạo EDX khóa học đầu tiên của bạn ngày hôm nay."
+
+#: cms/templates/signup.html:28
+msgid "Required Information to Sign Up for edX Studio"
+msgstr "Thông tin cần thiết để Đăng ký cho EDX Studio"
+
+#: cms/templates/signup.html:42
+msgid "Public Username"
+msgstr "Tên đăng nhập công cộng"
+
+#: cms/templates/signup.html:44
+msgid ""
+"This will be used in public discussions with your courses and in our edX101 "
+"support forums"
+msgstr "Điều này sẽ được sử dụng trong các cuộc thảo luận công khai với các khóa học edX101của bạn và các diễn đàn hỗ trợ của chúng tôi "
+
+#: cms/templates/signup.html:48
+msgid "Full Name"
+msgstr "Họ và tên"
+
+#: cms/templates/signup.html:54
+msgid "Your Location"
+msgstr "Địa điểm của bạn"
+
+#: cms/templates/signup.html:59
+msgid "Preferred Language"
+msgstr "Ngôn ngữ ưa thích"
+
+#: cms/templates/signup.html:66
+msgid "I agree to the Terms of Service"
+msgstr "Tôi đồng ý với Điều khoản Dịch vụ"
+
+#: cms/templates/signup.html:72
+msgid "Create My Account & Start Authoring Courses"
+msgstr "Tạo tài khoản của tôi và bắt đầu khóa học Authoring"
+
+#: cms/templates/signup.html:81
+msgid "Common Studio Questions"
+msgstr "Câu hỏi thường gặp trong Studio"
+
+#: cms/templates/signup.html:84
+msgid "Who is Studio for?"
+msgstr "Studio dành cho ai?"
+
+#: cms/templates/signup.html:85
+msgid ""
+"Studio is for anyone that wants to create online courses that leverage the "
+"global edX platform. Our users are often faculty members, teaching "
+"assistants and course staff, and members of instructional technology groups."
+msgstr "Studio là cho bất cứ ai muốn tạo ra các khóa học trực tuyến mà tận dụng nền tảng EDX toàn cầu. Người dùng của chúng tôi thường giảng viên, trợ giảng và cán bộ khóa học, và các thành viên của các nhóm công nghệ giảng dạy."
+
+#: cms/templates/signup.html:89
+msgid "How technically savvy do I need to be to create courses in Studio?"
+msgstr "Làm thế nào hiểu biết kỹ thuật tôi cần phải có để tạo ra các khóa học trong Studio?"
+
+#: cms/templates/signup.html:90
+msgid ""
+"Studio is designed to be easy to use by almost anyone familiar with common "
+"web-based authoring environments (Wordpress, Moodle, etc.). No programming "
+"knowledge is required, but for some of the more advanced features, a "
+"technical background would be helpful. As always, we are here to help, so "
+"don't hesitate to dive right in."
+msgstr "Studio được thiết kế để dễ sử dụng bởi hầu như ai cũng quen thuộc với môi trường sáng tác dựa trên web phổ biến (Wordpress, Moodle, vv.) Không có kiến thức lập trình chưa phải là cần thiết, nhưng đối với một số tính năng cao cấp hơn, một nền tảng kỹ thuật sẽ là hữu ích. Như mọi khi, chúng tôi đang ở đây để giúp đỡ, vì vậy đừng ngần ngại tham gia ngay."
+
+#: cms/templates/signup.html:94
+msgid "I've never authored a course online before. Is there help?"
+msgstr "Tôi chưa bao giờ tác giả của một khóa học trực tuyến trước đây. Có sự giúp đỡ?"
+
+#: cms/templates/signup.html:95
+msgid ""
+"Absolutely. We have created an online course, edX101, that describes some "
+"best practices: from filming video, creating exercises, to the basics of "
+"running an online course. Additionally, we're always here to help, just drop"
+" us a note."
+msgstr "Hoàn toàn. Chúng tôi đã tạo ra một khóa học trực tuyến, edX101, mô tả một số thực hành tốt nhất: từ video quay phim, các bài tập tạo ra, những điều cơ bản của chạy một khóa học trực tuyến. Ngoài ra, chúng tôi luôn ở đây để giúp đỡ, chỉ việc kéo thả ghi chú chúng tôi."
+
+#: cms/templates/static-pages.html:17
+msgid "New Static Page"
+msgstr "Trang Static mới"
+
+#: cms/templates/static-pages.html:20
+msgid "Course Info"
+msgstr "Thông tin khóa học"
+
+#: cms/templates/static-pages.html:27
+msgid "Textbook"
+msgstr "sách giáo khoa"
+
+#: cms/templates/static-pages.html:34
+msgid "Syllabus"
+msgstr "giáo trình"
+
+#: cms/templates/temp-course-landing.html:6
+msgid "Landing"
+msgstr "đặt xuống"
+
+#: cms/templates/temp-course-landing.html:7
+msgid "no-header class-landing"
+msgstr "không có tiêu đề lớp-landing"
+
+#: cms/templates/temp-course-landing.html:13
+msgid "Circuits and Electronics"
+msgstr "Mạch và Điện tử"
+
+#: cms/templates/temp-course-landing.html:14
+msgid "Massachusetts Institute of Technology"
+msgstr "Viện Công nghệ Massachusetts"
+
+#: cms/templates/temp-course-landing.html:19
+msgid "Email"
+msgstr "Email"
+
+#: cms/templates/temp-course-landing.html:23
+msgid "Forgot?"
+msgstr "Quên?"
+
+#: cms/templates/temp-course-landing.html:32
+msgid ""
+"Ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam "
+"quis nostrud. Est usus legentis in iis qui, facit eorum claritatem "
+"Investigationes demonstraverunt lectores. Vel illum dolore eu feugiat nulla "
+"facilisis at vero eros, et accumsan et iusto? Te feugait nulla facilisi nam "
+"liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming!"
+" Et quinta decima eodem modo typi qui nunc nobis, videntur parum clari fiant"
+" sollemnes in? Diam nonummy nibh euismod tincidunt exerci tation "
+"ullamcorper, suscipit lobortis nisl ut aliquip ex? Nunc putamus parum, "
+"claram anteposuerit litterarum formas humanitatis per seacula quarta decima."
+msgstr "Để quản lý và Joomla đáng tin cậy hy vọng bạn thích để giữ liên lạc Download. Có trong họ rằng việc sử dụng của người đọc, nó làm cho tìm kiếm nhọn cho sự trong sáng của độc giả của họ. Hoặc, có gì ngăn chặn anh ta tại một loạt các quy mô của thần ái tình và thêm vào một đống với người đàn ông chỉ? Rghit pclae cho danh bạ điện thoại khi chúng tôi chia tay không lựa chọn khách sạn bất thường Domingo! Và trên các loại mười lăm bây giờ những người trong cùng một cách để chúng ta, họ dường như đến để được nổi tiếng với các trang nghiêm nhưng rất ít trong? Dia tập thể dục để bù đắp cột trên trang này để hoạt động bình thường, khi một số trong số này là văn bản không? Bây giờ chúng ta suy nghĩ một chút anteposuerit rõ hơn các hình thức văn học qua các thời đại của nhân loại mười bốn."
+
+#: cms/templates/temp-course-landing.html:33
+msgid ""
+"Gothica quam nunc putamus parum claram anteposuerit litterarum formas "
+"humanitatis per seacula. Facilisi nam liber tempor cum soluta nobis "
+"eleifend."
+msgstr "Gothic hơn chúng tôi nghĩ rằng bây giờ anteposuerit hình thức văn chương ít rõ ràng qua các thời đại của nhân loại. Chất chống oxy hóa cho một cuốn sách về văn hóa phổ biến vào thời điểm đó tuân thủ các điều khoản này."
+
+#: cms/templates/temp-course-landing.html:34
+msgid "Sign Up"
+msgstr "Ghi danh"
+
+#: cms/templates/unit.html:7
+msgid "Individual Unit"
+msgstr "Đơn vị cá nhân"
+
+#: cms/templates/unit.html:8
+msgid "is-signedin course unit"
+msgstr "được ký kết trong đơn vị khóa học"
+
+#: cms/templates/unit.html:41
+msgid "You are editing a draft."
+msgstr "Bạn đang chỉnh sửa một bản thảo nháp."
+
+#: cms/templates/unit.html:46
+msgid "View the Live Version"
+msgstr "Xem phiên bản trực tuyến"
+
+#: cms/templates/unit.html:57
+msgid "Add New Component"
+msgstr "Thêm thành phần mới"
+
+#: cms/templates/unit.html:82
+msgid "Common Problem Types"
+msgstr "Các loại vấn đề chung"
+
+#: cms/templates/unit.html:85
+msgid "Advanced"
+msgstr "nâng cao"
+
+#: cms/templates/unit.html:130
+msgid "Unit Settings"
+msgstr "Cài đặt đơn vị"
+
+#: cms/templates/unit.html:140
+msgid "This unit has been published. To make changes, you must"
+msgstr "Bài học này đã được công bố. Để thay đổi, bạn phải"
+
+#: cms/templates/unit.html:140
+msgid "edit a draft"
+msgstr "chỉnh sửa một bản thảo"
+
+#: cms/templates/unit.html:141
+msgid ""
+"This is a draft of the published unit. To update the live version, you must"
+msgstr "Đây là một dự thảo của các đơn vị công bố. Để cập nhật các phiên bản trực tiếp, bạn phải"
+
+#: cms/templates/unit.html:141
+msgid "replace it with this draft"
+msgstr "thay thế nó với bản dự thảo này"
+
+#: cms/templates/unit.html:144
+msgid "This unit is scheduled to be released to <strong>students</strong>"
+msgstr "Bài học này dự kiến ​​sẽ được phát hành cho <strong>sinh viên</ strong>"
+
+#: cms/templates/unit.html:151
+msgid "Delete Draft"
+msgstr "xóa Dự thảo"
+
+#: cms/templates/unit.html:158
+msgid "Unit Location"
+msgstr "đơn vị Địa điểm"
+
+#: cms/templates/widgets/footer.html:7
+msgid "All rights reserved."
+msgstr "Tất cả các quyền."
+
+#: cms/templates/widgets/footer.html:20
+msgid "Use our feedback tool, Tender, to share your feedback"
+msgstr "Sử dụng công cụ phản hồi Tender của chúng tôi, để chia sẻ thông tin phản hồi của bạn"
+
+#: cms/templates/widgets/footer.html:20
+msgid "Contact Us"
+msgstr "Liên hệ"
+
+#: cms/templates/widgets/html-edit.html:6
+msgid "Visual"
+msgstr "Visual"
+
+#: cms/templates/widgets/html-edit.html:7
+msgid "HTML"
+msgstr "HTML"
+
+#: cms/templates/widgets/metadata-edit.html:38
+msgid "Launch Latex Source Compiler"
+msgstr "Khởi chạy trình biên dịch Latex Source "
+
+#: cms/templates/widgets/problem-edit.html:9
+#: cms/templates/widgets/problem-edit.html:39
+msgid "Heading 1"
+msgstr "Heading 1"
+
+#: cms/templates/widgets/problem-edit.html:11
+#: cms/templates/widgets/problem-edit.html:50
+msgid "Multiple Choice"
+msgstr "nhiều lựa chọn"
+
+#: cms/templates/widgets/problem-edit.html:13
+#: cms/templates/widgets/problem-edit.html:61
+msgid "Checkboxes"
+msgstr "hộp kiểm tra"
+
+#: cms/templates/widgets/problem-edit.html:15
+#: cms/templates/widgets/problem-edit.html:72
+msgid "Text Input"
+msgstr "Đầu vào văn bản"
+
+#: cms/templates/widgets/problem-edit.html:17
+#: cms/templates/widgets/problem-edit.html:81
+msgid "Numerical Input"
+msgstr "Đầu vào số"
+
+#: cms/templates/widgets/problem-edit.html:19
+#: cms/templates/widgets/problem-edit.html:90
+msgid "Dropdown"
+msgstr "thả xuống"
+
+#: cms/templates/widgets/problem-edit.html:21
+#: cms/templates/widgets/problem-edit.html:99
+msgid "Explanation"
+msgstr "giải thích"
+
+#: cms/templates/widgets/problem-edit.html:25
+msgid "Advanced Editor"
+msgstr "biên soạn nâng cao"
+
+#: cms/templates/widgets/problem-edit.html:26
+msgid "Toggle Cheatsheet"
+msgstr "chuyển đổi Cheatsheet"
+
+#: lms/templates/login.html:83
+msgid "Log Into Your Account"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+#: lms/templates/register.html:92
+#, python-format
+msgid "Welcome! Register below to create your %(platform_name)s account"
+msgstr "Chào mừng bạn! Đăng ký dưới đây để tạo ra %(platform_name)s vào tài khoản của bạn"

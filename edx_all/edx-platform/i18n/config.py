@@ -14,8 +14,7 @@ class Configuration:
     # Reads localization configuration in json format
 
     """
-    # _source_locale = 'en'
-    _source_locale = 'vi'
+    _source_locale = 'en'
 
     def __init__(self, filename):
         self._filename = filename

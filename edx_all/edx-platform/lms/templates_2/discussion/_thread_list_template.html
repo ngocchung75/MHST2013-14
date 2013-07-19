@@ -1,0 +1,37 @@
+<script type="text/template" id="thread-list-template">
+    <div class="browse-search">
+        <div class="browse is-open">
+            <a href="#" class="browse-topic-drop-icon"></a>
+            <a href="#" class="browse-topic-drop-btn"><span class="current-board">Show All Discussions</span> <span class="drop-arrow">▾</span></a>
+        </div>
+        <%include file="_filter_dropdown.html" />
+        <div class="search">
+            <form class="post-search">
+                <input type="text" placeholder="Search all discussions" class="post-search-field">
+            </form>
+        </div>
+    </div>
+    <div class="sort-bar">
+        <span class="sort-label">Sort by:</span>
+        <ul>
+            <li><a href="#" class="active" data-sort="date">date</a></li>
+            <li><a href="#" data-sort="votes">votes</a></li>
+            <li><a href="#" data-sort="comments">comments</a></li>
+        </ul>
+        
+
+        %if is_course_cohorted and is_moderator:
+        <span class="group-filter-label cohort">Show:</span>
+            <select class="group-filter-select cohort-options cohort"> 
+                <option value="all">View All</option>
+                    %for c in cohorts:
+                        <option value="${c.id}">View as ${c.name}</option>
+                    %endfor
+            </select>        
+        %endif
+    </div>
+    <div class="post-list-wrapper">
+        <ul class="post-list">
+        </ul>
+    </div>
+</script>

@@ -1,0 +1,1626 @@
+# edX translation file
+# This English source file is machine-generated. Do not check it into github
+# Copyright (C) 2013 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# ngocchung75 <ngocchung75@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-studio-cmu\n"
+"Report-Msgid-Bugs-To: translation_team@edx.org\n"
+"POT-Creation-Date: 2013-07-17 20:14+0700\n"
+"PO-Revision-Date: 2013-07-18 07:00+0000\n"
+"Last-Translator: ngocchung75 <ngocchung75@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/edx-studio-cmu/language/vi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lms/templates/admin_dashboard.html:13
+msgid "edX-wide Summary"
+msgstr "Tóm tắt edX"
+
+#: lms/templates/annotatable.html:15
+msgid "Instructions"
+msgstr "Hướng dẫn"
+
+#: lms/templates/annotatable.html:26
+msgid "Guided Discussion"
+msgstr "Hướng dẫn Thảo luận"
+
+#: lms/templates/contact.html:11
+msgid "Vision"
+msgstr "Tầm nhìn"
+
+#: lms/templates/contact.html:13 lms/templates/footer.html:24
+msgid "Press"
+msgstr "Nhấn"
+
+#: lms/templates/contact.html:14 lms/templates/footer.html:34
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: lms/templates/contact.html:22
+msgid "Class Feedback"
+msgstr "Thông tin phản hồi lớp"
+
+#: lms/templates/contact.html:23
+msgid ""
+"We are always seeking feedback to improve our courses. If you are an "
+"enrolled student and have any questions, feedback, suggestions, or any other"
+" issues specific to a particular class, please post on the discussion forums"
+" of that class."
+msgstr "Chúng tôi luôn tìm kiếm thông tin phản hồi để cải thiện các khóa học của chúng tôi. Nếu bạn là một học sinh tham gia và có thắc mắc, ý kiến ​​phản hồi, góp ý, hoặc những vấn đề khác cụ thể cho một lớp học đặc biệt, xin vui lòng gửi vào diễn đàn thảo luận của lớp đó."
+
+#: lms/templates/contact.html:25
+msgid "General Inquiries and Feedback"
+msgstr "Yêu cầu chung và Thông tin phản hồi"
+
+#: lms/templates/contact.html:26
+msgid "If you have a general question about edX please email"
+msgstr "Nếu bạn có một câu hỏi chung về edx xin vui lòng email"
+
+#: lms/templates/contact.html:26
+msgid "To see if your question has already been answered, visit our"
+msgstr "Để xem nếu câu hỏi của bạn đã được trả lời, hãy truy cập"
+
+#: lms/templates/contact.html:26
+msgid "You can also join the discussion on our"
+msgstr "Bạn cũng có thể tham gia thảo luận về"
+
+#: lms/templates/contact.html:26
+msgid ""
+"Though we may not have a chance to respond to every email, we take all "
+"feedback into consideration."
+msgstr "Mặc dù chúng tôi có thể không có cơ hội để đáp ứng tất cả các email, chúng tôi có tất cả các thông tin phản hồi xem xét."
+
+#: lms/templates/contact.html:28
+msgid "Technical Inquiries and Feedback"
+msgstr "Yêu cầu kỹ thuật và thông tin phản hồi"
+
+#: lms/templates/contact.html:29
+msgid ""
+"If you have suggestions/feedback about the overall edX platform, or are "
+"facing general technical issues with the platform (e.g., issues with email "
+"addresses and passwords), you can reach us at"
+msgstr "Nếu bạn có gợi ý/thông tin phản hồi về nền tảng edX tổng thể, hoặc đang đối mặt với tổng quát vấn đề kỹ thuật với nền tảng ( chẳng hạn như, vấn đề bằng thư điện tử địa chỉ và mật khẩu ), bạn có thể liên lạc với chúng tôi tại"
+
+#: lms/templates/contact.html:29
+msgid ""
+"For technical questions, please make sure you are using a current version of"
+" Firefox or Chrome, and include browser and version in your e-mail, as well "
+"as screenshots or other pertinent details. If you find a bug or other "
+"issues, you can reach us at the following:"
+msgstr "Cho các câu hỏi kỹ thuật, xin vui lòng chắc chắn rằng bạn đang sử dụng một phiên bản hiện tại của Firefox hoặc Chrome, và bao gồm trình duyệt và phiên bản trong e-mail của bạn, cũng như ảnh chụp màn hình hoặc các chi tiết cần thiết khác. Nếu bạn tìm thấy một lỗi hoặc các vấn đề khác, bạn có thể đến với chúng ta những điều sau đây:"
+
+#: lms/templates/contact.html:31
+msgid "Media"
+msgstr "phương tiện truyền thông"
+
+#: lms/templates/contact.html:32
+msgid "Please visit our"
+msgstr "Vui lòng truy cập"
+
+#: lms/templates/contact.html:32
+msgid "media/press page"
+msgstr "phương tiện truyền thông / trang báo chí"
+
+#: lms/templates/contact.html:32
+msgid "for more information. For any media or press inquiries, please email"
+msgstr "để biết thêm thông tin. Đối với bất kỳ phương tiện truyền thông hoặc yêu cầu báo chí, xin vui lòng gửi email"
+
+#: lms/templates/contact.html:34
+msgid "Universities"
+msgstr "Các trường đại học"
+
+#: lms/templates/contact.html:35
+msgid ""
+"If you are a university wishing to Collaborate or with questions about edX, "
+"please email"
+msgstr "Nếu bạn là một trường đại học có nhu cầu Hợp tác hoặc với những câu hỏi về điện cơ, xin vui lòng email"
+
+#: lms/templates/course_filter.html:9
+msgid "All Universities"
+msgstr "Tất cả các trường Đại học"
+
+#: lms/templates/course_filter.html:23
+msgid "All Subjects"
+msgstr "tất cả các Chuyên Ngành"
+
+#: lms/templates/course_filter.html:27
+msgid "Computer Science"
+msgstr "Khoa học máy tính"
+
+#: lms/templates/course_filter.html:30
+msgid "History"
+msgstr "Lịch sử"
+
+#: lms/templates/course_filter.html:37
+msgid "Newest"
+msgstr "Mới nhất"
+
+#: lms/templates/course_filter.html:41
+msgid "Top Rated"
+msgstr "Đánh giá cao nhất"
+
+#: lms/templates/course_filter.html:44
+msgid "Starting soonest"
+msgstr "Bắt đầu sớm nhất"
+
+#: lms/templates/dashboard.html:14
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+
+#: lms/templates/dashboard.html:141
+msgid "edit"
+msgstr "Chỉnh sửa"
+
+#: lms/templates/dashboard.html:153
+msgid "Reset Password"
+msgstr "Đặt lại mật khẩu"
+
+#: lms/templates/dashboard.html:169
+msgid "edX News"
+msgstr "Tin tức edX"
+
+#: lms/templates/dashboard.html:191
+msgid "Learn More"
+msgstr "Tìm hiểu thêm"
+
+#: lms/templates/dashboard.html:202
+msgid "Current Courses"
+msgstr "Các khóa học hiện tại"
+
+#: lms/templates/dashboard.html:255
+msgid "Register for Pearson exam"
+msgstr "Đăng ký cho kỳ thi Pearson"
+
+#: lms/templates/dashboard.html:256
+msgid "Registration for the Pearson exam is now open and will close on"
+msgstr "Đăng ký cho kỳ thi Pearson đã mở và sẽ kết thúc vào ngày"
+
+#: lms/templates/dashboard.html:263
+#: lms/templates/test_center_register.html:121
+msgid "Schedule Pearson exam"
+msgstr "Lịch trình thi Pearson"
+
+#: lms/templates/dashboard.html:264
+msgid "Registration"
+msgstr "Ghi danh"
+
+#: lms/templates/dashboard.html:264
+msgid "number:"
+msgstr "Số"
+
+#: lms/templates/dashboard.html:265
+msgid "Write this down! You will need it to schedule your exam."
+msgstr "Viết ra điều này! Bạn sẽ cần nó để lên lịch thi của bạn."
+
+#: lms/templates/dashboard.html:270
+msgid "Your registration for the Pearson exam has been rejected. Please"
+msgstr "Đăng ký của bạn cho kỳ thi Pearson đã bị từ chối. Xin vui lòng"
+
+#: lms/templates/dashboard.html:270
+msgid "see your registration status details"
+msgstr "xem chi tiết tình trạng đăng ký của bạn"
+
+#: lms/templates/dashboard.html:270
+msgid "Otherwise"
+msgstr "Cách khác"
+
+#: lms/templates/dashboard.html:270
+#: lms/templates/test_center_register.html:382
+#: lms/templates/test_center_register.html:410
+#: lms/templates/test_center_register.html:436
+#: lms/templates/test_center_register.html:481
+msgid "contact edX at exam-help@edx.org"
+msgstr "liên hệ edx tại exam-help@edx.org"
+
+#: lms/templates/dashboard.html:270
+msgid "for further help."
+msgstr "để được trợ giúp."
+
+#: lms/templates/dashboard.html:275
+msgid "Your"
+msgstr "Của bạn"
+
+#: lms/templates/dashboard.html:275
+msgid "registration for the Pearson exam"
+msgstr "đăng ký cho kỳ thi Pearson"
+
+#: lms/templates/dashboard.html:275
+msgid "is pending"
+msgstr "Đang chờ"
+
+#: lms/templates/dashboard.html:275
+msgid ""
+"Within a few days, you should see a confirmation number here, which can be "
+"used to schedule your exam."
+msgstr "Trong vòng một vài ngày, bạn sẽ thấy một số xác nhận ở đây, mà có thể được dùng để sắp xếp lịch kỳ thi của bạn."
+
+#: lms/templates/dashboard.html:298
+msgid ""
+"Final course details are being wrapped up at this time. Your final standing "
+"will be available shortly."
+msgstr "Các chi tiết về khóa học cuối cùng đang được gói gọn vào thời điểm này. Thường trực cuối cùng của bạn sẽ có một thời gian ngắn."
+
+#: lms/templates/dashboard.html:300
+msgid "Your final grade:"
+msgstr "Lớp cuối cùng của bạn:"
+
+#: lms/templates/dashboard.html:307
+msgid ""
+"Your certificate is being held pending confirmation that the issuance of "
+"your certificate is in compliance with strict U.S. embargoes on Iran, Cuba, "
+"Syria and Sudan. If you think our system has mistakenly identified you as "
+"being connected with one of those countries, please let us know by "
+"contacting"
+msgstr "Chứng chỉ của bạn được tổ chức cấp phát chính thức xác nhận việc phát hành chứng chỉ của bạn là phù hợp với lệnh cấm vận nghiêm ngặt của Mỹ vào Iran, Cuba, Syria và Sudan. Nếu bạn nghĩ rằng hệ thống của chúng tôi đã xác định nhầm lẫn như bạn đang được kết nối với một trong những quốc gia, xin vui lòng cho chúng tôi biết bằng cách liên hệ"
+
+#: lms/templates/dashboard.html:317
+msgid "Your Certificate is Generating"
+msgstr "Tạo ra Giấy chứng nhận của bạn "
+
+#: lms/templates/dashboard.html:322
+msgid "Download Your PDF Certificate"
+msgstr "Tải về Giấy chứng nhận PDF của bạn"
+
+#: lms/templates/dashboard.html:327
+msgid "Complete our course feedback survey"
+msgstr "Hoàn thành khảo sát ý kiến ​​phản hồi khóa học của chúng tôi"
+
+#: lms/templates/dashboard.html:337
+msgid "View Archived Course"
+msgstr "Xem khóa học lưu trữ"
+
+#: lms/templates/dashboard.html:339
+msgid "View Course"
+msgstr "Xem khóa học"
+
+#: lms/templates/dashboard.html:342
+msgid "Unregister"
+msgstr "chưa đăng ký"
+
+#: lms/templates/dashboard.html:351
+msgid "Looks like you haven't registered for any courses yet."
+msgstr "Có vẻ như bạn chưa đăng ký bất kỳ khóa học nào."
+
+#: lms/templates/dashboard.html:353
+msgid "Find courses now!"
+msgstr "Tìm khóa học bây giờ!"
+
+#: lms/templates/dashboard.html:360
+msgid "Course-loading errors"
+msgstr "Có lỗi trong việc tải khóa học"
+
+#: lms/templates/dashboard.html:379
+msgid "Are you sure you want to unregister from"
+msgstr "Bạn có chắc chắn bạn muốn huỷ đăng ký từ"
+
+#: lms/templates/dashboard.html:404
+msgid "Password Reset Email Sent"
+msgstr "Đặt lại mật khẩu gửi Email"
+
+#: lms/templates/dashboard.html:410
+msgid "An email has been sent to"
+msgstr "Một email đã được gửi đến"
+
+#: lms/templates/dashboard.html:410
+msgid "Follow the link in the email to change your password."
+msgstr "Thực hiện theo các liên kết trong email để thay đổi mật khẩu của bạn."
+
+#: lms/templates/dashboard.html:425
+msgid "Change Email"
+msgstr "Thay đổi Email"
+
+#: lms/templates/dashboard.html:433
+msgid "Please enter your new email address:"
+msgstr "Vui lòng nhập địa chỉ email mới của bạn:"
+
+#: lms/templates/dashboard.html:435
+msgid "Please confirm your password:"
+msgstr "Vui lòng xác nhận mật khẩu của bạn:"
+
+#: lms/templates/dashboard.html:439
+msgid "We will send a confirmation to both"
+msgstr "Chúng tôi sẽ gửi xác nhận đến cả hai"
+
+#: lms/templates/dashboard.html:439
+msgid "and your new email as part of the process."
+msgstr "và email mới của bạn như là một phần của quá trình."
+
+#: lms/templates/dashboard.html:458
+msgid "Change your name"
+msgstr "Thay đổi tên của bạn"
+
+#: lms/templates/dashboard.html:464
+msgid "To uphold the credibility of"
+msgstr "Để duy trì sự tín nhiệm của"
+
+#: lms/templates/dashboard.html:464
+msgid "certificates, all name changes will be logged and recorded."
+msgstr "giấy chứng nhận, tất cả thay đổi tên sẽ được ghi nhận và ghi lại. "
+
+#: lms/templates/dashboard.html:468
+msgid "Enter your desired full name, as it will appear on the"
+msgstr "Nhập tên đầy đủ mong muốn của bạn, vì nó sẽ xuất hiện trên"
+
+#: lms/templates/dashboard.html:468
+msgid "certificates:"
+msgstr "giấy chứng nhận"
+
+#: lms/templates/dashboard.html:470
+msgid "Reason for name change:"
+msgstr "Lý do thay đổi tên:"
+
+#: lms/templates/dashboard.html:474
+msgid "Change My Name"
+msgstr "Thay đổi tên của tôi"
+
+#: lms/templates/email_change_failed.html:8 lms/templates/email_exists.html:8
+msgid "E-mail change failed"
+msgstr "Thay đổi email không thành công"
+
+#: lms/templates/email_change_failed.html:11
+msgid "We were unable to send a confirmation email to"
+msgstr "Chúng tôi không thể gửi email xác nhận đến"
+
+#: lms/templates/email_change_failed.html:13
+#: lms/templates/email_exists.html:13 lms/templates/invalid_email_key.html:17
+msgid "Go back to the"
+msgstr "Quay trở lại"
+
+
+#: lms/templates/email_change_successful.html:10
+#: lms/templates/emails_change_successful.html:10
+msgid "E-mail change successful"
+msgstr "Thay đổi Email thành công!"
+
+#: lms/templates/email_change_successful.html:13
+#: lms/templates/emails_change_successful.html:13
+msgid "You should see your new email in your"
+msgstr "Bạn nên xem email mới của bạn trong"
+
+#: lms/templates/email_change_successful.html:13
+#: lms/templates/emails_change_successful.html:13
+msgid "dashboard"
+msgstr "Bảng điều kiển"
+
+#: lms/templates/email_exists.html:11
+msgid "An account with the new e-mail address already exists."
+msgstr "Một tài khoản với địa chỉ email mới đã tồn tại."
+
+#: lms/templates/enroll_students.html:5
+msgid "Student Enrollment Form"
+msgstr "Mẫu ghi danh sinh viên"
+
+#: lms/templates/enroll_students.html:7
+msgid "Course"
+msgstr "khóa học"
+
+#: lms/templates/enroll_students.html:11
+msgid "Add new students"
+msgstr "Thêm sinh viên mới"
+
+#: lms/templates/enroll_students.html:17
+msgid "Existing students:"
+msgstr "Sinh viên hiện có:"
+
+#: lms/templates/enroll_students.html:21
+msgid "New students added:"
+msgstr "Sinh viên mới được thêm vào:"
+
+#: lms/templates/enroll_students.html:24
+msgid "Students rejected:"
+msgstr "Từ chối sinh viên:"
+
+#: lms/templates/enroll_students.html:27
+msgid "Debug:"
+msgstr "Chỉnh lỗi:"
+
+#: lms/templates/enroll_students.html:31
+msgid "foo"
+msgstr "foo"
+
+#: lms/templates/enroll_students.html:32
+msgid "bar"
+msgstr "bar"
+
+#: lms/templates/enroll_students.html:33
+msgid "biff"
+msgstr "biff"
+
+#: lms/templates/extauth_failure.html:8 lms/templates/extauth_failure.html:11
+msgid "External Authentication failed"
+msgstr "Xác thực bên ngoài thất bại"
+
+#: lms/templates/folditchallenge.html:6
+msgid "Puzzle Leaderboard"
+msgstr "Bảng quản lý Puzzle"
+
+#: lms/templates/folditchallenge.html:10
+#: lms/templates/staff_problem_info.html:90
+msgid "User"
+msgstr "Người dùng"
+
+#: lms/templates/folditchallenge.html:11
+msgid "Score"
+msgstr "Điểm"
+
+#: lms/templates/footer.html:14 lms/templates/test_center_register.html:447
+msgid "About"
+msgstr "Nói về"
+
+#: lms/templates/footer.html:19
+msgid "Jobs"
+msgstr "việc làm"
+
+#: lms/templates/footer.html:43
+msgid ""
+"EdX is a non-profit created by founding partners Harvard and MIT whose "
+"mission is to bring the best of higher education to students of all ages "
+"anywhere in the world, wherever there is Internet access. EdX is free online"
+" MOOCs are interactive and subjects include computer science, public health,"
+" and artificial intelligence."
+msgstr "EDX là một chức phi lợi nhuận được tạo ra bởi các đối tác sáng lập Đại học Harvard và MIT có nhiệm vụ mang lại giáo dục đại học tốt nhất cho sinh viên ở mọi lứa tuổi trên toàn thế giới ở bất cứ nơi nào có kết nối Internet. EDX là MOOCs trực tuyến miễn phí có tính tương tác và bao gồm các chuyên ngành khoa học máy tính, y tế công cộng, và trí tuệ nhân tạo."
+
+#: lms/templates/footer.html:78
+msgid "2013 edX, some rights reserved."
+msgstr "2013 edx, một số quyền."
+
+#: lms/templates/footer.html:83
+msgid "Terms of Service and Honor Code"
+msgstr "Điều khoản Dịch vụ và điều luật"
+
+#: lms/templates/footer.html:86
+msgid "Privacy Policy"
+msgstr "Chính sách riêng tư"
+
+#: lms/templates/forgot_password_modal.html:9
+msgid "Password Reset"
+msgstr "Đặt lại mật khẩu"
+
+#: lms/templates/forgot_password_modal.html:13
+msgid ""
+"Please enter your e-mail address below, and we will e-mail instructions for "
+"setting a new password"
+msgstr "Vui lòng nhập địa chỉ email của bạn vào dưới đây và chúng tôi sẽ gửi hướng dẫn về email để thiết lập một mật khẩu mới."
+
+#: lms/templates/forgot_password_modal.html:18 lms/templates/login.html:111
+#: lms/templates/register.html:115
+msgid "Required Information"
+msgstr "Yêu cầu Thông tin"
+
+#: lms/templates/forgot_password_modal.html:22
+msgid "Your E-mail Address"
+msgstr "Địa chỉ E-mail của bạn"
+
+#: lms/templates/forgot_password_modal.html:24
+msgid "This is the email address you used to register with"
+msgstr "Đây là địa chỉ email mà bạn sử dụng để đăng ký với"
+
+#: lms/templates/forgot_password_modal.html:30
+msgid "Reset My Password"
+msgstr "Thiết lập lại mật khẩu của tôi"
+
+#: lms/templates/help_modal.html:13 lms/templates/help_modal.html:19
+#: lms/templates/navigation.html:78
+msgid "Help"
+msgstr "trợ giúp"
+
+#: lms/templates/help_modal.html:28
+msgid ""
+"For <strong>questions on course lectures, homework, tools, or materials for "
+"this course</strong>, post in the"
+msgstr "Đối với câu hỏi <strong> trên bài giảng khóa học, bài tập về nhà, các công cụ, hoặc vật liệu cho khóa học này </strong>, viết bài trong"
+
+#: lms/templates/help_modal.html:29
+msgid "course discussion forum"
+msgstr "diễn đàn thảo luận học"
+
+#: lms/templates/help_modal.html:33
+msgid ""
+"Have <strong>general questions about edX</strong>? You can find lots of "
+"helpful information in the edX"
+msgstr "Có <strong> câu hỏi chung về edX </ strong>? Bạn có thể tìm thấy rất nhiều thông tin hữu ích trong EDX"
+
+#: lms/templates/help_modal.html:36
+msgid ""
+"Have a <strong>question about something specific</strong>? You can contact "
+"the edX general support team directly"
+msgstr "Có một <strong>câu hỏi về một cái gì đó cụ thể</strong>? Bạn có thể liên hệ trực tiếp với nhóm hỗ trợ edx chung:"
+
+#: lms/templates/help_modal.html:40
+msgid "Report a problem"
+msgstr "Báo cáo vấn đề"
+
+#: lms/templates/help_modal.html:41
+msgid "Make a suggestion"
+msgstr "Thực hiện một gợi ý"
+
+#: lms/templates/help_modal.html:42
+msgid "Ask a question"
+msgstr "Đặt một câu hỏi"
+
+#: lms/templates/help_modal.html:59
+msgid "Name"
+msgstr "Tên"
+
+#: lms/templates/help_modal.html:64
+msgid "Briefly describe your issue"
+msgstr "Mô tả ngắn gọn vấn đề của bạn"
+
+#: lms/templates/help_modal.html:66
+msgid "Tell us the details"
+msgstr "Hãy cho chúng tôi các chi tiết"
+
+#: lms/templates/help_modal.html:67
+msgid "Include error messages, steps which lead to the issue, etc"
+msgstr "Bao gồm các thông báo lỗi, các bước dẫn đến vấn đề này, vv"
+
+#: lms/templates/help_modal.html:87
+msgid "Thank You"
+msgstr "Cảm ơn bạn"
+
+#: lms/templates/help_modal.html:96
+msgid ""
+"Thank you for your inquiry or feedback.  We typically respond to a request "
+"within one business day (Monday to Friday"
+msgstr "Cảm ơn bạn đã yêu cầu hoặc thông tin phản hồi của bạn. Chúng tôi thường trả lời yêu cầu trong vòng một ngày làm việc (Thứ Hai đến thứ Sáu"
+
+#: lms/templates/help_modal.html:97
+msgid "In the meantime, please review our"
+msgstr "Trong khi chờ đợi, xin vui lòng xem xét"
+
+#: lms/templates/help_modal.html:98
+msgid "detailed"
+msgstr "Chi tiết"
+
+#: lms/templates/help_modal.html:99
+msgid "where most questions have already been answered"
+msgstr "nơi mà hầu hết các câu hỏi đã được trả lời"
+
+#: lms/templates/index.html:16
+msgid "Free courses from <strong>Stanford</strong>"
+msgstr "Các khóa học miễn phí từ <strong>Stanford</strong>"
+
+#: lms/templates/index.html:18
+msgid "The Future of Online Education"
+msgstr "Tương lai của giáo dục trực tuyến"
+
+#: lms/templates/index.html:20
+msgid "For anyone, anywhere, anytime"
+msgstr "Cho bất cứ ai, bất cứ nơi nào, bất cứ lúc nào"
+
+
+#: lms/templates/index.html:32
+msgid "Stay up to date with all edX has to offer!"
+msgstr "Ở lại đến nay với tất cả các edx cung cấp!"
+
+#: lms/templates/index.html:61
+msgid "Explore free courses from"
+msgstr "Khám phá các khóa học miễn phí từ"
+
+#: lms/templates/index.html:61
+msgid "universities"
+msgstr "Trường Đại học"
+
+#: lms/templates/index.html:138
+msgid "University of TorontoX"
+msgstr "Đại học TorontoX"
+
+#: lms/templates/index.html:187
+msgid "News &amp; Announcements"
+msgstr "Tin tức &amp; Thông báo"
+
+#: lms/templates/invalid_email_key.html:9
+msgid "Invalid email change key"
+msgstr "key thay đổi email không hợp lệ"
+
+#: lms/templates/invalid_email_key.html:11
+msgid "This e-mail key is not valid. Please check"
+msgstr "e-mail chính này là không hợp lệ. Vui lòng kiểm tra"
+
+#: lms/templates/invalid_email_key.html:13
+msgid ""
+"Was this key already used? Check whether the e-mail change has already "
+"happened"
+msgstr "Key này đã được sử dụng? Kiểm tra xem sự thay đổi đã xảy ra trong email"
+
+#: lms/templates/invalid_email_key.html:14
+msgid "Did your e-mail client break the URL into two lines"
+msgstr "Máy trạm dùng thư điện tử của bạn chia nhỏ URL thành hai tuyến?  "
+
+#: lms/templates/invalid_email_key.html:15
+msgid "The keys are valid for a limited amount of time. Has the key expired"
+msgstr "Khóa hợp lệ trong một giới hạn thời gian. Khóa dã hết hạn?"
+
+#: lms/templates/login.html:10
+msgid "Log into your"
+msgstr "Đăng nhập vào"
+
+#: lms/templates/login.html:10 lms/templates/login.html:71
+msgid "Account"
+msgstr "Tài khoản"
+
+#: lms/templates/login.html:71
+msgid "Log into My"
+msgstr "Đăng nhập vào"
+
+#: lms/templates/login.html:71
+msgid "Access My Courses"
+msgstr "Truy cập Khóa Học của tôi"
+
+#: lms/templates/login.html:85
+msgid "Log Into Your Account"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+#: lms/templates/login.html:95
+msgid "We're Sorry"
+msgstr "Chúng tôi xin lỗi"
+
+#: lms/templates/login.html:95
+msgid "accounts are unavailable currently"
+msgstr "tài khoản hiện nay không có sẵn"
+
+#: lms/templates/login.html:96 lms/templates/register.html:101
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor "
+"sit amet, consectetuer adipiscing elit"
+msgstr "Chúng tôi sẽ có sẵn, xin vui lòng liên hệ với chúng tôi. Chúng tôi sẽ có sẵn, xin vui lòng liên hệ với chúng tôi."
+
+#: lms/templates/login.html:100
+msgid "The following errors occured while logging you in"
+msgstr "Các lỗi sau đây xảy ra trong khi đăng nhập bạn trong"
+
+#: lms/templates/login.html:102
+msgid "Your email or password is incorrect"
+msgstr "Email hoặc mật khẩu của bạn là không chính xác"
+
+#: lms/templates/login.html:107
+msgid "Please provide the following information to log into your"
+msgstr "Vui lòng cung cấp các thông tin sau để đăng nhập vào của bạn"
+
+#: lms/templates/login.html:107
+msgid "account. Required fields are noted by"
+msgstr "tài khoản. Các trường bắt buộc được ghi chú bởi"
+
+#: lms/templates/login.html:107 lms/templates/register.html:111
+#: lms/templates/test_center_register.html:165
+#: lms/templates/test_center_register.html:169
+msgid "bold text and an asterisk"
+msgstr "chữ in đậm và dấu sao"
+
+#: lms/templates/login.html:119 lms/templates/login_modal.html:19
+#: lms/templates/provider_login.html:45 lms/templates/register.html:125
+#: lms/templates/signup_modal.html:30
+msgid "Password"
+msgstr "Mật khẩu"
+
+
+
+#: lms/templates/login.html:129
+msgid "Account Preferences"
+msgstr "Tuỳ chọn tài khoản"
+
+#: lms/templates/login.html:134
+msgid "Remember me"
+msgstr "Nhớ tôi"
+
+#: lms/templates/login.html:152
+msgid "Helpful Information"
+msgstr "Thông tin hữu ích"
+
+#: lms/templates/login.html:164
+msgid "Not Enrolled?"
+msgstr "Không đăng ký tham gia?"
+
+#: lms/templates/login.html:165
+msgid "Sign up for"
+msgstr "Đăng ký cho"
+
+#: lms/templates/login.html:165
+msgid "today!"
+msgstr "Hôm nay"
+
+
+
+#: lms/templates/login.html:170
+msgid "Looking for help in logging in or with your"
+msgstr "Tìm kiếm sự giúp đỡ trong cách đăng nhập hoặc với bạn"
+
+#: lms/templates/login.html:170 lms/templates/register.html:90
+msgid "account"
+msgstr "Tài khoản"
+
+#: lms/templates/login.html:172
+msgid "View our help section for answers to commonly asked questions"
+msgstr "Xem phần trợ giúp của chúng tôi cho câu trả lời cho câu hỏi thường gặp."
+
+#: lms/templates/login_modal.html:11 lms/templates/provider_login.html:36
+msgid "Log In"
+msgstr "Đăng nhập"
+
+#: lms/templates/login_modal.html:34
+msgid "Not enrolled?"
+msgstr "Không đăng ký?"
+
+#: lms/templates/login_modal.html:34
+msgid "Sign up"
+msgstr "Đăng ký"
+
+#: lms/templates/login_modal.html:35
+msgid "Forgot password"
+msgstr "Quên mật khẩu"
+
+#: lms/templates/login_modal.html:39
+msgid "login via openid"
+msgstr "đăng nhập qua openid"
+
+#: lms/templates/main.html:24
+msgid "Home | class.stanford.edu"
+msgstr "Trang chủ | class.stanford.edu"
+
+#: lms/templates/module-error.html:5
+msgid "There has been an error on the"
+msgstr "Hiện đã có một lỗi trên"
+
+#: lms/templates/module-error.html:6
+msgid ""
+"We're sorry, this module is temporarily unavailable. Our staff is working to"
+" fix it as soon as possible. Please email us at"
+msgstr "Chúng tôi xin lỗi, chức năng này là tạm thời không có. Nhân viên của chúng tôi đang làm việc để sửa chữa nó càng sớm càng tốt. Xin vui lòng email cho chúng tôi"
+
+#: lms/templates/module-error.html:6
+msgid "to report any problems or downtime"
+msgstr "báo cáo bất kỳ vấn đề hoặc thời gian chết."
+
+#: lms/templates/module-error.html:9
+msgid "Details"
+msgstr "Chi tiết"
+
+#: lms/templates/module-error.html:11
+msgid "Error"
+msgstr "Lỗi:"
+
+#: lms/templates/module-error.html:17
+msgid "Raw data"
+msgstr "Dữ liệu"
+
+#: lms/templates/navigation.html:63
+msgid "Find Courses"
+msgstr "Tìm khóa học"
+
+#: lms/templates/navigation.html:71
+msgid "Dashboard for"
+msgstr "Bảng điều khiển cho"
+
+#: lms/templates/navigation.html:75
+msgid "More options dropdown"
+msgstr "Các tuỳ chọn thả xuống"
+
+#: lms/templates/navigation.html:80
+msgid "Log Out"
+msgstr "Đăng xuất"
+
+#: lms/templates/navigation.html:90
+msgid "How it Works"
+msgstr "Cách thức hoạt động"
+
+#: lms/templates/navigation.html:93
+msgid "Courses"
+msgstr "Các khóa học"
+
+#: lms/templates/navigation.html:96
+msgid "Schools"
+msgstr "trường học"
+
+#: lms/templates/navigation.html:103 lms/templates/navigation.html:107
+msgid "Register Now"
+msgstr "đăng ký ngay"
+
+#: lms/templates/navigation.html:117 lms/templates/navigation.html:119
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: lms/templates/navigation.html:128
+msgid ""
+"<strong>Warning:</strong> Your browser is not fully supported. We strongly "
+"recommend using "
+msgstr "<strong>Cảnh báo:</strong> Trình duyệt của bạn không hỗ trợ đầy đủ. Chúng tôi đề nghị sử dụng"
+
+#: lms/templates/navigation.html:128
+msgid "or"
+msgstr "hoặc"
+
+#: lms/templates/notes.html:60
+msgid "My Notes"
+msgstr "Ghi chú của tôi"
+
+#: lms/templates/notes.html:67
+msgid "Tags"
+msgstr "Tags"
+
+#: lms/templates/notes.html:69
+msgid "Author"
+msgstr "Tác giả"
+
+#: lms/templates/notes.html:70
+msgid "Created"
+msgstr "tạo ra"
+
+#: lms/templates/notes.html:71
+msgid "Source"
+msgstr "Source"
+
+#: lms/templates/notes.html:76
+msgid "You do not have any notes"
+msgstr "Bạn không có bất kỳ ghi chú"
+
+#: lms/templates/problem.html:29
+msgid "Show Answer(s)"
+msgstr "Hiện trả lời(s)"
+
+#: lms/templates/problem.html:29
+msgid "(for question(s) above - adjacent to each field)"
+msgstr "(đối với câu hỏi(s) trên - liền kề với mỗi lĩnh vực)"
+
+#: lms/templates/problem.html:33
+msgid "You have used"
+msgstr "Bạn đã sử dụng"
+
+#: lms/templates/problem.html:33
+msgid "of"
+msgstr "của"
+
+#: lms/templates/problem.html:33
+msgid "submissions"
+msgstr "submissions"
+
+#: lms/templates/provider_login.html:41
+msgid "Email or password is incorrect."
+msgstr "Email hoặc mật khẩu không đúng."
+
+#: lms/templates/register.html:18
+msgid "Register for"
+msgstr "đăng ký"
+
+#: lms/templates/register.html:90
+msgid "Welcome! Register below to create your"
+msgstr "Chào mừng bạn! Đăng ký dưới đây để tạo ra"
+
+#: lms/templates/register.html:100
+msgid "We're sorry"
+msgstr "Chúng tôi xin lỗi"
+
+#: lms/templates/register.html:100
+msgid "enrollment is not available in your region"
+msgstr "ghi danh không có sẵn trong khu vực của bạn"
+
+#: lms/templates/register.html:105
+msgid "The following errors occured while processing your registration"
+msgstr "Các lỗi sau đây xảy ra trong khi xử lý đăng ký của bạn"
+
+#: lms/templates/register.html:110
+msgid "Please complete the following fields to register for an account"
+msgstr "Vui lòng điền vào các lĩnh vực sau đây để đăng ký một tài khoản."
+
+#: lms/templates/register.html:111
+msgid "Required fields are noted by"
+msgstr "Các trường bắt buộc được ghi chú bởi"
+
+
+
+#: lms/templates/register.html:131 lms/templates/register.html:162
+msgid "Will be shown in any discussions or forums you participate in"
+msgstr "Sẽ được hiển thị trong bất kỳ cuộc thảo luận hoặc các diễn đàn bạn tham gia vào"
+
+#: lms/templates/register.html:136 lms/templates/register.html:170
+msgid ""
+"Needed for any certificates you may earn <strong>(cannot be changed "
+"later)</strong>"
+msgstr "Cần thiết cho bất kỳ giấy chứng nhận bạn có thể kiếm được <strong> (không có thể được thay đổi sau này) </ strong>"
+
+
+#: lms/templates/register.html:144 lms/templates/signup_modal.html:40
+msgid "Enter a public username:"
+msgstr "Nhập tên người dùng công khai:"
+
+#: lms/templates/register.html:181 lms/templates/register.html:219
+msgid "Optional Personal Information"
+msgstr "Tùy chọn thông tin cá nhân"
+
+#: lms/templates/register.html:186
+msgid "Highest Level of Education Completed"
+msgstr "Mức cao nhất của học vấn đã hoàn thành"
+
+#: lms/templates/register.html:196 lms/templates/signup_modal.html:73
+msgid "Gender"
+msgstr "Giới tính"
+
+#: lms/templates/register.html:206
+msgid "Year of Birth"
+msgstr "Năm sinh của"
+
+#: lms/templates/register.html:223 lms/templates/test_center_register.html:208
+msgid "Mailing Address"
+msgstr "địa chỉ gửi thư"
+
+#: lms/templates/register.html:228
+msgid "Please share with us your reasons for registering with"
+msgstr "Xin vui lòng chia sẻ với chúng tôi lý do của bạn để đăng ký với"
+
+#: lms/templates/register.html:235
+msgid "Account Acknowledgements"
+msgstr "Lời cảm ơn tài khoản"
+
+#: lms/templates/register.html:244 lms/templates/register.html:258
+#: lms/templates/signup_modal.html:108 lms/templates/signup_modal.html:114
+msgid "I agree to the"
+msgstr "Tôi đồng ý với"
+
+#: lms/templates/register.html:244 lms/templates/signup_modal.html:109
+msgid "Terms of Service"
+msgstr "Điều khoản Dịch vụ"
+
+#: lms/templates/register.html:258 lms/templates/signup_modal.html:115
+msgid "Honor Code"
+msgstr "Mã danh dự"
+
+#: lms/templates/register.html:270
+msgid "Register"
+msgstr "đăng ký"
+
+#: lms/templates/register.html:270
+msgid "Create My Account"
+msgstr "Tạo tài khoản của tôi"
+
+#: lms/templates/register.html:277
+msgid "Registration Help"
+msgstr "Giúp đỡ đăng ký"
+
+#: lms/templates/register.html:283
+msgid "Already registered?"
+msgstr "Đã đăng ký?"
+
+#: lms/templates/register.html:286
+msgid "Click here to log in."
+msgstr "Bấm vào đây để đăng nhập"
+
+
+#: lms/templates/register.html:298
+msgid "Registering with"
+msgstr "đăng ký với"
+
+#: lms/templates/register.html:298
+msgid ""
+"gives you access to all of our current and future free courses. Not ready to"
+" take a course just yet? Registering puts you on our mailing list - we will "
+"update you as courses are added"
+msgstr "cung cấp cho bạn truy cập vào tất cả các khóa học miễn phí hiện tại và tương lai của chúng tôi. Không sẵn sàng để tham gia một khóa chỉ được nêu ra? Việc đăng ký đặt bạn vào danh sách gửi thư của chúng tôi - chúng tôi sẽ cập nhật cho bạn như các khóa học được thêm vào"
+
+#: lms/templates/register.html:303
+msgid "Next Steps"
+msgstr "Các bước tiếp theo"
+
+#: lms/templates/register.html:305
+msgid ""
+"You will receive an activation email.  You must click on the activation link"
+" to complete the process.  Don't see the email?  Check your spam folder and "
+"mark emails from class.stanford.edu as 'not spam', since you'll want to be "
+"able to receive email from your courses"
+msgstr "Bạn sẽ nhận được một email kích hoạt. Bạn phải nhấp vào liên kết kích hoạt để hoàn tất quá trình. Không thấy email? Kiểm tra thư mục thư rác của bạn và đánh dấu các email từ class.stanford.edu là \"không spam ', vì bạn sẽ muốn có thể nhận email từ các khóa học của bạn"
+
+#: lms/templates/register.html:307
+msgid "As part of joining"
+msgstr "Như là một phần của việc gia nhập"
+
+#: lms/templates/register.html:307
+msgid ""
+"you will receive an activation email.  You must click on the activation link"
+" to complete the process.  Don't see the email?  Check your spam folder and "
+"mark"
+msgstr "bạn sẽ nhận được một email kích hoạt. Bạn phải nhấp vào liên kết kích hoạt để hoàn tất quá trình. Không thấy email? Kiểm tra thư mục thư rác của bạn và đánh dấu"
+
+#: lms/templates/register.html:307
+msgid "emails as 'not spam'"
+msgstr "email là \"không spam '"
+
+#: lms/templates/register.html:307
+msgid "we communicate mostly through email"
+msgstr "chúng ta giao tiếp chủ yếu là thông qua email"
+
+#: lms/templates/register.html:313
+msgid "Need Help"
+msgstr "cần giúp đỡ"
+
+#: lms/templates/register.html:314
+msgid "Need help in registering with"
+msgstr "Cần giúp đỡ trong việc đăng ký với"
+
+#: lms/templates/register.html:316
+msgid "View our FAQs for answers to commonly asked questions"
+msgstr "Xem Câu Hỏi Thường Gặp của chúng tôi đối với câu trả lời cho câu hỏi thường gặp"
+
+#: lms/templates/register.html:318
+msgid ""
+"Once registered, most questions can be answered in the course specific "
+"discussion forums or through the FAQs"
+msgstr "Sau khi đăng ký, hầu hết các câu hỏi có thể được trả lời trong các diễn đàn thảo luận cụ thể khóa học hoặc thông qua các câu hỏi thường gặp."
+
+#: lms/templates/seq_module.html:8 lms/templates/seq_module.html:42
+msgid "Previous"
+msgstr "Trước"
+
+#: lms/templates/seq_module.html:31 lms/templates/seq_module.html:43
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: lms/templates/signup_modal.html:16
+msgid "Sign Up for"
+msgstr "Đăng ký cho"
+
+#: lms/templates/signup_modal.html:61
+msgid "Ed. Completed"
+msgstr "Hoàn thành"
+
+#: lms/templates/signup_modal.html:85
+msgid "Year of birth"
+msgstr "Năm sinh của"
+
+#: lms/templates/signup_modal.html:97
+msgid "Mailing address"
+msgstr "địa chỉ gửi thư"
+
+#: lms/templates/signup_modal.html:100
+msgid "Goals in signing up for edX"
+msgstr "Mục tiêu trong đăng ký EDX"
+
+#: lms/templates/signup_modal.html:127
+msgid "Already have an account?"
+msgstr "Đã có tài khoản?"
+
+#: lms/templates/signup_modal.html:127
+msgid "Login."
+msgstr "Đăng nhập"
+
+
+#: lms/templates/staff_problem_info.html:21
+msgid "Staff Debug Info"
+msgstr "Thông tin nhân viên gỡ lỗi"
+
+#: lms/templates/staff_problem_info.html:25
+msgid "Submission history"
+msgstr "Lịch sử Submission"
+
+#: lms/templates/staff_problem_info.html:31
+msgid "edX Content Quality Assessment"
+msgstr "EDX đánh giá chất lượng nội dung"
+
+#: lms/templates/staff_problem_info.html:35
+msgid "Comment"
+msgstr "Lời bình luận"
+
+#: lms/templates/staff_problem_info.html:38
+msgid "Optional tag"
+msgstr "thẻ tùy chọn"
+
+#: lms/templates/staff_problem_info.html:41
+msgid "Add comment"
+msgstr "Thêm bình luận"
+
+#: lms/templates/staff_problem_info.html:53
+msgid "Staff Debug"
+msgstr "nhân viên gỡ lỗi"
+
+#: lms/templates/staff_problem_info.html:59
+msgid "Module Fields"
+msgstr "mô-đun lĩnh vực"
+
+#: lms/templates/staff_problem_info.html:65
+msgid "edX Fields"
+msgstr "lĩnh vực edX"
+
+#: lms/templates/staff_problem_info.html:71
+msgid "XML attributes"
+msgstr "thuộc tính XML"
+
+#: lms/templates/staff_problem_info.html:87
+msgid "Submission History Viewer"
+msgstr "Xem lịch sử Submission"
+
+#: lms/templates/staff_problem_info.html:94
+msgid "View History"
+msgstr "Xem lịch sử"
+
+#: lms/templates/static_pdfbook.html:11 lms/templates/staticbook.html:7
+msgid "Textbook"
+msgstr "sách giáo khoa"
+
+#: lms/templates/static_pdfbook.html:58
+msgid "Page"
+msgstr "Trang"
+
+#: lms/templates/static_pdfbook.html:68
+msgid "Zoom Out"
+msgstr "Giảm kích thước"
+
+#: lms/templates/static_pdfbook.html:72
+msgid "Zoom In"
+msgstr "Tăng kích thước"
+
+#: lms/templates/static_pdfbook.html:122 lms/templates/staticbook.html:116
+msgid "Previous page"
+msgstr "trang trước"
+
+#: lms/templates/static_pdfbook.html:125 lms/templates/staticbook.html:119
+msgid "Next page"
+msgstr "Trang sau"
+
+#: lms/templates/staticbook.html:75
+msgid "close"
+msgstr "Đóng"
+
+#: lms/templates/test_center_register.html:15
+msgid "earson VUE Test Center Proctoring - Registration"
+msgstr "earson VUE Trung tâm thử nghiệm Proctoring - Đăng ký"
+
+#: lms/templates/test_center_register.html:103
+msgid "Your Pearson VUE Proctored Exam Registration"
+msgstr "Pearson VUE Proctored đăng ký thi của bạn"
+
+#: lms/templates/test_center_register.html:105
+msgid "Register for a Pearson VUE Proctored Exam"
+msgstr "Đăng ký thi một Pearson VUE Proctored"
+
+#: lms/templates/test_center_register.html:119
+msgid "Your registration for the Pearson exam has been processed"
+msgstr "Đăng ký của bạn cho kỳ thi Pearson đã được xử lý"
+
+#: lms/templates/test_center_register.html:120
+msgid "Your registration number is"
+msgstr "Số đăng ký của bạn"
+
+#: lms/templates/test_center_register.html:120
+msgid "(Write this down! You'll need it to schedule your exam.)"
+msgstr "(Viết ra điều này! Bạn sẽ cần nó để lên lịch thi của bạn.)"
+
+#: lms/templates/test_center_register.html:127
+msgid "Your demographic information contained an error and was rejected"
+msgstr "Thông tin cá nhân của bạn có lỗi và đã bị từ chối"
+
+#: lms/templates/test_center_register.html:128
+msgid ""
+"Please check the information you provided, and correct the errors noted "
+"below."
+msgstr "Vui lòng kiểm tra thông tin mà bạn cung cấp và sửa chữa các lỗi lưu ý dưới đây."
+
+#: lms/templates/test_center_register.html:134
+msgid "Your registration for the Pearson exam has been rejected"
+msgstr "Đăng ký của bạn cho kỳ thi Pearson đã bị từ chối"
+
+#: lms/templates/test_center_register.html:135
+msgid "Please see your"
+msgstr "Xin vui lòng xem"
+
+#: lms/templates/test_center_register.html:135
+msgid "registration status"
+msgstr "tình trạng đăng ký"
+
+#: lms/templates/test_center_register.html:135
+msgid "details for more information."
+msgstr "chi tiết để biết thêm thông tin."
+
+#: lms/templates/test_center_register.html:141
+msgid "Your registration for the Pearson exam is pending"
+msgstr "Đăng ký của bạn cho kỳ thi Pearson đang chờ"
+
+#: lms/templates/test_center_register.html:142
+msgid ""
+"Once your information is processed, it will be forwarded to Pearson and you "
+"will be able to schedule an exam."
+msgstr "Đăng ký dự thi của bạn đang chờ. Sau khi thông tin được xử lý, nó sẽ được chuyển tiếp đến Pearson và bạn sẽ có thể để sắp xếp một kỳ thi."
+
+#: lms/templates/test_center_register.html:150
+msgid "Registration Form"
+msgstr "Mẫu đăng ký"
+
+#: lms/templates/test_center_register.html:158
+msgid "Registration for this Pearson exam is closed"
+msgstr "Đăng ký dự thi Pearson này được đóng lại"
+
+#: lms/templates/test_center_register.html:159
+msgid ""
+"Your previous information is available below, however you may not edit any "
+"of the information."
+msgstr "Thông tin trước đó của bạn có sẵn bên dưới, tuy nhiên bạn có thể không chỉnh sửa bất kỳ thông tin."
+
+#: lms/templates/test_center_register.html:165
+msgid ""
+"Please use the following form if you need to update your demographic "
+"information used in your Pearson VUE Proctored Exam. Required fields are "
+"noted by "
+msgstr "Vui lòng sử dụng các hình thức sau đây nếu bạn cần phải cập nhật thông tin cá nhân của bạn được sử dụng trong Pearson VUE Proctored của bạn thi. Các trường bắt buộc được ghi nhận"
+
+#: lms/templates/test_center_register.html:169
+msgid ""
+"Please provide the following demographic information to register for a "
+"Pearson VUE Proctored Exam. Required fields are noted by"
+msgstr "Vui lòng cung cấp thông tin cá nhân sau để đăng ký cho một kỳ thi Pearson VUE Proctored.  Các trường bắt buộc được ghi nhận"
+
+#: lms/templates/test_center_register.html:181
+msgid "Personal Information"
+msgstr "Thông tin cá nhân"
+
+#: lms/templates/test_center_register.html:185
+msgid "Salutation"
+msgstr "Lời chào"
+
+#: lms/templates/test_center_register.html:189
+msgid "First Name"
+msgstr "Tên họ "
+
+#: lms/templates/test_center_register.html:193
+msgid "Middle Name"
+msgstr "Tên lót"
+
+#: lms/templates/test_center_register.html:197
+msgid "Last Name"
+msgstr "Tên"
+
+#: lms/templates/test_center_register.html:201
+msgid "Suffix"
+msgstr "Suffix"
+
+#: lms/templates/test_center_register.html:212
+#: lms/templates/test_center_register.html:217
+#: lms/templates/test_center_register.html:221
+msgid "Address Line"
+msgstr "địa chỉ đường"
+
+#: lms/templates/test_center_register.html:226
+msgid "City"
+msgstr "thành phố"
+
+#: lms/templates/test_center_register.html:231
+msgid "State/Province"
+msgstr "Tiểu bang / tỉnh"
+
+#: lms/templates/test_center_register.html:235
+msgid "Postal Code"
+msgstr "Mã bưu chính"
+
+#: lms/templates/test_center_register.html:239
+msgid "Country Code"
+msgstr "mã quốc gia"
+
+#: lms/templates/test_center_register.html:247
+msgid "Contact Other Information"
+msgstr "Thông tin liên hệ khác"
+
+#: lms/templates/test_center_register.html:252
+msgid "Phone Number"
+msgstr "Số điện thoại"
+
+#: lms/templates/test_center_register.html:256
+msgid "Extension"
+msgstr "mở rộng"
+
+#: lms/templates/test_center_register.html:260
+msgid "Phone Country Code"
+msgstr "Mã điện thoại quốc gia"
+
+#: lms/templates/test_center_register.html:266
+msgid "Fax Number"
+msgstr "Số fax"
+
+#: lms/templates/test_center_register.html:270
+msgid "Fax Country Code"
+msgstr "Mã fax quốc gia"
+
+#: lms/templates/test_center_register.html:275
+msgid "Company"
+msgstr "Công ty"
+
+#: lms/templates/test_center_register.html:292
+#: lms/templates/test_center_register.html:295
+msgid "Note"
+msgstr "Lời ghi chú"
+
+#: lms/templates/test_center_register.html:292
+msgid ""
+"Your previous accommodation request below needs to be reviewed in detail"
+msgstr "Yêu cầu chỗ ở trước đây của bạn bên dưới cần được duyệt lại chi tiết"
+
+#: lms/templates/test_center_register.html:292
+msgid "and will add a significant delay to your registration process"
+msgstr "và sẽ bổ sung thêm một sự chậm trễ đáng kể cho quá trình đăng ký của bạn"
+
+#: lms/templates/test_center_register.html:295
+msgid "Accommodation requests are not part of your demographic information,"
+msgstr "Yêu cầu các nơi ở không phải là một phần của thông tin cá nhân của bạn,"
+
+#: lms/templates/test_center_register.html:295
+msgid "and cannot be changed once submitted"
+msgstr "và không thể thay đổi một khi đã gửi"
+
+#: lms/templates/test_center_register.html:295
+msgid "Accommodation requests, which are reviewed on a case-by-case basis,"
+msgstr "Yêu cầu chỗ ở, được xem xét trên cơ sở từng trường hợp cụ thể,"
+
+#: lms/templates/test_center_register.html:295
+msgid "will add significant delay to the registration process"
+msgstr "sẽ thêm sự chậm trễ đáng kể cho quá trình đăng ký"
+
+#: lms/templates/test_center_register.html:299
+msgid "Optional Information"
+msgstr "Thông tin bắt buộc"
+
+#: lms/templates/test_center_register.html:305
+#: lms/templates/test_center_register.html:311
+msgid "Accommodations Requested"
+msgstr "phòng nghỉ được yêu cầu"
+
+#: lms/templates/test_center_register.html:321
+msgid "Update Demographics"
+msgstr "Cập nhật nhân khẩu học"
+
+#: lms/templates/test_center_register.html:322
+msgid "Cancel Update"
+msgstr "Hủy cập nhật"
+
+#: lms/templates/test_center_register.html:324
+msgid "Register for Pearson VUE Test"
+msgstr " Kiểm tra đăng ký cho Pearson VUE"
+
+#: lms/templates/test_center_register.html:325
+msgid "Cancel Registration"
+msgstr "hủy bỏ đăng ký"
+
+#: lms/templates/test_center_register.html:337
+msgid "Special"
+msgstr "Đặc biệt"
+
+#: lms/templates/test_center_register.html:337
+#: lms/templates/test_center_register.html:340
+msgid "Accommodations"
+msgstr "chổ ở"
+
+#: lms/templates/test_center_register.html:356
+msgid "Pearson Exam Registration Status"
+msgstr "Tình trạng đăng ký thi Pearson "
+
+#: lms/templates/test_center_register.html:362
+#: lms/templates/test_center_register.html:368
+#: lms/templates/test_center_register.html:374
+msgid "Demographic Information"
+msgstr "Thông tin nhân khẩu học"
+
+#: lms/templates/test_center_register.html:369
+msgid ""
+"The demographic information you most recently provided has been processed. "
+"You may edit this information at any point before exam registration closes "
+"on"
+msgstr "Các thông tin cá nhân bạn gần đây nhất được cung cấp đã được xử lý. Bạn có thể chỉnh sửa thông tin này bất cứ lúc nào trước khi đăng ký dự thi kết thúc vào ngày"
+
+#: lms/templates/test_center_register.html:375
+msgid ""
+"The demographic information you most recently provided has been rejected by "
+"Pearson. You can correct and submit it again before the exam registration "
+"closes on"
+msgstr "Các thông tin cá nhân bạn gần đây nhất được cung cấp đã bị từ chối bởi Pearson. Bạn có thể chỉnh sửa và nộp lại một lần nữa trước khi đăng ký dự thi kết thúc vào ngày"
+
+#: lms/templates/test_center_register.html:376
+msgid "The error message is:"
+msgstr "Các thông báo lỗi là:"
+
+#: lms/templates/test_center_register.html:382
+msgid ""
+"If the error is not correctable by revising your demographic information, "
+"please"
+msgstr "Nếu lỗi là không thể sửa chữa được bằng cách sửa đổi thông tin cá nhân của bạn, xin vui lòng"
+
+#: lms/templates/test_center_register.html:389
+#: lms/templates/test_center_register.html:395
+#: lms/templates/test_center_register.html:407
+msgid "Accommodations Request"
+msgstr "Yêu cầu phòng nghỉ"
+
+#: lms/templates/test_center_register.html:390
+msgid ""
+"Your requested accommodations are pending. Within a few days, you should see"
+" confirmation here of granted accommodations."
+msgstr "Phòng ở yêu cầu của bạn đang chờ. Trong vòng một vài ngày, bạn sẽ thấy xác nhận của phòng cấp ở đây "
+
+#: lms/templates/test_center_register.html:396
+msgid ""
+"Your requested accommodations have been reviewed and processed. You are "
+"allowed:"
+msgstr "Phòng ở yêu cầu của bạn đã được xem xét và xử lý. Bạn được phép:"
+
+#: lms/templates/test_center_register.html:408
+msgid ""
+"Your requested accommodations have been reviewed and processed. You are "
+"allowed no accommodations."
+msgstr "Phòng ở yêu cầu của bạn đã được xem xét và xử lý. Bạn được phép không thích nghi."
+
+#: lms/templates/test_center_register.html:410
+#: lms/templates/test_center_register.html:436
+msgid "Please"
+msgstr "Vui lòng"
+
+#: lms/templates/test_center_register.html:410
+msgid "if you have any questions."
+msgstr "nếu bạn có bất kỳ câu hỏi."
+
+#: lms/templates/test_center_register.html:417
+#: lms/templates/test_center_register.html:423
+#: lms/templates/test_center_register.html:429
+msgid "Registration Request"
+msgstr "Yêu cầu đăng ký"
+
+#: lms/templates/test_center_register.html:418
+msgid ""
+"Your exam registration is pending. Once your information is processed, it "
+"will be forwarded to Pearson and you will be able to schedule an exam."
+msgstr "Đăng ký dự thi của bạn đang chờ. Sau khi thông tin được xử lý, nó sẽ được chuyển tiếp đến Pearson và bạn sẽ có thể để sắp xếp một kỳ thi."
+
+#: lms/templates/test_center_register.html:424
+msgid ""
+"Your exam registration has been processed and has been forwarded to Pearson."
+msgstr "Đăng ký dự thi của bạn đã được xử lý và đã được chuyển tiếp đến Pearson."
+
+#: lms/templates/test_center_register.html:424
+msgid "You are now able to"
+msgstr "Bây giờ bạn có thể"
+
+#: lms/templates/test_center_register.html:424
+msgid "schedule a Pearson exam"
+msgstr "sắp xếp một kỳ thi Pearson"
+
+#: lms/templates/test_center_register.html:430
+msgid "Your exam registration has been rejected by Pearson."
+msgstr "Đăng ký dự thi của bạn đã bị từ chối bởi Pearson."
+
+#: lms/templates/test_center_register.html:430
+msgid "You currently cannot schedule an exam"
+msgstr "Hiện tại bạn không thể sắp xếp một kỳ thi"
+
+#: lms/templates/test_center_register.html:430
+msgid "The errors found include:"
+msgstr "Các lỗi được tìm thấy bao gồm:"
+
+#: lms/templates/test_center_register.html:452
+msgid "Course Started"
+msgstr "Bắt đầu khóa học"
+
+#: lms/templates/test_center_register.html:454
+msgid "Course Starts"
+msgstr "Bắt đầu khóa học"
+
+#: lms/templates/test_center_register.html:460
+msgid "Pearson VUE Test Details"
+msgstr "Kiểm tra chi tiết Pearson VUE "
+
+#: lms/templates/test_center_register.html:464
+msgid "Exam Name"
+msgstr "Tên kỳ thi"
+
+#: lms/templates/test_center_register.html:467
+msgid "First Eligible Appointment Date"
+msgstr "Lần đầu tiên đủ điều kiện bổ nhiệm ngày"
+
+#: lms/templates/test_center_register.html:470
+msgid "Last Eligible Appointment Date"
+msgstr "Lần cuối cùng đủ điều kiện bổ nhiệm ngày"
+
+#: lms/templates/test_center_register.html:473
+msgid "Registration Ends"
+msgstr "Đăng ký kết thúc"
+
+#: lms/templates/test_center_register.html:480
+msgid "Questions"
+msgstr "Câu hỏi"
+
+#: lms/templates/test_center_register.html:481
+msgid ""
+"If you have a specific question pertaining to your registration, you may"
+msgstr "Nếu bạn có một câu hỏi cụ thể liên quan đến đăng ký của bạn, bạn có thể"
+
+#: lms/templates/tracking_log.html:4
+msgid "Tracking Log"
+msgstr "Theo dõi log"
+
+#: lms/templates/using.html:5
+msgid "Using the system"
+msgstr "Sử dụng hệ thống"
+
+#: lms/templates/using.html:9
+msgid ""
+"During video playback, use the subtitles and the scroll bar to navigate. "
+"Clicking the subtitles is a fast way to skip forwards and backwards by small"
+" amounts."
+msgstr "Trong khi xem video, sử dụng phụ đề và thanh cuộn để di chuyển. Nhấn vào phụ đề là một cách nhanh chóng để bỏ qua tới lui bởi một lượng nhỏ."
+
+#: lms/templates/using.html:13
+msgid ""
+"If you are on a low-resolution display, the left navigation bar can be "
+"hidden by clicking on the set of three left arrows next to it."
+msgstr "Nếu bạn đang ở trên một màn hình hiển thị độ phân giải thấp, các thanh điều hướng bên trái có thể được ẩn bằng cách nhấp vào bộ ba mũi tên trái bên cạnh nó."
+
+#: lms/templates/using.html:17
+msgid ""
+"If you need bigger or smaller fonts, use your browsers settings to scale "
+"them up or down. Under Google Chrome, this is done by pressing ctrl-plus, or"
+" ctrl-minus at the same time."
+msgstr "Nếu bạn cần phông chữ lớn hơn hoặc nhỏ hơn, sử dụng trình duyệt của bạn thiết lập để mở rộng chúng lên hoặc xuống. Theo Google Chrome, điều này được thực hiện bằng cách nhấn Ctrl+, hoặc Ctrl- đi cùng một lúc."
+
+#: lms/templates/video.html:50 lms/templates/videoalpha.html:44
+msgid "Download video"
+msgstr "tải về video"
+
+#: lms/templates/video.html:50 lms/templates/video.html:56
+#: lms/templates/videoalpha.html:44 lms/templates/videoalpha.html:50
+msgid "here"
+msgstr "Ở đây"
+
+#: lms/templates/video.html:56 lms/templates/videoalpha.html:50
+msgid "Download subtitles"
+msgstr "Tải về subtitles"
+
+#: lms/templates/word_cloud.html:25
+msgid "Your words"
+msgstr "các từ của bạn"
+
+#: lms/templates/word_cloud.html:26
+msgid "Total number of words"
+msgstr "Tổng số của từ"
+
+#: lms/templates/wiki/includes/article_menu.html:12
+msgid "View"
+msgstr "Xem"
+
+#: lms/templates/wiki/includes/article_menu.html:28
+msgid "Changes"
+msgstr "Thay đổi"
+
+#: lms/templates/wiki/includes/breadcrumbs.html:33
+msgid "Add article"
+msgstr "Thêm bài viết mới"
+
+#: lms/templates/wiki/includes/cheatsheet.html:8
+msgid "Wiki Syntax Help"
+msgstr "Wiki trợ giúp Syntax"
+
+#: lms/templates/wiki/includes/cheatsheet.html:9
+msgid ""
+"This wiki uses <strong>Markdown</strong> for styling. There are several "
+"useful guides online. See any of the links below for in-depth details:"
+msgstr "Wiki này sử dụng <strong> Markdown </strong> cho tạo kiểu. Có một số hướng dẫn hữu ích trực tuyến. Thấy bất kỳ liên kết dưới đây để biết chi tiết chuyên sâu:"
+
+#: lms/templates/wiki/includes/cheatsheet.html:11
+msgid "Markdown: Basics"
+msgstr "Markdown: cơ bản"
+
+#: lms/templates/wiki/includes/cheatsheet.html:12
+msgid "Quick Markdown Syntax Guide"
+msgstr "Nhanh chóng Markdown Hướng dẫn Syntax"
+
+#: lms/templates/wiki/includes/cheatsheet.html:13
+msgid "Miniature Markdown Guide"
+msgstr "Hướng dẫn thu nhỏ Markdown"
+
+#: lms/templates/wiki/includes/cheatsheet.html:15
+msgid ""
+"To create a new wiki article, create a link to it. Clicking the link gives "
+"you the creation page."
+msgstr "Để tạo ra một bài viết wiki mới, tạo ra một liên kết đến nó. Nhấn vào liên kết cung cấp cho bạn các trang tạo."
+
+#: lms/templates/wiki/includes/cheatsheet.html:19
+msgid "edX Additions"
+msgstr "Bổ sung edX"

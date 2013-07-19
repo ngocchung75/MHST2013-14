@@ -1,9 +1,9 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%! from django.utils import translation    %>
-<%!translation.activate('vi')%>
+
 <%inherit file="base.html" />
 <%block name="title">${_("Schedule &amp; Details Settings")}</%block>
-<%block name="bodyclass">${_("is-signedin course schedule settings")}</%block>
+<%block name="bodyclass">is-signedin course schedule settings</%block>
 
 <%namespace name='static' file='static_content.html'/>
 <%!

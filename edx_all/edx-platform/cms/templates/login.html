@@ -1,8 +1,10 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%! from django.utils import translation    %>
-<%  translation.activate('vi')%>
+
 <%inherit file="base.html" />
 <%! from django.core.urlresolvers import reverse %>
+<%! from django.utils import translation    %>
+<%! translation.activate('vi')%>
 <%block name="title">Sign In</%block>
 <%block name="bodyclass">not-signedin signin</%block>
 
@@ -49,7 +51,8 @@
       <h2 class="sr">${_("Studio Support")}</h2>
 
       <div class="bit">
-        <h3 class="title-3">${_("Need Help?")}</h3>        <p>${_("Having trouble with your account? Use")} <a href="http://help.edge.edx.org" rel="external">${_("our support center")}</a> ${_("to look over self help steps, find solutions others have found to the same problem, or let us know of your issue.")}</p>
+        <h3 class="title-3">${_("Need Help?")}</h3>
+         <p>${_("Having trouble with your account? Use")} <a href="http://help.edge.edx.org" rel="external">${_("our support center")}</a> ${_("to look over self help steps, find solutions others have found to the same problem, or let us know of your issue.")}</p>
       </div>
     </aside>
   </section>

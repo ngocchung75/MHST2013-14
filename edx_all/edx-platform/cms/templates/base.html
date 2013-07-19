@@ -1,5 +1,6 @@
 <%namespace name='static' file='static_content.html'/>
-
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.utils import translation    %>
 <!doctype html>
 <html>
   <head>
@@ -40,6 +41,7 @@
     <script type="text/javascript" src="${static.url('js/vendor/underscore-min.js')}"></script>
     <script type="text/javascript" src="${static.url('js/vendor/underscore.string.min.js')}"></script>
     <script type="text/javascript" src="${static.url('js/vendor/backbone-min.js')}"></script>
+    <script type="text/javascript" src="${static.url('js/vendor/backbone-associations-min.js')}"></script>
     <script type="text/javascript" src="${static.url('js/vendor/markitup/jquery.markitup.js')}"></script>
     <script type="text/javascript" src="${static.url('js/vendor/markitup/sets/wiki/set.js')}"></script>
 

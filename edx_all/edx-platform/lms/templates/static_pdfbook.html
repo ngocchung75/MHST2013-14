@@ -1,9 +1,14 @@
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.utils import translation    %>
+
+
+
 <%inherit file="main.html" />
 <%namespace name='static' file='static_content.html'/>
 <%block name="title">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>${course.number} Textbook</title>
+    <title>${course.number} ${_("Textbook")}</title>
 </%block>
 
 <%block name="headextra">
@@ -50,7 +55,7 @@
           <div id="toolbarContainer">
             <div id="toolbarViewer">
               <div id="toolbarViewerLeft">
-                <label id="pageNumberLabel" class="toolbarLabel" for="pageNumber">Page: </label>
+                <label id="pageNumberLabel" class="toolbarLabel" for="pageNumber">${_("Page")}: </label>
                 <input type="number" id="pageNumber" class="toolbarField pageNumber" value="1" size="4" min="1" tabindex="7">
                 </input>
                 <span id="numPages" class="toolbarLabel"></span>
@@ -60,11 +65,11 @@
                 <div class="innerCenter" id="toolbarViewerMiddle">
                   <div class="splitToolbarButton">
                     <button class="toolbarButton zoomOut" id="zoom_out" title="Zoom Out" tabindex="8">
-                      <span>Zoom Out</span>
+                      <span>${_("Zoom Out")}</span>
                     </button>
                     <div class="splitToolbarButtonSeparator"></div>
                     <button class="toolbarButton zoomIn" id="zoom_in" title="Zoom In" tabindex="9">
-                      <span>Zoom In</span>
+                      <span>${_("Zoom In")}</span>
                      </button>
                   </div>
                   <span id="scaleSelectContainer" class="dropdownToolbarButton">
@@ -114,10 +119,10 @@
             <nav>
               <ul>
                 <li class="last">
-                  <a id="previous">Previous page</a>
+                  <a id="previous">${_("Previous page")}</a>
                 </li>
                 <li class="next">
-                  <a id="next">Next page</a>
+                  <a id="next">${_("Next page")}</a>
                 </li>
               </ul>
             </nav>

@@ -18,10 +18,9 @@ See https://edx-wiki.atlassian.net/wiki/display/ENG/PO+File+workflow
 import os, sys, logging
 from datetime import datetime
 from polib import pofile
+
 from config import BASE_DIR, LOCALE_DIR, CONFIGURATION
 from execute import execute, create_dir_if_necessary, remove_file
-
-
 
 # BABEL_CONFIG contains declarations for Babel to extract strings from mako template files
 # Use relpath to reduce noise in logs
@@ -39,6 +38,7 @@ def main ():
     logging.basicConfig(stream=sys.stdout, level=logging.INFO)
     create_dir_if_necessary(LOCALE_DIR)
     source_msgs_dir = CONFIGURATION.source_messages_dir
+
     remove_file(source_msgs_dir.joinpath('django.po'))
     generated_files = ('django-partial.po', 'djangojs.po', 'mako.po')
     for filename in generated_files:
@@ -49,11 +49,11 @@ def main ():
     babel_mako_cmd = 'pybabel extract -F %s -c "TRANSLATORS:" . -o %s' % (BABEL_CONFIG, BABEL_OUT)
 
     # Extract strings from django source files
-    make_django_cmd = 'django-admin.py makemessages -l vi --ignore=src/* --ignore=i18n/* ' \
+    make_django_cmd = 'django-admin.py makemessages -l en --ignore=src/* --ignore=i18n/* ' \
                       + '--extension html'
 
     # Extract strings from javascript source files
-    make_djangojs_cmd = 'django-admin.py makemessages -l vi -d djangojs --ignore=src/* ' \
+    make_djangojs_cmd = 'django-admin.py makemessages -l en -d djangojs --ignore=src/* ' \
                         + '--ignore=i18n/* --extension js'
     execute(babel_mako_cmd, working_directory=BASE_DIR)
     execute(make_django_cmd, working_directory=BASE_DIR)
@@ -126,7 +126,7 @@ def fix_metadata(po):
     fixes = {'PO-Revision-Date': datetime.utcnow(),
              'Report-Msgid-Bugs-To': 'translation_team@edx.org',
              'Project-Id-Version': '0.1a',
-             'Language' : 'vi',
+             'Language' : 'en',
              'Last-Translator' : '',
              'Language-Team': 'translation team <translation_team@edx.org>',
              }
