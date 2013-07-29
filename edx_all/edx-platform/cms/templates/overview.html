@@ -1,5 +1,5 @@
 <%! from django.utils.translation import ugettext as _ %>
-<%! from django.utils import translation    %>
+
 
 <%inherit file="base.html" />
 
@@ -68,9 +68,9 @@
         <div class="item-details">
           <h3 class="section-name">
           <form class="section-name-form">
-            <input type="text" value="New Section Name" class="new-section-name" />
-            <input type="submit" class="new-section-name-save" data-parent="${parent_location}" data-template="${new_section_template}" value="Save" />
-            <input type="button" class="new-section-name-cancel" value="Cancel" /></h3>
+            <input type="text" value="${_('New Section Name')}" class="new-section-name" />
+            <input type="submit" class="new-section-name-save" data-parent="${parent_location}" data-template="${new_section_template}" value="${_('Save')}" />
+            <input type="button" class="new-section-name-cancel" value="${_('Cancel')}" /></h3>
           </form>
         </div>
       </header>
@@ -85,9 +85,9 @@
           <h3 class="section-name">
           <span class="section-name-span">${_("Click here to set the section name")}</span>
           <form class="section-name-form">
-            <input type="text" value="New Section Name" class="new-section-name" />
-            <input type="submit" class="new-section-name-save" data-parent="${parent_location}" data-template="${new_section_template}" value="Save" />
-            <input type="button" class="new-section-name-cancel" value="Cancel" /></h3>
+            <input type="text" value="${_('New Section Name')}" class="new-section-name" />
+            <input type="submit" class="new-section-name-save" data-parent="${parent_location}" data-template="${new_section_template}" value="${_('Save')}" />
+            <input type="button" class="new-section-name-cancel" value="${_('Cancel')}" /></h3>
           </form>
         </div>
         <div class="item-actions">
@@ -104,10 +104,10 @@
         <form class="new-subsection-form">
           <span class="folder-icon"></span>
           <span class="subsection-name">
-            <input type="text" value="New Subsection" class="new-subsection-name-input" />
+            <input type="text" value="${_('New Subsection')}" class="new-subsection-name-input" />
           </span>
-          <input type="submit" value="Save" class="new-subsection-name-save" />
-          <input type="button" value="Cancel" class="new-subsection-name-cancel" />
+          <input type="submit" value="${_('Save')}" class="new-subsection-name-save" />
+          <input type="button" value="${_('Cancel')}" class="new-subsection-name-cancel" />
         </form>
       </div>
       <ol>

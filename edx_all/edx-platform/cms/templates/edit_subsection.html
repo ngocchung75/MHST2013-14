@@ -1,5 +1,5 @@
 <%! from django.utils.translation import ugettext as _ %>
-<%! from django.utils import translation    %>
+
 
 <%inherit file="base.html" />
 <%!
@@ -9,7 +9,7 @@
 
 <%! from django.core.urlresolvers import reverse %>
 <%block name="title">${_("CMS Subsection")}</%block>
-<%block name="bodyclass">${_("is-signedin course subsection")}</%block>
+<%block name="bodyclass">is-signedin course subsection</%block>
 
 
 <%namespace name="units" file="widgets/units.html" />

@@ -1,1 +1,0 @@
-Request to change ${settings.PLATFORM_NAME} account e-mail

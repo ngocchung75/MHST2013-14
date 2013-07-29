@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Models for User Information (students, staff, etc)
 
@@ -72,7 +73,12 @@ class UserProfile(models.Model):
     this_year = datetime.now().year
     VALID_YEARS = range(this_year, this_year - 120, -1)
     year_of_birth = models.IntegerField(blank=True, null=True, db_index=True)
-    GENDER_CHOICES = (('m', 'Male'), ('f', 'Female'), ('o', 'Other'))
+
+    # us
+    # GENDER_CHOICES = (('m', 'Male'), ('f', 'Female'), ('o', 'Other'))
+
+    # vn
+    GENDER_CHOICES = (('m', 'Nam'), ('f', 'Nữ'.decode('utf-8')), ('o', 'Khác'.decode('utf-8')))
     gender = models.CharField(blank=True, null=True, max_length=6, db_index=True,
                               choices=GENDER_CHOICES)
 
@@ -80,15 +86,18 @@ class UserProfile(models.Model):
     # p_se and p_oth in the existing data in db.
     # ('p_se', 'Doctorate in science or engineering'),
     # ('p_oth', 'Doctorate in another field'),
-    LEVEL_OF_EDUCATION_CHOICES = (('p', 'Doctorate'),
-                                  ('m', "Master's or professional degree"),
-                                  ('b', "Bachelor's degree"),
-                                  ('a', "Associate's degree"),
-                                  ('hs', "Secondary/high school"),
-                                  ('jhs', "Junior secondary/junior high/middle school"),
-                                  ('el', "Elementary/primary school"),
-                                  ('none', "None"),
-                                  ('other', "Other"))
+    # us
+    LEVEL_OF_EDUCATION_CHOICES = (('p', 'Tiến sĩ'.decode('utf-8')),
+                                  ('m', "Thạc sĩ".decode('utf-8')),
+                                  ('b', "Kỹ sư/Cử nhân đại học".decode('utf-8')),
+                                  ('a', "Cử nhân cao đẳng".decode('utf-8')),
+                                  ('hs', "Trung học phổ thông".decode('utf-8')),
+                                  ('jhs', "Trung học cơ sở".decode('utf-8')),
+                                  ('el', "Tiểu học".decode('utf-8')),
+                                  ('none', "Không".decode('utf-8')),
+                                  ('other', "Khác".decode('utf-8')))
+
+
     level_of_education = models.CharField(
                             blank=True, null=True, max_length=6, db_index=True,
                             choices=LEVEL_OF_EDUCATION_CHOICES

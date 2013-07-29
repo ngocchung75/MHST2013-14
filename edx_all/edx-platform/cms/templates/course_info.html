@@ -1,12 +1,12 @@
 <%! from django.utils.translation import ugettext as _ %>
-<%! from django.utils import translation    %>
+
 
 <%inherit file="base.html" />
 <%namespace name='static' file='static_content.html'/>
 
 <!-- TODO decode course # from context_course into title -->
 <%block name="title">${_("Course Updates")}</%block>
-<%block name="bodyclass">${_("is-signedin course course-info updates")}</%block>
+<%block name="bodyclass">is-signedin course course-info updates</%block>
 
 
 <%block name="jsextra">

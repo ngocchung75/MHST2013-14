@@ -1,27 +1,70 @@
 # edX translation file
-# Translations in this file have been downloaded from translation team <translation_team@edx.org>.
+# This English source file is machine-generated. Do not check it into github.
 # Copyright (C) 2013 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2013.
 # 
-# Translators:
-# Translators:
-# Translators:
-# ngocchung75 <ngocchung75@gmail.com>, 2013
-# thehung12a3 <hoangthehung92@gmail.com>, 2013
-# quynhlien <phanthiquynhlien41@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: hung-edx-studio\n"
+"Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: translation_team@edx.org\n"
-"POT-Creation-Date: 2013-05-14 10:25-0400\n"
-"PO-Revision-Date: 2013-07-12 08:25+0000\n"
-"Last-Translator: thehung12a3 <hoangthehung92@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/projects/p/hung-edx-studio/language/vi/)\n"
+"POT-Creation-Date: 2013-07-25 16:11+0700\n"
+"PO-Revision-Date: 2013-07-25 09:12:56.562090\n"
+"Last-Translator: \n"
+"Language-Team: translation team <translation_team@edx.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: vi\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+
+#: cms/djangoapps/contentstore/views/user.py:96
+#: cms/djangoapps/contentstore/views/user.py:133
+msgid "Could not find user by email address '{email}'."
+msgstr "Không thể tìm thấy người dùng theo địa chỉ email '{email}'."
+
+
+#: cms/djangoapps/course_creators/models.py:28
+msgid "pending"
+msgstr "đang chờ"
+
+#: common/djangoapps/student/models.py:75
+msgid "Male"
+msgstr "Nam"
+#: common/djangoapps/student/models.py:75
+msgid "Female"
+msgstr "Nữ"
+
+#: common/djangoapps/student/models.py:75
+#: common/djangoapps/student/models.py:91
+msgid "Other"
+msgstr "Khác"
+
+#: common/djangoapps/student/models.py:83
+msgid "Doctorate"
+msgstr "Tiến sĩ"
+
+#: common/djangoapps/student/models.py:84
+msgid "Master's or professional degree"
+msgstr "Thạc sĩ"
+
+
+#: common/djangoapps/student/models.py:90
+msgid "None"
+msgstr "Không"
+
+#: common/djangoapps/student/views.py:454
+msgid "common.student.successful_login"
+msgstr "common.student.successful_login"
+
+#: common/djangoapps/student/views.py:605
+msgid "Error (401 {field}). E-mail us."
+msgstr "Lỗi (401 {field}). E-mail cho chúng tôi."
+
+#: common/lib/xmodule/xmodule/util/date_utils.py:30
+msgid "at"
+msgstr "tại"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:23
 msgid "Navigation"
@@ -29,7 +72,7 @@ msgstr "Danh mục chính"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:123
 msgid "About these documents"
-msgstr "Nôi dung tài liệu"
+msgstr "Nội dung của nhưng tài liệu này"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:126
 msgid "Index"
@@ -37,6 +80,7 @@ msgstr "Mục lục"
 
 #: common/static/js/vendor/mathjax-MathJax-c9db6ac/docs/source/mjtheme/layout.html:129
 #: lms/templates/wiki/plugins/attachments/index.html:40
+#: lms/templates_2/wiki/plugins/attachments/index.html:40
 msgid "Search"
 msgstr "Tìm kiếm"
 
@@ -44,227 +88,81 @@ msgstr "Tìm kiếm"
 msgid "Copyright"
 msgstr "Bản quyền"
 
-#: lms/djangoapps/django_comment_client/base/views.py:454
-#, python-format
-msgid "allowed file types are '%(file_types)s'"
-msgstr "cho phép loại file '%(file_types)s'"
-
-#: lms/djangoapps/django_comment_client/base/views.py:474
-#, python-format
-msgid "maximum upload file size is %(file_size)sK"
-msgstr "kích thước file upload tối đa %(file_size)sK"
-
-#: lms/djangoapps/django_comment_client/base/views.py:483
-msgid ""
-"Error uploading file. Please contact the site administrator. Thank you."
-msgstr "Lỗi tải lên tập tin. Vui lòng liên hệ với quản lý website. Cảm ơn bạn."
-
-#: lms/djangoapps/simplewiki/admin.py:28
-msgid "Slug cannot start with _ character.Reserved for internal use."
-msgstr "Slug không thể bắt đầu với ký tự _. Dự trữ để sử dụng nội bộ."
-
-#: lms/djangoapps/simplewiki/admin.py:34
-msgid "Article slug and parent must be unique together."
-msgstr "Điều slug và parent phải là duy nhất với nhau."
-
-#: lms/djangoapps/simplewiki/models.py:21
-msgid "namespace"
-msgstr "vùng tên"
-
-#: lms/djangoapps/simplewiki/models.py:39
-msgid "Article title"
-msgstr "Tiêu đề bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:41
-msgid "slug"
-msgstr "slug"
-
-#: lms/djangoapps/simplewiki/models.py:42
-msgid "Letters, numbers, underscore and hyphen."
-msgstr "Chữ cái, số, dấu gạch dưới và dấu gạch ngang."
-
-#: lms/djangoapps/simplewiki/models.py:44
-msgid "Namespace"
-msgstr "Vùng tên"
-
-#: lms/djangoapps/simplewiki/models.py:45
-msgid "Created by"
-msgstr "Tạo bởi"
-
-#: lms/djangoapps/simplewiki/models.py:48
-msgid "Locked for editing"
-msgstr "Khóa để chỉnh sửa"
-
-#: lms/djangoapps/simplewiki/models.py:49
-msgid "Permissions"
-msgstr "Quyền"
-
-#: lms/djangoapps/simplewiki/models.py:51
-msgid "Permission group"
-msgstr "Nhóm quyền"
-
-#: lms/djangoapps/simplewiki/models.py:54
-msgid "Related articles"
-msgstr "Bài viết liên quan"
-
-#: lms/djangoapps/simplewiki/models.py:55
-msgid "Sets a symmetrical relation other articles"
-msgstr "Thiết lập một quan hệ cân xứng bài viết khác"
-
-#: lms/djangoapps/simplewiki/models.py:131
-msgid "Root article"
-msgstr "Bài viết gốc"
-
-#: lms/djangoapps/simplewiki/models.py:137
-#: lms/djangoapps/simplewiki/models.py:151
-#: lms/djangoapps/simplewiki/models.py:235
-msgid "Article"
-msgstr "Bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:138
-msgid "Articles"
-msgstr "Những bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:152
-msgid "Attachment"
-msgstr "Tập tin đính kèm"
-
-#: lms/djangoapps/simplewiki/models.py:153
-#: lms/templates/wiki/plugins/attachments/index.html:85
-msgid "Uploaded by"
-msgstr "Tải lên bởi"
-
-#: lms/djangoapps/simplewiki/models.py:154
-msgid "Upload date"
-msgstr "Tải lên ngày"
-
-#: lms/djangoapps/simplewiki/models.py:237
-msgid "Description of change"
-msgstr "Mô tả sự thay đổi"
-
-#: lms/djangoapps/simplewiki/models.py:238
-msgid "Modified by"
-msgstr "Được thay đổi bởi"
-
-#: lms/djangoapps/simplewiki/models.py:240
-msgid "Revision date"
-msgstr "Ngày sửa đổi"
-
-#: lms/djangoapps/simplewiki/models.py:241
-msgid "Contents (Use MarkDown format)"
-msgstr "Nội dung (Sử dụng định dạng Markdown)"
-
-#: lms/djangoapps/simplewiki/models.py:243
-msgid "Revision#"
-msgstr "Bản sửa đổi#"
-
-#: lms/djangoapps/simplewiki/models.py:250
-msgid "Deleted group"
-msgstr "Xóa nhóm"
-
-#: lms/djangoapps/simplewiki/models.py:253
-msgid "Anonymous"
-msgstr "Vô danh"
-
-#: lms/djangoapps/simplewiki/models.py:304
-#: lms/djangoapps/simplewiki/models.py:305
-msgid "Auto-generated stub"
-msgstr "Tự động sinh ra stub"
-
-#: lms/djangoapps/simplewiki/models.py:333
-msgid "article revision"
-msgstr "bản sửa đổi bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:334
-msgid "article revisions"
-msgstr "bản sửa đổi những bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:338
-msgid "Permission name"
-msgstr "Cho phép tên"
-
-#: lms/djangoapps/simplewiki/models.py:340
-#: lms/djangoapps/simplewiki/models.py:342
-msgid "Select none to grant anonymous access."
-msgstr "Không chọn gì để cấp quyền truy cập vô danh."
-
-#: lms/djangoapps/simplewiki/models.py:348
-msgid "Article permission"
-msgstr "Cho phép bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:349
-msgid "Article permissions"
-msgstr "Cho phép những bài viết"
-
-#: lms/djangoapps/simplewiki/models.py:353
-msgid "Contents"
-msgstr "Nội dung"
-
-#: lms/djangoapps/simplewiki/models.py:361
-#: lms/djangoapps/simplewiki/models.py:369
-msgid "Title"
-msgstr "Tiêu đề"
-
-#: lms/djangoapps/simplewiki/views.py:170
-msgid ""
-"Headline\n"
-"===\n"
-"\n"
-msgstr "Headline\\n\n===\\n\n\\n"
-
 #: lms/templates/registration/change_password.html:12
 #: lms/templates/registration/logged_out.html:4
 #: lms/templates/registration/password_change_done.html:5
 #: lms/templates/registration/password_change_form.html:6
+#: lms/templates_2/registration/change_password.html:12
+#: lms/templates_2/registration/logged_out.html:4
+#: lms/templates_2/registration/password_change_done.html:5
+#: lms/templates_2/registration/password_change_form.html:6
 msgid "Home"
-msgstr "Trang Chủ"
+msgstr "Trang chủ"
 
 #: lms/templates/registration/change_password.html:16
 #: lms/templates/registration/change_password.html:49
 #: lms/templates/registration/password_change_done.html:4
 #: lms/templates/registration/password_change_form.html:5
+#: lms/templates_2/registration/change_password.html:16
+#: lms/templates_2/registration/change_password.html:49
+#: lms/templates_2/registration/password_change_done.html:4
+#: lms/templates_2/registration/password_change_form.html:5
 msgid "Change password"
 msgstr "Thay đổi mật khẩu"
 
 #: lms/templates/registration/change_password.html:25
 #: lms/templates/registration/password_change_form.html:16
+#: lms/templates_2/registration/change_password.html:25
+#: lms/templates_2/registration/password_change_form.html:16
 msgid "Please correct the error below."
 msgid_plural "Please correct the errors below."
 msgstr[0] "Xin vui lòng sửa các lỗi dưới đây."
+msgstr[1] "Xin vui lòng sửa các lỗi dưới đây."
 
 #: lms/templates/registration/change_password.html:29
+#: lms/templates_2/registration/change_password.html:29
 #, python-format
-msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr "Nhập mật khẩu mới cho người dùng <strong>%(username)s</strong>."
+msgid "Enter a new password for the user"
+msgstr "Nhập mật khẩu mới cho người dùng"
 
 #: lms/templates/registration/change_password.html:36
+#: lms/templates_2/registration/change_password.html:36
 msgid "Password"
 msgstr "Mật khẩu"
 
 #: lms/templates/registration/change_password.html:42
 #: lms/templates/registration/password_change_form.html:38
+#: lms/templates_2/registration/change_password.html:42
+#: lms/templates_2/registration/password_change_form.html:38
 msgid "Password (again)"
-msgstr "Nhập lại mật khẩu"
+msgstr "Mật khẩu (nhập lại)"
 
 #: lms/templates/registration/change_password.html:43
+#: lms/templates_2/registration/change_password.html:43
 msgid "Enter the same password as above, for verification."
-msgstr "\"Nhập mật khẩu giống như ở trên, để xác minh."
+msgstr "Nhập mật khẩu tương tự như trên, để xác minh."
 
 #: lms/templates/registration/logged_out.html:8
+#: lms/templates_2/registration/logged_out.html:8
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr "Cảm ơn đã dành chút thời gian với các trang web ngày hôm nay."
+msgstr "Cảm ơn đã dành thời gian chất lượng với các trang web ngày hôm nay."
 
 #: lms/templates/registration/logged_out.html:10
+#: lms/templates_2/registration/logged_out.html:10
 msgid "Log in again"
 msgstr "Đăng nhập lại"
 
 #: lms/templates/registration/password_change_done.html:4
 #: lms/templates/registration/password_change_form.html:5
+#: lms/templates_2/registration/password_change_done.html:4
+#: lms/templates_2/registration/password_change_form.html:5
 msgid "Documentation"
-msgstr "Tài liệu hướng dẫn"
+msgstr "Tại liệu"
 
 #: lms/templates/registration/password_change_done.html:4
 #: lms/templates/registration/password_change_form.html:5
+#: lms/templates_2/registration/password_change_done.html:4
+#: lms/templates_2/registration/password_change_form.html:5
 msgid "Log out"
 msgstr "Đăng xuất"
 
@@ -272,283 +170,353 @@ msgstr "Đăng xuất"
 #: lms/templates/registration/password_change_form.html:6
 #: lms/templates/registration/password_change_form.html:8
 #: lms/templates/registration/password_change_form.html:20
+#: lms/templates_2/registration/password_change_done.html:5
+#: lms/templates_2/registration/password_change_form.html:6
+#: lms/templates_2/registration/password_change_form.html:8
+#: lms/templates_2/registration/password_change_form.html:20
 msgid "Password change"
 msgstr "Thay đổi mật khẩu"
 
 #: lms/templates/registration/password_change_done.html:7
 #: lms/templates/registration/password_change_done.html:11
+#: lms/templates_2/registration/password_change_done.html:7
+#: lms/templates_2/registration/password_change_done.html:11
 msgid "Password change successful"
 msgstr "Thay đổi mật khẩu thành công"
 
 #: lms/templates/registration/password_change_done.html:13
+#: lms/templates_2/registration/password_change_done.html:13
 msgid "Your password was changed."
-msgstr "Mật khẩu đã được thay đổi."
+msgstr "Mật khẩu của bạn đã thay dổi"
 
 #: lms/templates/registration/password_change_form.html:22
+#: lms/templates_2/registration/password_change_form.html:22
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new"
 " password twice so we can verify you typed it in correctly."
-msgstr "Vì lý do an toàn, hãy nhập mật khẩu cũ của bạn và sau đó nhập mật khẩu mới của bạn hai lần để chúng tôi có thể xác nhận là bạn đã nhập vào chính xác."
+msgstr "Hãy nhập mật khẩu cũ của bạn, vì lợi ích bảo mật, và sau đó nhập mật khẩu mới của "
+"bạn hai lần vì vậy chúng tôi có thể xác nhận là bạn đã nhập vào chính xác."
 
 #: lms/templates/registration/password_change_form.html:28
+#: lms/templates_2/registration/password_change_form.html:28
 msgid "Old password"
-msgstr "Mật khẩu cũ"
+msgstr "Mật khẩu củ"
 
 #: lms/templates/registration/password_change_form.html:33
+#: lms/templates_2/registration/password_change_form.html:33
 msgid "New password"
 msgstr "Mật khẩu mới"
 
 #: lms/templates/registration/password_change_form.html:44
+#: lms/templates_2/registration/password_change_form.html:44
 msgid "Change my password"
 msgstr "Thay đổi mật khẩu của tôi"
 
 #: lms/templates/registration/password_reset_email.html:2
+#: lms/templates_2/registration/password_reset_email.html:2
 msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at edx.org."
-msgstr "Bạn nhận được e-mail này vì bạn đã yêu cầu thiết lập lại mật khẩu cho tài khoản người dùng của bạn tại edx.org."
+msgstr "Bạn nhận được e-mail này vì bạn yêu cầu thiết lập lại mật khẩu cho tài khoản người dùng của bạn tại edx.org. "
 
 #: lms/templates/registration/password_reset_email.html:4
+#: lms/templates_2/registration/password_reset_email.html:4
 msgid "Please go to the following page and choose a new password:"
-msgstr "Hãy truy cập vào trang sau đây và chọn một mật khẩu mới:"
+msgstr "Hãy truy cập vào trang sau và chọn một mật khẩu mới:"
 
 #: lms/templates/registration/password_reset_email.html:11
+#: lms/templates_2/registration/password_reset_email.html:11
 msgid "Thanks for using our site!"
-msgstr "Cảm ơn bạn đã sử dụng trang web của chúng tôi!"
+msgstr "Cảm ơn bạn đã sữ dụng website của chúng tôi"
 
 #: lms/templates/registration/password_reset_email.html:13
+#: lms/templates_2/registration/password_reset_email.html:13
 msgid "The edX Team"
-msgstr "Nhóm edX"
+msgstr "Nhóm EDX"
 
-#: lms/templates/wiki/article.html:31
+#: lms/templates/wiki/article.html:31 lms/templates_2/wiki/article.html:31
 msgid "Last modified:"
-msgstr "Đã thay đổi lần cuối"
+msgstr "Sữa đổi lần cuối"
 
-#: lms/templates/wiki/article.html:48
+#: lms/templates/wiki/article.html:48 lms/templates_2/wiki/article.html:48
 msgid "This article was last modified:"
-msgstr "Bài viết này đã được thay đổi lần cuối"
+msgstr "Bài viết này đã được sữa đổi lần cuối"
 
 #: lms/templates/wiki/create.html:5 lms/templates/wiki/create.html.py:30
+#: lms/templates_2/wiki/create.html:5 lms/templates_2/wiki/create.html:30
 msgid "Add new article"
 msgstr "Thêm bài viết mới"
 
-#: lms/templates/wiki/create.html:37
+#: lms/templates/wiki/create.html:37 lms/templates_2/wiki/create.html:37
 msgid "Create article"
 msgstr "Tạo bài viết"
 
 #: lms/templates/wiki/create.html:42 lms/templates/wiki/delete.html:13
-#: lms/templates/wiki/delete.html.py:54
+#: lms/templates/wiki/delete.html.py:54 lms/templates_2/wiki/create.html:42
+#: lms/templates_2/wiki/delete.html:13 lms/templates_2/wiki/delete.html:54
 msgid "Go back"
-msgstr "quay lại"
+msgstr "Quay lại"
 
 #: lms/templates/wiki/delete.html:5 lms/templates/wiki/delete.html.py:50
-#: lms/templates/wiki/edit.html:23
+#: lms/templates/wiki/edit.html:23 lms/templates_2/wiki/delete.html:5
+#: lms/templates_2/wiki/delete.html:50 lms/templates_2/wiki/edit.html:23
 msgid "Delete article"
-msgstr "Xoá bài viết"
+msgstr "Xóa bài viết"
 
 #: lms/templates/wiki/delete.html:9
 #: lms/templates/wiki/plugins/attachments/index.html:92
+#: lms/templates_2/wiki/delete.html:9
+#: lms/templates_2/wiki/plugins/attachments/index.html:92
 msgid "Delete"
 msgstr "Xóa"
 
-#: lms/templates/wiki/delete.html:12
+#: lms/templates/wiki/delete.html:12 lms/templates_2/wiki/delete.html:12
 msgid "You cannot delete a root article."
-msgstr "Bạn không thể xoá triệt đê bài viết "
+msgstr "Bạn không thể xóa bài viết gốc"
 
-#: lms/templates/wiki/delete.html:18
+#: lms/templates/wiki/delete.html:18 lms/templates_2/wiki/delete.html:18
 msgid ""
 "You cannot delete this article because you do not have permission to delete "
 "articles with children. Try to remove the children manually one-by-one."
-msgstr "Bạn không thể xóa bài viết này bởi vì bạn không có quyền xóa bài viết khi nó chứa các bài viết con. Cố gắng loại bỏ từng bài viết con trong nó."
+msgstr "Bạn không thể xóa bài viết này bởi vì bạn không có quyền xóa bài viết. "
+"Thử xóa bài viết từng lần một"
 
-#: lms/templates/wiki/delete.html:24
+#: lms/templates/wiki/delete.html:24 lms/templates_2/wiki/delete.html:24
 msgid ""
 "You are deleting an article. This means that its children will be deleted as"
 " well. If you choose to purge, children will also be purged!"
-msgstr "Bạn xóa một bài viết. Điều này có nghĩa rằng các bài viết con của nó sẽ bị xóa theo. Nếu bạn chọn để thanh lọc nó, bài viết con cũng sẽ được xóa!"
+msgstr "Bạn đang xóa một bài viết. Điều này có nghĩa tất cả các bài viết con sẽ bị xóa theo."
 
-#: lms/templates/wiki/delete.html:26
+#: lms/templates/wiki/delete.html:26 lms/templates_2/wiki/delete.html:26
 msgid "Articles that will be deleted"
-msgstr "Những bài viết sẽ bị xoá"
+msgstr "Các bài viết sẽ bị xóa"
 
-#: lms/templates/wiki/delete.html:32
+#: lms/templates/wiki/delete.html:32 lms/templates_2/wiki/delete.html:32
 msgid "...and more!"
-msgstr "... và nhiều hơn nữa!"
+msgstr "... và nhiêu hơn"
 
-#: lms/templates/wiki/delete.html:40
+#: lms/templates/wiki/delete.html:40 lms/templates_2/wiki/delete.html:40
 msgid "You are deleting an article. Please confirm."
-msgstr "Bạn đang xoá bài viết. Làm ơn xác nhận."
+msgstr "Bạn đang xóa một bài viết. Hãy xác minh"
 
-#: lms/templates/wiki/edit.html:5
-msgid "Edit"
-msgstr "Thoát"
+
 
 #: lms/templates/wiki/edit.html:14 lms/templates/wiki/edit.html.py:34
+#: lms/templates_2/wiki/edit.html:14 lms/templates_2/wiki/edit.html.py:34
 msgid "Save changes"
 msgstr "Lưu thay đổi"
 
-#: lms/templates/wiki/edit.html:18
+#: lms/templates/wiki/edit.html:18 lms/templates_2/wiki/edit.html:18
 msgid "Preview"
 msgstr "Xem trước"
 
-#: lms/templates/wiki/edit.html:39
+#: lms/templates/wiki/edit.html:39 lms/templates_2/wiki/edit.html:39
 msgid "Back to editor"
 msgstr "Quay lại trình soạn thảo"
 
-#: lms/templates/wiki/history.html:5
-msgid "History"
-msgstr "Lịch sử"
 
-#: lms/templates/wiki/history.html:56
+
+#: lms/templates/wiki/history.html:56 lms/templates_2/wiki/history.html:56
 msgid ""
 "Click each revision to see a list of edited lines. Click the Preview button "
 "to see how the article looked at this stage. At the bottom of this page, you"
 " can change to a particular revision or merge an old revision with the "
 "current one."
-msgstr "Kích vào mỗi cái đã được xem xét để thấy danh sách những dòng đã được chỉnh sửa. Kích vào nút duyệt trước để thấy được cách mà bài viết đã được nhìn tại giai đoạn này. Tại phần dưới cùng trang, bạn có thể thay đổi sự kiện hoặc kết hợp xem lại cái cũ cùng với hiện tại"
+msgstr "Bấm vào mỗi sửa đổi để xem một danh sách các dòng chỉnh sửa. "
+"Nhấn vào nút xem trước để xem bài viết này, xem xét giai đoạn này. "
+"Ở dưới cùng của trang này, bạn có thể thay đổi sang một phiên bản đặc biệt hoặc hợp nhất một phiên bản cũ với hiện tại."
 
-#: lms/templates/wiki/history.html:75
+#: lms/templates/wiki/history.html:75 lms/templates_2/wiki/history.html:75
 msgid "no log message"
-msgstr "không có nhật ký thông báo"
+msgstr "không có thông báo đăng nhập"
 
-#: lms/templates/wiki/history.html:87
+#: lms/templates/wiki/history.html:87 lms/templates_2/wiki/history.html:87
 msgid "Preview this revision"
-msgstr "Xem trước bản sửa đổi này"
+msgstr "Xem trước phiên bản này"
 
-#: lms/templates/wiki/history.html:101
+#: lms/templates/wiki/history.html:101 lms/templates_2/wiki/history.html:101
 msgid "Auto log:"
-msgstr "Tự động log:"
+msgstr "Tự  động đăng nhập"
 
-#: lms/templates/wiki/history.html:109
+#: lms/templates/wiki/history.html:109 lms/templates_2/wiki/history.html:109
 msgid "Change"
 msgstr "Thay đổi"
 
 #: lms/templates/wiki/history.html:127 lms/templates/wiki/history.html:132
+#: lms/templates_2/wiki/history.html:127 lms/templates_2/wiki/history.html:132
 msgid "Merge selected with current..."
-msgstr "Sáp nhập được chọn với hiện thời ..."
+msgstr "Hợp nhất được lựa chọn với hiện tại ..."
 
-#: lms/templates/wiki/history.html:137
+#: lms/templates/wiki/history.html:137 lms/templates_2/wiki/history.html:137
 msgid "Switch to selected version"
 msgstr "Chuyển sang phiên bản được lựa chọn"
 
 #: lms/templates/wiki/history.html:153 lms/templates/wiki/history.html:180
+#: lms/templates_2/wiki/history.html:153 lms/templates_2/wiki/history.html:180
 msgid "Back to history view"
-msgstr "Trở lại xem lịch sử"
+msgstr "Quay lại lịch sữ"
 
 #: lms/templates/wiki/history.html:158 lms/templates/wiki/history.html:163
+#: lms/templates_2/wiki/history.html:158 lms/templates_2/wiki/history.html:163
 msgid "Switch to this version"
-msgstr "Chuyển sang bản này"
+msgstr "Chuyển đến phiên bản này"
 
-#: lms/templates/wiki/history.html:171
+#: lms/templates/wiki/history.html:171 lms/templates_2/wiki/history.html:171
 msgid "Merge with current"
-msgstr "Sáp nhập với hiện thời"
+msgstr "Kết hợp với hiện tại"
 
-#: lms/templates/wiki/history.html:172
+#: lms/templates/wiki/history.html:172 lms/templates_2/wiki/history.html:172
 msgid ""
 "When you merge a revision with the current, all data will be retained from "
 "both versions and merged at its approximate location from each revision."
-msgstr "Khi bạn kết hợp với một phiên bản hiện tại, tất cả các dữ liệu sẽ được giữ lại từ cả hai phiên bản và sáp nhập tại vị trí gần đúng của nó từ mỗi sửa đổi."
+msgstr "Khi bạn kết hợp với một phiên bản hiện tại,"
+" tất cả các dữ liệu sẽ được giữ lại từ cả hai phiên bản và sáp nhập tại vị trí gần đúng của nó từ mỗi sửa đổi."
 
-#: lms/templates/wiki/history.html:172
+#: lms/templates/wiki/history.html:172 lms/templates_2/wiki/history.html:172
 msgid "After this, it's important to do a manual review."
-msgstr "Sau này, điều quan trọng bạn có thể xem lại bằng tay."
+msgstr "Sau này, điều quan trọng để làm bản đánh giá sữ dụng"
 
 #: lms/templates/wiki/history.html:185 lms/templates/wiki/history.html:190
+#: lms/templates_2/wiki/history.html:185 lms/templates_2/wiki/history.html:190
 msgid "Create new merged version"
-msgstr "Tạo ra phiên bản sáp nhập mới"
+msgstr "Tạo phiên bản kết hợp"
 
 #: lms/templates/wiki/preview_inline.html:13
+#: lms/templates_2/wiki/preview_inline.html:13
 msgid "Previewing revision"
-msgstr "xem trước bản sửa đổi"
+msgstr "Previewing revision"
 
 #: lms/templates/wiki/preview_inline.html:20
+#: lms/templates_2/wiki/preview_inline.html:20
 msgid "Previewing merge between"
-msgstr "Xem trước sáp nhập giữa"
+msgstr "Xem trước kết hợp giữa"
 
 #: lms/templates/wiki/preview_inline.html:22
+#: lms/templates_2/wiki/preview_inline.html:22
 msgid "and"
 msgstr "và"
 
+#: lms/templates/wiki/preview_inline.html:31
+msgid "This revision has been deleted."
+msgstr "Phiên bản này đã được xóa"
+
+#: lms/templates/wiki/preview_inline.html:32
+msgid "Restoring to this revision will mark the article as deleted."
+msgstr "Khôi phục lại phiên bản này và sẽ đánh dấu bài viết là bị xóa."
+
 #: lms/templates/wiki/includes/anonymous_blocked.html:7
+#: lms/templates_2/wiki/includes/anonymous_blocked.html:7
 #, python-format
 msgid ""
 "\n"
 "  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
 "  "
-msgstr "\n\\n Bạn cần phải <a href=\"%(login_url)s\">Đăng nhập</a> hoặc <a href=\"%(signup_url)s\">Đăng ký</a> để sử dụng chức năng này."
+msgstr ""
+"\n"
+"  Bạn cần đi đến <a href=\"%(login_url)s\">đăng nhập</a> hoặc <a href=\"%(signup_url)s\">đăng ký</a> để sữ dụng chức năng.\n"
+"  "
 
 #: lms/templates/wiki/includes/anonymous_blocked.html:11
+#: lms/templates_2/wiki/includes/anonymous_blocked.html:11
 msgid "You need to log in or sign up to use this function."
-msgstr "Bạn cần phải đăng nhập hoặc đăng ký để sử dụng chức năng này."
+msgstr "Bạn cân đăng nhập hoặc đăng ký để sữ dụng chức năng này"
 
 #: lms/templates/wiki/plugins/attachments/index.html:5
+#: lms/templates_2/wiki/plugins/attachments/index.html:5
 msgid "Attachments"
 msgstr "Tập tin đính kèm"
 
 #: lms/templates/wiki/plugins/attachments/index.html:14
+#: lms/templates_2/wiki/plugins/attachments/index.html:14
 msgid "Upload new file"
 msgstr "Tải lên tập tin mới"
 
 #: lms/templates/wiki/plugins/attachments/index.html:17
+#: lms/templates_2/wiki/plugins/attachments/index.html:17
 msgid "Search and add file"
 msgstr "Tìm kiếm và thêm tập tin"
 
+#: lms/templates/wiki/plugins/attachments/index.html:23
+msgid "Upload File"
+msgstr "Tải tập tin lên"
+
 #: lms/templates/wiki/plugins/attachments/index.html:27
+#: lms/templates_2/wiki/plugins/attachments/index.html:27
 msgid "Upload file"
-msgstr "Tải lên tập tin"
+msgstr "Tải tập tin lên"
 
 #: lms/templates/wiki/plugins/attachments/index.html:36
+#: lms/templates_2/wiki/plugins/attachments/index.html:36
 msgid ""
 "You can reuse files from other articles. These files are subject to updates "
 "on other articles which may or may not be a good thing."
-msgstr "Bạn có thể sử dụng lại các tập tin từ các bài viết khác. Những tập tin này có thể cập nhật trên bài viết khác, nó không thực sự là ý hay."
+msgstr "Bạn có thể sử dụng lại các tập tin từ các bài v khác. "
+"Những tập tin này có thể cập nhật trên các danh sách khác mà có thể hoặc không có thể là một điều tốt."
 
 #: lms/templates/wiki/plugins/attachments/index.html:65
+#: lms/templates_2/wiki/plugins/attachments/index.html:65
 msgid ""
 "The following files are available for this article. Copy the markdown tag to"
 " directly refer to a file from the article text."
-msgstr "Các tập tin sau đây có sẵn cho bài viết này. Sao chép thẻ markdown đến tham khảo trực tiếp vào một tập tin từ các văn bản bài viết."
+msgstr "Bạn có thể sử dụng lại các tập tin từ các bài viết khác. "
+"Những tập tin này có thể cập nhật trên các bài viết khác mà có thể hoặc không có thể là một điều tốt."
 
 #: lms/templates/wiki/plugins/attachments/index.html:74
+#: lms/templates_2/wiki/plugins/attachments/index.html:74
 msgid "deleted"
-msgstr "Đã xoá"
+msgstr "xóa"
 
 #: lms/templates/wiki/plugins/attachments/index.html:84
+#: lms/templates_2/wiki/plugins/attachments/index.html:84
 msgid "Markdown tag"
-msgstr "thẻ Markdown"
+msgstr "Thẻ đánh dấu xuống"
+
+#: lms/templates/wiki/plugins/attachments/index.html:85
+#: lms/templates_2/wiki/plugins/attachments/index.html:85
+msgid "Uploaded by"
+msgstr "Đã tải lên bởi"
 
 #: lms/templates/wiki/plugins/attachments/index.html:86
+#: lms/templates_2/wiki/plugins/attachments/index.html:86
 msgid "Size"
 msgstr "Kích thước"
 
 #: lms/templates/wiki/plugins/attachments/index.html:87
+#: lms/templates_2/wiki/plugins/attachments/index.html:87
 msgid "File History"
-msgstr "Tập tin lịch sử"
+msgstr "Lịch sữ tập tin"
 
 #: lms/templates/wiki/plugins/attachments/index.html:94
+#: lms/templates_2/wiki/plugins/attachments/index.html:94
 msgid "Detach"
-msgstr "Tách rời"
+msgstr "Tách riêng"
 
 #: lms/templates/wiki/plugins/attachments/index.html:97
+#: lms/templates_2/wiki/plugins/attachments/index.html:97
 msgid "Replace"
 msgstr "Thay thế"
 
 #: lms/templates/wiki/plugins/attachments/index.html:104
+#: lms/templates_2/wiki/plugins/attachments/index.html:104
 msgid "Restore"
 msgstr "Khôi phục"
 
 #: lms/templates/wiki/plugins/attachments/index.html:115
+#: lms/templates_2/wiki/plugins/attachments/index.html:115
 msgid "anonymous (IP logged)"
-msgstr "ẩn danh (IP đăng nhập)"
+msgstr "ẩn danh (IP đã đăng nhập)"
 
 #: lms/templates/wiki/plugins/attachments/index.html:122
+#: lms/templates_2/wiki/plugins/attachments/index.html:122
 msgid "File history"
-msgstr "Tập tin lịch sử"
+msgstr "Lịch sử tập tin"
 
 #: lms/templates/wiki/plugins/attachments/index.html:122
+#: lms/templates_2/wiki/plugins/attachments/index.html:122
 msgid "revisions"
-msgstr "Bản sửa đổi"
+msgstr "điều chỉnh"
 
 #: lms/templates/wiki/plugins/attachments/index.html:130
+#: lms/templates_2/wiki/plugins/attachments/index.html:130
 msgid "There are no attachments for this article."
-msgstr "Không có file đính kèm trong bài viết này."
+msgstr "Không có tập tin đính kèm trong bài viết này."

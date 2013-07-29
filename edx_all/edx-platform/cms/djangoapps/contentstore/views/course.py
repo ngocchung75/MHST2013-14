@@ -5,6 +5,9 @@ Views related to operations on course objects
 import json
 import random
 import string
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 from django.contrib.auth.decorators import login_required
 from django_future.csrf import ensure_csrf_cookie
@@ -107,7 +110,8 @@ def create_new_course(request):
     org = request.POST.get('org')
     number = request.POST.get('number')
     display_name = request.POST.get('display_name')
-
+    display_name=display_name.decode('utf-8')
+    org=org.decode('utf-8')
     try:
         dest_location = Location('i4x', org, number, 'course', Location.clean(display_name))
     except InvalidLocationError as error:
