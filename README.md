@@ -13,8 +13,6 @@ Wiki dự án: https://github.com/ngocchung75/MHST2013-14/wiki
 
 Ghi chú công việc tại Jupo: http://play.jupo.com/group/476738306579628033
 
-Quản lý Issues dự án: https://github.com/ngocchung75/MHST2013-14/issues
-
 Mentor: Thầy Trương Anh Hoàng - hoangta@vnu.edu.vn - Skype: hoangta
 
 Co-mentor: Thầy Nguyễn Đức Mận - mannd@duytan.edu.vn - Skype: mand.123
