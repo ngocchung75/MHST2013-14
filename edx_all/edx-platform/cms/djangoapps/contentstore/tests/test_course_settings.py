@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Tests for Studio Course Settings.
 """
@@ -114,17 +115,17 @@ class CourseDetailsTestCase(CourseTestCase):
 
         with mock.patch.dict('django.conf.settings.MITX_FEATURES', {'ENABLE_MKTG_SITE': True}):
             response = self.client.get(settings_details_url)
-            self.assertContains(response, "Course Summary Page")
-            self.assertContains(response, "course summary page will not be viewable")
+            self.assertContains(response, "Trang tóm tắt khóa học")
+            self.assertContains(response, "Trang tóm tắt khóa học của bạn sẽ không thể xem")
 
-            self.assertContains(response, "Course Start Date")
-            self.assertContains(response, "Course End Date")
-            self.assertNotContains(response, "Enrollment Start Date")
-            self.assertNotContains(response, "Enrollment End Date")
-            self.assertContains(response, "not the dates shown on your course summary page")
+            self.assertContains(response, "Ngày bắt đầu khóa học")
+            self.assertContains(response, "Thời gian kết thúc khoá học")
+            self.assertNotContains(response, "Ngày bắt đầu ghi danh")
+            self.assertNotContains(response, "Thời gian kết thúc chiêu sinh")
+            self.assertContains(response, "ngày ghi trên trang tóm tắt khóa học của bạn")
 
-            self.assertNotContains(response, "Introducing Your Course")
-            self.assertNotContains(response, "Requirements")
+            self.assertNotContains(response, "Giới thiệu khóa học của bạn")
+            self.assertNotContains(response, "Yêu cầu")
 
     def test_regular_site_fetch(self):
         settings_details_url = reverse(
@@ -138,17 +139,17 @@ class CourseDetailsTestCase(CourseTestCase):
 
         with mock.patch.dict('django.conf.settings.MITX_FEATURES', {'ENABLE_MKTG_SITE': False}):
             response = self.client.get(settings_details_url)
-            self.assertContains(response, "Course Summary Page")
-            self.assertNotContains(response, "course summary page will not be viewable")
+            self.assertContains(response, "Trang tóm tắt khóa học")
+            self.assertNotContains(response, "Trang tóm tắt khóa học của bạn sẽ không thể xem")
 
-            self.assertContains(response, "Course Start Date")
-            self.assertContains(response, "Course End Date")
-            self.assertContains(response, "Enrollment Start Date")
-            self.assertContains(response, "Enrollment End Date")
-            self.assertNotContains(response, "not the dates shown on your course summary page")
+            self.assertContains(response, "Ngày bắt đầu khóa học")
+            self.assertContains(response, "Thời gian kết thúc khoá học")
+            self.assertContains(response, "Ngày bắt đầu ghi danh")
+            self.assertContains(response, "Thời gian kết thúc chiêu sinh")
+            self.assertNotContains(response, "ngày ghi trên trang tóm tắt khóa học của bạn")
 
-            self.assertContains(response, "Introducing Your Course")
-            self.assertContains(response, "Requirements")
+            self.assertContains(response, "Giới thiệu khóa học của bạn")
+            self.assertContains(response, "Yêu cầu")
 
 
 class CourseDetailsViewTest(CourseTestCase):

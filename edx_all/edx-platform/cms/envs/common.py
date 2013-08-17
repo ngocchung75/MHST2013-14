@@ -161,6 +161,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.locale.LocaleMiddleware',
 
     'django.middleware.transaction.TransactionMiddleware'
+
 )
 
 ############################ SIGNAL HANDLERS ################################

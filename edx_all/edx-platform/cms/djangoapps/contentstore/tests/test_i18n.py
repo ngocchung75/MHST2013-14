@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from unittest import skip
 
 from django.core.urlresolvers import reverse
@@ -48,7 +49,7 @@ class InternationalizationTest(ModuleStoreTestCase):
 
         resp = self.client.get(reverse('index'))
         self.assertContains(resp,
-                            '<h1 class="page-header">My Courses</h1>',
+                            '<h1 class="page-header">Các khóa học của tôi</h1>',
                             status_code=200,
                             html=True)
 
@@ -63,7 +64,7 @@ class InternationalizationTest(ModuleStoreTestCase):
                                )
 
         self.assertContains(resp,
-                            '<h1 class="page-header">My Courses</h1>',
+                            '<h1 class="page-header">Các khóa học của tôi</h1>',
                             status_code=200,
                             html=True)
 

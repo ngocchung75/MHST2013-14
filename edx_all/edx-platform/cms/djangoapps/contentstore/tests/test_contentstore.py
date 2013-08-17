@@ -1,5 +1,5 @@
 #pylint: disable=E1101
-
+# -*- coding: utf-8 -*-
 import json
 import shutil
 import mock
@@ -984,7 +984,7 @@ class ContentStoreTest(ModuleStoreTestCase):
         resp = self.client.get(reverse('index'))
         self.assertContains(
             resp,
-            '<h1 class="page-header">My Courses</h1>',
+            '<h1 class="page-header">Các khóa học của tôi</h1>',
             status_code=200,
             html=True
         )
