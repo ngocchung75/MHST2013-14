@@ -82,9 +82,7 @@ splinter==0.5.0
 django_nose==1.1
 django-jasmine==0.3.2
 
-oauth==1.01
-python-oauth2==1.4
-django-social-auth==0.7.12
+
 
 django_debug_toolbar
 django-debug-toolbar-mongo
