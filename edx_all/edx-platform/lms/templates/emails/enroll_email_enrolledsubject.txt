@@ -1,0 +1,1 @@
+Bạn đã được ghi danh trong khoá học ${course_id}

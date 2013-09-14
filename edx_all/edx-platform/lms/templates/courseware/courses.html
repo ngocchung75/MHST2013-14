@@ -1,0 +1,28 @@
+<%inherit file="../main.html" />
+
+<%namespace name='static' file='../static_content.html'/>
+
+<%block name="title"><title>Courses</title></%block>
+
+<section class="find-courses">
+  <header class="search">
+    <div class="inner-wrapper main-search">
+      
+<img src="${static.url('images/homepage-bg.jpg')}" height="274"/>
+    </div>
+  </header>
+
+  <section class="container">
+    ## I'm removing this for now since we aren't using it for the fall.
+    ## <%include file="course_filter.html" />
+    <section class="courses">
+      <ul class="courses-listing">
+        %for course in courses:
+        <li class="courses-listing-item">
+          <%include file="../course.html" args="course=course" />
+        </li>
+        %endfor
+      </ul>
+    </section>
+  </section>
+</section>

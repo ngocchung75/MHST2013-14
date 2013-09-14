@@ -1,0 +1,79 @@
+## mako
+<%! from django.core.urlresolvers import reverse %>
+<%namespace name='static' file='static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.utils import translation    %>
+
+<div class="wrapper wrapper-footer">
+  <footer>
+    <div class="colophon">
+      <nav class="nav-colophon">
+      <ol>
+          <li class="nav-colophon-01">
+          <a id="about" href="${marketing_link('ABOUT')}">
+              Giới thiệu
+          </a>
+          </li>
+          <li class="nav-colophon-04">
+          <a id="faq" href="${marketing_link('FAQ')}">
+              Hỏi đáp
+          </a>
+          </li>
+          <li class="nav-colophon-05">
+          <a id="contact" href="${marketing_link('CONTACT')}">
+              ${_("Contact")}
+          </a>
+          </li>
+      </ol>
+      </nav>
+
+      <div class="colophon-about">
+        <img src="${MITX_ROOT_URL}/static/images/header-logo.png" />
+
+        <p>Vietnam Open Academy (VNOA) - Học viện mở Việt Nam là một tổ chức phi lợi nhuận được thành lập bởi các Giảng viên và Sinh Viên
+tham gia cuộc thi MHST 2013. VNOA kế thừa và phát triển mã nguồn mở edX để xây dựng nên các khoá học đại chúng (MOOC) miễn phí cho tất cả
+người dân Việt Nam. Mọi người có thể tham gia các khoá học chất lượng cao dù ở bất kỳ nơi đâu và bất kỳ lúc nào./ </p>
+      </div>
+    </div>
+
+    <div class="references">
+      <nav class="nav-social">
+        <ul>
+          <li class="nav-social-02">
+            <a href="https://github.com/ngocchung75/MHST2013-14" rel="external">
+              <img src="${MITX_ROOT_URL}/static/images/social/ico-social-facebook.png" alt="VNOA on Facebook" />
+            </a>
+          </li>
+          <li class="nav-social-03">
+            <a href="https://github.com/ngocchung75/MHST2013-14" rel="external">
+              <img src="${MITX_ROOT_URL}/static/images/social/ico-social-twitter.png" alt="VNOA on Twitter" />
+            </a>
+          </li>
+          <li class="nav-social-04">
+            <a href="https://github.com/ngocchung75/MHST2013-14" rel="external">
+              <img src="${MITX_ROOT_URL}/static/images/social/ico-social-google.png" alt="VNOA on Google+" />
+            </a>
+          </li>
+          <li class="nav-social-05">
+            <a href="https://github.com/ngocchung75/MHST2013-14" rel="external">
+              <img src="${MITX_ROOT_URL}/static/images/social/ico-social-youtube.png" alt="VNOA on YouTube" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="copyright">Copyright &copy; 2013 Vietnam Open Academy.</p>
+
+      <nav class="nav-legal">
+        <ul>
+          <li class="nav-legal-01">
+            <a href="${marketing_link('TOS')}">Thoả thuận sử dụng</a>
+          </li>
+          <li class="nav-legal-02">
+            <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</div>

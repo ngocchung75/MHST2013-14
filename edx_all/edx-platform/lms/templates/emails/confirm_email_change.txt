@@ -1,0 +1,23 @@
+<%! from django.core.urlresolvers import reverse %>
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+## Again, ugly hack that needs to be changed
+## TODO: this probably needs better formatting to look nice in an
+##       email client (Mako leaves awkward whitespace)
+% if stanford_theme_enabled():
+Điều này là để xác nhận rằng bạn đã thay đổi địa chỉ e-mail liên quan
+   ban ở website VNAO từ ${old_email} đến ${new_email}. nếu bạn
+   không thực hiện yêu cầu này, xin vui lòng liên hệ với chúng tôi tại
+
+% else:
+ Điều này là để xác nhận rằng bạn đã thay đổi địa chỉ e-mail liên quan
+   ban ở website VNAO từ ${old_email} đến ${new_email}. nếu bạn
+   không thực hiện yêu cầu này, xin vui lòng liên hệ với chúng tôi tại
+
+  % if is_secure:
+    http://edx.dtu.vn:8000/contact
+  % else:
+    http://edx.dtu.vn:8000/contact
+  % endif
+% endif
+
+Chúng tôi sẽ lưu nhật ký thay đổi này./

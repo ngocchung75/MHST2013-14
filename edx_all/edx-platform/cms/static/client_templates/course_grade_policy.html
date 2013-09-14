@@ -1,0 +1,35 @@
+<li class="field-group course-grading-assignment-list-item">
+  <div class="field text" id="field-course-grading-assignment-name">
+  	<label for="course-grading-assignment-name">Tên bài tập, bài kiểm tra, kỳ thi</label>
+  	<input type="text" class="long" id="course-grading-assignment-name" value="<%= model.get('type') %>" /> 
+  	<span class="tip tip-stacked">vd: Bài tập về nhà, Thi giữa kỳ...</span> 
+  </div>
+
+  <div class="field text" id="field-course-grading-assignment-shortname">
+    <label for="course-grading-assignment-shortname">Tên viết tắt:</label>
+    <input type="text" class="short" id="course-grading-assignment-shortname" value="<%= model.get('short_label') %>" /> 
+    <span class="tip tip-inline">vd: BTVN, TGK</span>
+  </div>
+  
+  <div class="field text" id="field-course-grading-assignment-gradeweight">
+    <label for="course-grading-assignment-gradeweight">Trọng số điểm:</label>
+    <input type="text" class="short" id="course-grading-assignment-gradeweight" value = "<%= model.get('weight') %>" /> 
+    <span class="tip tip-inline">vd: 10%, 15%, 25%, ...</span>
+  </div>
+  
+  <div class="field text" id="field-course-grading-assignment-totalassignments">
+    <label for="course-grading-assignment-totalassignments">Tổng số bài:</label>
+    <input type="text" class="short" id="course-grading-assignment-totalassignments" value = "<%= model.get('min_count') %>" /> 
+    <span class="tip tip-inline">Tổng số bài tập được giao.</span>
+  </div>
+  
+  <div class="field text" id="field-course-grading-assignment-droppable">
+    <label for="course-grading-assignment-droppable">Số bài không chấm điểm:</label>
+    <input type="text" class="short" id="course-grading-assignment-droppable" value = "<%= model.get('drop_count') %>" />
+    <span class="tip tip-inline">Tổng số bài chỉ để luyện tập, không tính điểm.</span>
+  </div>
+  
+  <div class="actions">
+  	<a href="#" class="button delete-button standard remove-item remove-grading-data"><span class="delete-icon"></span>Xoá</a>
+  </div>
+</li>

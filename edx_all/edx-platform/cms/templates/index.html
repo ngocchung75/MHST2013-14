@@ -1,0 +1,376 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+<%inherit file="base.html" />
+
+<%block name="title">Học viện mở Việt Nam - VNOA Studio</%block>
+<%block name="bodyclass">is-signedin index dashboard</%block>
+
+<%block name="header_extras">
+
+  <script type="text/template" id="new-course-template" >
+    <section class="new-course">
+      <div class="item-details">
+        <form class="course-info" >
+          <div class="row">
+            <label>${_("Course Name")}</label>
+            <input type="text" class="new-course-name" />
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>${_("Organization")}</label>
+
+                <select  class="new-course-org">
+                    <option value="DDT">Đại Học Duy Tân</option>
+                    <option value="VNOA">Vietname Open Academy</option>
+                    <option value="DDK">Đại Học Bách Khoa Đà Nẵng</option>
+                    <option value="BKA">Đại Học Bách Khoa Hà Nội</option>
+                    <option value="FPT">Đại Học FPT</option>
+                    <option value="NTH">Đại Học Ngoại Thương</option>
+                    <option value="OTH">Khác</option>
+                </select>
+            </div>
+            <div class="column">
+              <label>${_("Course Number")}</label>
+              <input type="text" class="new-course-number" />
+                <div class="ui-widget">
+
+                  <select id="combobox">
+                    <option value="AppleScript">AppleScript</option>
+                    <option value="Asp">Asp</option>
+                    <option value="BASIC">BASIC</option>
+                    <option value="C">C</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Lisp">Lisp</option>
+                    <option value="Perl">Perl</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="Scala">Scala</option>
+                    <option value="Scheme">Scheme</option>
+                  </select>
+                </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="${_('Save')}" class="new-course-save" data-template="${new_course_template}" />
+            <input type="button" value="${_('Cancel')}" class="new-course-cancel" />
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+
+  </script>
+
+</%block>
+
+
+<%block name="content">
+
+  <meta charset="utf-8">
+
+  <div class="wrapper-mast wrapper">
+    <header class="mast has-actions">
+      <h1 class="page-header">${_("My Courses")}</h1>
+
+      % if user.is_active:
+      <nav class="nav-actions">
+        <h3 class="sr">${_("Page Actions")}</h3>
+        <ul>
+          <li class="nav-item">
+
+	     %if settings.MITX_FEATURES.get('STAFF_EMAIL',''):
+	      <a href="mailto:${settings.MITX_FEATURES.get('STAFF_EMAIL','')}">${_("Email staff to create course")}</a>
+            % endif
+          </li>
+        </ul>
+      </nav>
+      % endif
+    </header>
+  </div>
+
+  <div class="wrapper-content wrapper">
+    <section class="content">
+      <div class="introduction">
+        <p class="copy">
+          <strong>${_("Welcome, %(name)s") % dict(name= user.username)}</strong>.
+          ${_("Here are all of the courses you are currently authoring in Studio:")}</p>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="main-wrapper"  >
+      <meta charset="utf-8">
+
+       <section class="new-course">
+      <div class="item-details">
+          <a href="#" ><i class="icon-plus"></i> ${_("New Course")}</a>
+          <br/>
+        <form class="course-info" id='template' >
+          <div class="row">
+            <label>${_("Course Name")}</label>
+            <input type="text" class="new-course-name" />
+          </div>
+          <div class="row">
+            <div class="column">
+              <label>${_("Organization")}</label>
+
+                <select  class="new-course-org">
+                    <option value="DDT">Đại Học Duy Tân</option>
+                    <option value="VNOA">Học Viện Mở Việt Nam</option>
+                    <option value="DDK">Đại Học Bách Khoa Đà Nẵng</option>
+                    <option value="BKA">Đại Học Bách Khoa Hà Nội</option>
+                    <option value="FPT">Đại Học FPT</option>
+                    <option value="NTH">Đại Học Ngoại Thương</option>
+                    <option value="UET">Đại Học Công Nghệ - ĐHQGHN</option>
+                    <option value="OTH">Khác</option>
+                </select>
+            </div>
+            <div class="column">
+              <label>${_("Course Number")}</label>
+
+                <div class="ui-widget">
+
+                  <select id="combobox" class="new-course-number" >
+                    <option value="KHTN">KHTN</option>
+                    <option value="KHXH">KHXH</option>
+                    <option value="LTRINH">LTRINH</option>
+                    <option value="KNMEM">KNMEM</option>
+                    <option value="CNTT">CNTT</option>
+                    <option value="KHAC">KHAC</option>
+
+                  </select>
+                </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <input  type="submit" value="${_('Save')}" class="new-course-save" data-template="${new_course_template}" />
+            <input type="button" value="${_('Cancel')}" class="new-course-cancel" />
+          </div>
+
+        </form>
+      </div>
+    </section>
+    <div class="inner-wrapper">
+      <article class="my-classes">
+        % if user.is_active:
+        <ul class="class-list">
+          %for course, url, lms_link in sorted(courses, key=lambda s: s[0].lower() if s[0] is not None else ''):
+          <li>
+            <a class="class-link" href="${url}" class="class-name">
+              <span class="class-name">${course}</span>
+            </a>
+            <a href="${lms_link}" rel="external" class="button view-button view-live-button">View Live</a>
+          </li>
+            %endfor
+        </ul>
+        % else:
+          <div class='warn-msg'>
+            <p>
+            ${_("In order to start authoring courses using edX Studio, please click on the activation link in your email.")}
+            </p>
+          </div>
+        % endif
+      </article>
+    </div>
+  </div>
+</%block>
+
+<%block name="jsextra">
+
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+
+
+
+  <style>
+  .custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 1.7em;
+    *top: 0.1em;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 0.3em;
+  }
+  </style>
+  <script type="text/javascript">
+
+
+
+  (function( $ ) {
+    $.widget( "custom.combobox", {
+      _create: function() {
+        this.wrapper = $( "<span>" )
+          .addClass( "custom-combobox" )
+          .insertAfter( this.element );
+
+        this.element.hide();
+        this._createAutocomplete();
+        this._createShowAllButton();
+      },
+
+      _createAutocomplete: function() {
+        var selected = this.element.children( ":selected" ),
+          value = selected.val() ? selected.text() : "";
+
+        this.input = $( "<input>" )
+          .appendTo( this.wrapper )
+          .val( value )
+          .attr( "title", "" )
+          .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
+          .autocomplete({
+            delay: 0,
+            minLength: 0,
+            source: $.proxy( this, "_source" )
+          })
+          .tooltip({
+            tooltipClass: "ui-state-highlight"
+          });
+
+        this._on( this.input, {
+          autocompleteselect: function( event, ui ) {
+            ui.item.option.selected = true;
+            this._trigger( "select", event, {
+              item: ui.item.option
+            });
+          },
+
+          autocompletechange: "_removeIfInvalid"
+        });
+      },
+
+      _createShowAllButton: function() {
+        var input = this.input,
+          wasOpen = false;
+
+        $( "<a>" )
+          .attr( "tabIndex", -1 )
+          .attr( "title", "Show All Items" )
+          .tooltip()
+          .appendTo( this.wrapper )
+          .button({
+            icons: {
+              primary: "ui-icon-triangle-1-s"
+            },
+            text: false
+          })
+          .removeClass( "ui-corner-all" )
+          .addClass( "custom-combobox-toggle ui-corner-right" )
+          .mousedown(function() {
+            wasOpen = input.autocomplete( "widget" ).is( ":visible" );
+          })
+          .click(function() {
+            input.focus();
+
+            // Close if already visible
+            if ( wasOpen ) {
+              return;
+            }
+
+            // Pass empty string as value to search for, displaying all results
+            input.autocomplete( "search", "" );
+          })
+      },
+
+      _source: function( request, response ) {
+        var matcher = new RegExp( $.ui.autocomplete.escapeRegex(request.term), "i" );
+        response( this.element.children( "option" ).map(function() {
+          var text = $( this ).text();
+          if ( this.value && ( !request.term || matcher.test(text) ) )
+            return {
+              label: text,
+              value: text,
+              option: this
+            };
+        }) );
+      },
+
+      _removeIfInvalid: function( event, ui ) {
+
+        // Selected an item, nothing to do
+        if ( ui.item ) {
+
+          return;
+        }
+
+
+        // Search for a match (case-insensitive)
+        var value = this.input.val(),
+         // valueLowerCase = value.toLowerCase(),
+		 valueLowerCase = value,
+          valid = false;
+
+		/*
+        this.element.children( "option" ).each(function() {
+          if ( $( this ).text().toLowerCase() === valueLowerCase ) {
+            this.selected = valid = true;
+            return false;
+          }
+        });
+
+		*/
+
+		  this.element.children( "option" ).each(function() {
+			var part="^"+$( this ).text()+"\\d+$";
+
+			var patt = new RegExp(part, "g");
+
+          if ( patt.test(valueLowerCase)) {
+
+            	this.selected = valid = true;
+
+
+           	    return false;
+          }
+
+        });
+
+        // Found a match, nothing to do
+        if ( valid ) {
+          return;
+        }
+
+        // Remove invalid value
+        this.input
+          .val( "KHTN" )
+          .attr( "title", value + " didn't match any item" )
+          .tooltip( "open" );
+        this.element.val( "" );
+        this._delay(function() {
+          this.input.tooltip( "close" ).attr( "title", "" );
+        }, 2500 );
+        this.input.data( "ui-autocomplete" ).term = "";
+      },
+
+      _destroy: function() {
+        this.wrapper.remove();
+        this.element.show();
+      }
+    });
+  })( jQuery );
+
+  $(function() {
+    $( "#combobox" ).combobox();
+
+
+  });
+
+
+  </script>
+
+
+ </%block>

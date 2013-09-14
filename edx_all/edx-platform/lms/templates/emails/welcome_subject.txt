@@ -1,0 +1,7 @@
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+## TODO: fix ugly hack
+% if stanford_theme_enabled():
+  Chào mừng đến với Học viện mở Việt Nam - VNOA
+% else:
+  Chào mừng đến với Học viện mở Việt Nam - VNOA
+% endif

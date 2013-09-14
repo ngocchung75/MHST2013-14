@@ -1,0 +1,11 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+Cảm ơn bạn đã đăng ký VNOA Studio! Để kích hoạt tài khoản của bạn, xin vui lòng sao chép và dán địa chỉ này vào thanh địa chỉ của trình duyệt web của bạn:
+
+% if is_secure:
+  https://${ site }/activate/${ key }
+% else:
+  http://${ site }/activate/${ key }
+% endif
+
+Nếu bạn không tạo yêu cầu này, bạn không cần phải làm bất cứ điều gì, bạn sẽ không nhận được email từ chúng tôi nữa. Xin vui lòng không trả lời e-mail này, nếu bạn cần hỗ trợ, xem trợ giúp tại http://edx.dtu.vn:8000/help

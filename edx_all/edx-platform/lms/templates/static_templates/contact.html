@@ -1,0 +1,35 @@
+<%! from django.core.urlresolvers import reverse %>
+<%namespace name='static' file='../static_content.html'/>
+
+<%inherit file="../main.html" />
+
+<%block name="title"><title>Liên hệ nhóm phát triển dự án</title></%block>
+
+<section class="container about">
+  <nav>
+    <a href="${reverse('about_edx')}">Giới thiệu</a>
+    <a href="${reverse('faq_edx')}">Hỏi đáp</a>
+    <a href="${reverse('press')}">Báo chí</a>
+    <a href="${reverse('contact')}" class="active">Liên hệ</a>
+  </nav>
+
+  <section class="contact">
+    <div class="photo">
+      <img src="${static.url('images/contact-page.jpg')}">
+    </div>
+    <div class="contacts">
+      <h2>Liên hệ nhóm phát triển dự án</h2>
+      <p>Xem dự án của VNOA tại <a href="https://github.com/ngocchung75/MHST2013-14"> Team MOOC DTU</a> </p>
+	<p>Mentor: Thầy Trương Anh Hoàng - hoangta@vnu.edu.vn - Skype: hoangta</p>
+	<p>Co-mentor: Thầy Nguyễn Đức Mận - mannd@duytan.edu.vn - Skype: mand.123</p>
+	<p>Team Members:</p>
+	<p>1. Hà Ngọc Chung (TL) - ngocchung75@gmail.com - Skype: chungtoocqb</p>	
+	<p>2. Đặng Huy Hòa - danghuyhoa@gmail.com - Skype: hoa.ubt</p>
+	<p>3. Hoàng Thế Hùng - hoangthehung92@gmail.com - Skype: hunghoangthe92</p>
+	<p>Sinh viên Đại học Duy Tân - Đà Nẵng</p>
+     
+
+    </div>
+  </section>
+</section>
+

@@ -1,0 +1,20 @@
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+Chúng tôi nhận được yêu cầu thay đổi địa chỉ e-mail liên quan đến bạn tai VNOA tài khoản từ  ${old_email} sang ${new_email}.
+Nếu điều này là chính xác, xin vui lòng xác nhận địa chỉ e-mail mới của bạn bằng cách click vào link dưới đây:
+
+% if is_secure:
+ https://${ site }/email_confirm/${ key }
+% else:
+ http://${ site }/email_confirm/${ key }
+% endif
+
+## TODO: fix this ugly hack
+% if stanford_theme_enabled():
+  Nếu bạn không tạo yêu cầu này, bạn không cần phải làm bất cứ điều gì, bạn sẽ không
+   nhận email từ chúng tôi nữa. Xin vui lòng không trả lời e-mail;
+   nếu bạn cần hỗ trợ, xem phần trợ giúp của VNOA tại http://edx.dtu.vn:8000/help
+% else:
+  Nếu bạn không tạo yêu cầu này, bạn không cần phải làm bất cứ điều gì, bạn sẽ không
+   nhận email từ chúng tôi nữa. Xin vui lòng không trả lời e-mail;
+   nếu bạn cần hỗ trợ, xem phần trợ giúp của VNOA tại http://edx.dtu.vn:8000/help
+% endif

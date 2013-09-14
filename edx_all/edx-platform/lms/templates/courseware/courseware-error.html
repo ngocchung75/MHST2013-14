@@ -1,0 +1,17 @@
+<%inherit file="/main.html" />
+<%namespace name='static' file='../static_content.html'/>
+<%block name="bodyclass">courseware</%block>
+<%block name="title"><title>Khoá học</title></%block>
+
+<%block name="headextra">
+  <%static:css group='course'/>
+</%block>
+
+<%include file="/courseware/course_navigation.html" args="active_page='courseware'" />
+
+<section class="container">
+  <section class="outside-app">
+    <h1>Hiện có lỗi máy chủ</h1>
+    <p>Chúng tôi xin lỗi, mô-đun này là tạm thời không có. Nhân viên của chúng tôi đang làm việc để sửa chữa nó càng sớm càng tốt. Vui lòng gửi email cho chúng tôi <a href="mailto:vn.open.academy@gmail.com">vn.open.academy@gmail.com</a> để thông báo bất kỳ lỗi nào xảy ra với bạn. Chúng tôi sẽ cố gắng khắc phục sớm. Xin Cám ơn!</p>
+  </section>
+</section>

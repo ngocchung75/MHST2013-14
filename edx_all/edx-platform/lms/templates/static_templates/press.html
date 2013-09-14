@@ -1,0 +1,27 @@
+<%! from django.core.urlresolvers import reverse %>
+<%namespace name='static' file='../static_content.html'/>
+
+<%inherit file="../main.html" />
+
+<%block name="title"><title>Vietnam Open Academy in the Press</title></%block>
+
+<section class="container about">
+  <nav>
+    <a href="${reverse('about_edx')}">Giới thiệu</a>
+    <a href="${reverse('faq_edx')}">Hỏi đáp</a>
+    <a href="${reverse('press')}" class="active">Báo chí</a>
+    <a href="${reverse('contact')}">Liên hệ</a>
+  </nav>
+
+
+  <section class="press">
+    
+    <article>
+        <h2><span class="edx">Giới thiệu Học Viện Mở Việt Nam (VNOA)</span></h2>
+        <p>Vietnam Open Academy (VNOA) - Học viện mở Việt Nam là một tổ chức phi lợi nhuận được thành lập bởi các Giảng viên và Sinh Viên
+tham gia cuộc thi MHST 2013. VNOA kế thừa và phát triển mã nguồn mở edX để xây dựng nên các khoá học đại chúng (MOOC) miễn phí cho tất cả
+người dân Việt Nam. Mọi người có thể tham gia các khoá học chất lượng cao dù ở bất kỳ nơi đâu và bất kỳ lúc nào./ </p>
+      </article>
+    
+  </section>
+</section>

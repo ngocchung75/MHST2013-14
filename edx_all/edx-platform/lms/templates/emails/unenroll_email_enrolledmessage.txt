@@ -1,0 +1,17 @@
+Dear ${first_name} ${last_name}
+
+You have been un-enrolled in ${course_id} at ${site_name} by a member of the course staff. The course will no longer appear on your ${site_name} dashboard.
+
+Your other courses have not been affected.
+
+----
+This email was automatically sent from  ${site_name} to ${first_name} ${last_name}
+
+Thân gửi ${first_name} ${last_name}
+
+Bạn đã được huỷ ghi danh trong ${course_id} tại ${site_name} bởi giáo viên khoá học. Khóa học sẽ không còn xuất hiện trên bảng điều khiển của bạn.
+
+Các khóa học khác của bạn không bị ảnh hưởng.
+
+----
+Email này đã được tự động gửi từ ${site_name} đến ${first_name} ${last_name}

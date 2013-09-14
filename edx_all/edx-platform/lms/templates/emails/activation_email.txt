@@ -1,0 +1,21 @@
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+
+Cảm ơn bạn đã đăng ký với VNOA. Để kích hoạt tài khoản của bạn, xin vui lòng sao chép và dán địa chỉ này vào trang web của bạn
+thanh địa chỉ của trình duyệt.
+
+% if is_secure:
+  https://${ site }/activate/${ key }
+% else:
+  http://${ site }/activate/${ key }
+% endif
+
+## Temporary hack until we develop a better way to adjust language
+% if stanford_theme_enabled():
+  Nếu bạn không tạo yêu cầu này, bạn không cần phải làm bất cứ điều gì, bạn sẽ không
+   nhận email từ chúng tôi nữa. Xin vui lòng không trả lời e-mail;
+   nếu bạn cần hỗ trợ, xem phần trợ giúp của VNOA tại http://edx.dtu.vn:8000/help
+% else:
+  Nếu bạn không tạo yêu cầu này, bạn không cần phải làm bất cứ điều gì, bạn sẽ không
+   nhận email từ chúng tôi nữa. Xin vui lòng không trả lời e-mail;
+   nếu bạn cần hỗ trợ, xem phần trợ giúp của VNOA tại http://edx.dtu.vn:8000/help
+% endif

@@ -1,0 +1,13 @@
+Thân gửi sinh viên,
+
+Bạn đã được mời tham gia khoá học ${course_id} tại ${site_name} bởi giáo viên khoá học.
+
+Để hoàn tất đăng ký của bạn, vui lòng truy cập ${registration_url} và điền vào mẫu đăng ký.
+% if auto_enroll:
+Một khi bạn đã đăng ký và kích hoạt tài khoản của bạn, bạn sẽ thấy ${course_id} được liệt kê trên bảng điều khiển của bạn.
+% else:
+Một khi bạn đã đăng ký và kích hoạt tài khoản của bạn, hãy truy cập ${course_url} để tham gia khóa học.
+% endif
+
+----
+Email này đã được tự động gửi từ ${site_name} đến ${email_address}

@@ -1,0 +1,8 @@
+Gửi: ${first_name} ${last_name}
+
+Bạn đã được ghi danh trong ${course_id} tại ${site_name} bởi giáo viên khoá học. Khóa học sẽ xuất hiện trên bảng điều khiển của bạn.
+
+Để bắt đầu truy cập vào tài liệu học tập, vui lòng truy cập ${course_url}
+
+----
+Email này đã được tự động gửi từ ${site_name} đến ${first_name} ${last_name}

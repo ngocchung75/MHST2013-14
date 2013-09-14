@@ -1,0 +1,28 @@
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+## TODO: fix ugly hack
+% if stanford_theme_enabled():
+  VNOA đã sẵng sàng! Hãy ghé thăm:
+% else:
+  VNOA đã sẵng sàng! Hãy ghé thăm:
+% endif
+
+% if is_secure:
+ http://edx.dtu.vn:8000/
+% else:
+ http://edx.dtu.vn:8000/
+% endif
+
+Một nút đăng nhập sẽ được ở góc trên bên phải của cửa sổ.
+
+Hãy chắc chắn rằng bạn đang sử dụng phiên bản mới nhất của Google Chrome hay
+Firefox. Nếu bạn quên mật khẩu của bạn, đăng nhập dạng có đặt để thiết lập lại nó.
+
+## TODO: fix ugly hack
+% if stanford_theme_enabled():
+  Liên hệ với nhóm phát triển VNOA: http://edx.dtu.vn:8000/contact
+% else:
+  Liên hệ với nhóm phát triển VNOA: http://edx.dtu.vn:8000/contact
+% endif
+
+Xin vui lòng không trả lời e-mail;
+   nếu bạn cần hỗ trợ, xem phần trợ giúp của VNOA tại http://edx.dtu.vn:8000/help

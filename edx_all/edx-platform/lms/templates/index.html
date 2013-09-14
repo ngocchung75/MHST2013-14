@@ -1,0 +1,122 @@
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.utils import translation    %>
+
+
+<%! from django.core.urlresolvers import reverse %>
+<%! from time import strftime %>
+<%inherit file="main.html" />
+<%namespace name='static' file='static_content.html'/>
+
+<section class="home">
+  <div align=center>
+<img src="${static.url('images/homepage-bg.jpg')}" height="274"/></div>
+
+
+  <section class="container">
+    <section class="highlighted-courses">
+      ## Disable university partner logos and sites for non-edX sites
+      % if not self.theme_enabled():
+        <h2>${_("Explore free courses from")} <span class="edx">VIETNAM OPEN ACADEMY</span></h2>
+
+        <section class="university-partners university-partners2x6">
+          <ol class="partners">
+            <li class="partner mit">
+              <a href="http://www.mit.edu/" target="_blank">
+                <img src="${static.url('images/university/mit/mit.png')}" />
+                <div class="name">
+                  <span>MITx</span>
+                </div>
+              </a>
+            </li>
+            <li class="partner">
+              <a href="http://harvardx.harvard.edu/" target="_blank">
+                <img src="${static.url('images/university/harvard/harvard.png')}" />
+                <div class="name">
+                  <span>HarvardX</span>
+                </div>
+              </a>
+            </li>
+            <li class="partner">
+              <a href="http://www.dtu.edu.vn/" target="_blank">
+                <img src="${static.url('images/university/dtu/dtu.jpg')}" />
+                <div class="name">
+                  <span>Duy Tan University</span>
+                </div>
+              </a>
+            </li>
+            <li class="partner">
+              <a href="http://www.fpt.edu.vn/" target="_blank">
+                <img src="${static.url('images/university/fptu/fptu.jpg')}" />
+                <div class="name">
+                  <span>FPT University</span>
+                </div>
+              </a>
+            </li>
+            <li class="partner">
+              <a href="http://www.vnu.edu.vn/home/" target="_blank">
+                <img src="${static.url('images/university/vnu-hn/vnu-hn.jpg')}" />
+                <div class="name">
+                  <span>Vietnam National University, Hanoi</span>
+                </div>
+              </a>
+            </li>
+            <li class="partner">
+              <a href="http://www.vnuhcm.edu.vn/" target="_blank">
+                <img src="${static.url('images/university/vnu-hcm/vnu-hcm.jpg')}" />
+                <div class="name">
+                  <span>Vietnam National University, HCM</span>
+                </div>
+              </a>
+            </li>
+          </ol>
+
+          <hr />
+
+
+        </section>
+      % endif
+
+      <section class="courses">
+          <ul class="courses-listing">
+          %for course in courses:
+            <li class="courses-listing-item">
+              <%include file="course.html" args="course=course" />
+            </li>
+          %endfor
+          </ul>
+      </section>
+    </section>
+  </section>
+
+</section>
+
+<section id="video-modal" class="modal home-page-video-modal video-modal">
+  <div class="inner-wrapper">
+    <%
+      if self.stanford_theme_enabled():
+        youtube_video_id = "2gmreZObCY4"
+      else:
+        youtube_video_id = "XNaiOGxWeto"
+    %>
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/${youtube_video_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+
+<%block name="js_extra">
+   <script type="text/javascript"">
+      $(window).load(function() {
+         if(getParameterByName('next')) {
+              $('#login').trigger("click");
+         }
+      })
+   </script>
+</%block>
+
+% if show_signup_immediately is not UNDEFINED:
+  ## NOTE: This won't work in production, because anonymous views are cached, so it will
+  ## show either with or without this extra js for 3 minutes at a time.
+<script type="text/javascript">
+  $(window).load(function() {$('#signup_action').trigger("click");});
+</script>
+% endif

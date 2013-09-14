@@ -1,0 +1,324 @@
+<%! from django.core.urlresolvers import reverse %>
+<%inherit file="../main.html" />
+
+<%namespace name='static' file='../static_content.html'/>
+
+<%block name="title"><title>Trợ giúp</title></%block>
+
+<%block name="js_extra">
+<script src="${static.url('js/help.js')}"></script>
+</%block>
+
+<section class="static-container help">
+  <h1>Help</h1>
+  <hr class="horizontal-divider">
+
+  <section class="questions">
+    <section class="responses">
+      <section id="edx_basics_faq" class="category">
+        <h2>Những Trợ giúp cơ bản</h2>
+        <article class="response">
+          <h3 class="question">Làm sao tôi có thể đăng kí tài khoản để tham gia các khóa học ?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_0">
+            <p>Đơn giản bạn chỉ cần tạo một tài khoản trên VNOA (hoàn toàn miễn phí). Sau đó bạn chọn khóa học để tham gia học (miễn phí) và bạn tiếp tục làm theo hướng dẫn trên website.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tốn bao nhiêu tiền để tham gia một khóa học? Điều này có thực sự miễn phí hay không?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_1">
+            <p>Các khóa học của VNOA hoàn toàn miễn phí cho mọi đối tượng. Chỉ cần máy tính của bạn kết nối được internet.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Sau khi đăng kí được khóa học, tôi sẽ phải làm gì để tham gia được khóa học?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_2">
+            <p>Bạn sẽ nhận được một email kích hoạt. Thực hiện theo các hướng dẫn trong email để kích hoạt tài khoản của bạn. Bạn sẽ cần phải đăng nhập vào mỗi khi bạn truy cập vào khóa học. Sau khi khóa học bắt đầu, bạn có thể truy cập để xem bài giảng, bài tập về nhà, hướng dẫn, v..v, cho mỗi tuần học.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Ai có thể tham gia được khóa học của VNOA?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_3">
+            <p>Bất kì ai cũng có thể tham gia được các khóa học của VNOA cần máy tính của bạn hết nối được internet.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Các khóa học chỉ được dạy bằng tiếng Anh?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_4">
+            <p>Một số khóa học VNOA bao gồm một bản dịch của bài giảng trong thanh văn bản bên phải của video. Một số bài giảng có tùy chọn ngôn ngữ để học. Vui lòng kiểm tra khóa học của bạn để xác định ngôn ngữ bạn tham gia học là gì?</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Khi nào hệ thống sẽ có các khóa học mới về các lĩnh vực khác nhau ?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_5">
+            <p>Chúng tôi liên tục xem xét và tạo các khóa học mới để thêm vào hệ thống. Hãy thường xuyên truy cập hệ thống để kiểm tra các thông tin về khóa học mới. Bạn cũng có thể add friend VNOA trên Facebook – và bạn sẽ nhận được thông tin cập nhật và thông báo thông qua facebook.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Khi nào khóa học của tôi bắt đầu hoặc kết thúc?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_7">
+            <p>Bạn có thể biết được bắt đầu và ngày hết thúc cho mỗi khóa học trên mỗi trang mô tả về khóa học.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Có hướng dẫn về cách học một khóa học hay không?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_8">
+            <p>Sẽ có 1 video giới thiệu cho mỗi khóa học. Video đó sẽ giúp bạn cảm thấy thấy yên tâm hơn khi tham gia khóa học.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi không có kiến thức tiên quyết về khóa học, tôi vẫn có thể tham dự khoá học không?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_9">
+            <p>Chúng tôi không yêu cầu điều kiện tiên quyết, vì vậy bạn vẫn được phép tham gia khóa học. Tuy nhiên, nếu bạn không nắm được các kiến thức tiên quyết trước khi tham gia một lớp, bạn sẽ phải tìm hiểu những kiến thức đã học trong các khóa học trước đó, và điều này có thể là một nhiệm vụ vô cùng khó khăn cho bạn. Vì vậy, bạn cần đăng kí các khóa học phù hợp với trình độ của bạn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Điều gì sẽ xảy ra nếu tôi bỏ khóa học giữa chừng? Tôi có phải chịu bất kỳ hình phạt gì không? Tôi có thể tham dự các khoá học khác trong tương lai không?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_10">
+            <p>Bạn có thể hủy đăng ký khóa học bất cứ lúc nào, không có hình phạt gì liên quan đến việc học tập của bạn, và bạn có thể đăng ký cùng một khóa học trong tương lai.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="classes_faq" class="category">
+        <h2>Những trợ giúp về lớp học</h2>
+        <article class="response">
+          <h3 class="question">Tôi phải học tập như thế nào để có thể vượt qua được khóa học?</h3>
+          <div class ="answer" id="classes_faq_answer_0">
+            <p>Thời gian dự kiến học tập cần thiết cho mỗi khóa học được mô tả cụ thể trên trang mô tả khóa học.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi nên làm gì trước khi tôi tham gia một khóa ( điều kiện tiên quyết ) ?</h3>
+          <div class ="answer" id="classes_faq_answer_1">
+            <p>Mỗi khóa học có điều kiện khác nhau, một số khóa học thì không có điều kiện . Hãy xem điều kiện tiên quyết khóa học cụ thể của bạn. Nếu khóa học  không yêu cầu điều kiện tiên quyết cụ thể, bạn vẫn có thể tham dự khoá học này.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Những cuốn sách nào tôi nên đọc? (Bởi vì tôi thích đọc tài liệu trước khi lớp học bắt đầu )</h3>
+          <div class ="answer" id="classes_faq_answer_2">
+            <p>Hãy tham khảo các điều kiện tiên quyết khóa học cụ thể. Tất cả các tài liệu học tập cần thiết sẽ được cung cấp trong suốt khóa học. Một số mô tả khóa học có thể liệt kê các nguồn để bạn có thể tham khảo. Đối với tài liệu đọc bổ sung trước khi hoặc trong suốt khóa học , bạn có thể đặt một câu hỏi trên Diễn đàn hoặc hỏi các bạn cùng học trực tuyến với bạn để họ có thể tư vấn cho bạn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể tải về các cuốn sách dành cho khóa học của tôi ?</h3>
+          <div class ="answer" id="classes_faq_answer_3">
+            <p>Nội dung sách chỉ có thể được xem trên trình duyệt, và nếu bạn tải sẽ bị vi phạm luật bản quyền . Nếu bạn cần hoặc muốn có một bản, chúng tôi khuyên bạn nên mua một bản sao.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể mất nhiều thời gian để học một khóa học hơn thời gian quy định được không ?</h3>
+          <div class ="answer" id="classes_faq_answer_4">
+            <p>Bạn có thể mất nhiều thời gian để học khóa học, tuy nhiên chúng tôi đề nghị kiểm tra các yêu cầu trên mỗi trang mô tả khóa học để xác định giờ học tập có sẵn của bạn và nhu cầu của các khóa học dự định.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Làm thế nào để đăng nhập vào hệ thống?</h3>
+          <div class ="answer" id="classes_faq_answer_5">
+            <p>Mỗi khi bạn đăng ký một khóa học và kích hoạt tài khoản của bạn , nhấp chuột vào nút " Đăng nhập " trên trang chủ VNOA . Bạn sẽ cần phải nhập vào địa chỉ email và mật khẩu mỗi khi bạn đăng nhập.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Thời gian mỗi lớp học là bao lâu ?</h3>
+          <div class ="answer" id="classes_faq_answer_6">
+            <p>Các lớp học diễn ra một cách thuận tiện. Linh hoạt về thời gian. Video và các bài tập có sẵn 24/24, có nghĩa là bạn có thể xem video và học bất cứ khi nào bạn có thời gian rảnh rỗi. Bạn chỉ cần đăng nhập vào khóa học của bạn thông qua Internet và làm việc thông qua các tài liệu khóa học.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Nếu tôi bỏ lỡ một tuần, điều này có ảnh hưởng đến việc học tập của tôi hay không ?</h3>
+          <div class ="answer" id="classes_faq_answer_7">
+            <p>Bạn thể bỏ lỡ một tuần. Tuy nhiên, cần sự nỗ lực của để học các kiến thức đã bõ lỡ. Vì vậy bạn nên xem xét và nghiên cứu những kiến thức bạn đã bỏ qua trong tuần đó. Bạn có thể kiểm tra bảng điều khiển tiến bộ của bạn trong khóa học để xem điểm trung bình khóa học của bạn từ đó có cách điều chỉnh phù hợp.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Làm thế nào tôi có thể tìm những học sinh khác ?</h3>
+          <div class ="answer" id="classes_faq_answer_8">
+            <p>Tất cả các khóa học đều có Diễn đàn , nơi đó bạn có thể trò chuyện với và giúp đỡ lẫn nhau trong khuôn khổ những quy định chung.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Làm thế nào tôi có thể nói chuyện với các giáo sư , nghiên cứu sinh và trợ giảng ?</h3>
+          <div class ="answer" id="classes_faq_answer_9">
+            <p>Diễn Đàn là nơi tốt nhất để tiếp cận với đội ngũ giảng dạy cho lớp học của bạn và  bạn chỉ cần gửi câu hỏi của bạn . Các giải đáp không phải lúc nào cũng ngay lập tức, nhưng thường là rất nhanh chóng.</p>
+          </div>
+        </article>
+
+          <article class="response">
+          <h3 class="question">Nhận được sự giúp đỡ.</h3>
+          <div class="answer" id="classes_faq_answer_10">
+            <p>Bạn có một cộng đồng toàn cầu sôi động, cộng đồng người học trực tuyến đồng có sẵn 24/7 để hỗ trợ bạn trong suốt quá trình học, cũng như hỗ trợ từ các hỗ trợ kỹ thuật. Hãy đăng nhập vào Diễn đàn bạn để có thể xem các câu hỏi , câu trả lời và ý kiến từ người học trực tuyến đồng , cũng như đặt câu hỏi.</p>	
+          </div>
+          </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể tham gia học lại một khóa học nào đó không?</h3>
+          <div class ="answer" id="classes_faq_answer_11">
+            <p>Bạn có thể thi lại khóa học thường xuyên như bạn muốn. Kết quả của bạn trong một khóa học sẽ không ảnh hưởng đến vị thế của bạn trong tương lai.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi vẫn có thể ghi danh khi khóa học đó đã bắt đầu được không?</h3>
+          <div class ="answer" id="classes_faq_answer_12">
+            <p>Có, nhưng bạn sẽ không thể biến trong bất kỳ nhiệm vụ hoặc các kỳ thi mà đã được do . Nếu đó là vào đầu khóa học , bạn vẫn có thể có thể kiếm được đủ điểm cấp giấy chứng nhận , nhưng bạn sẽ phải kiểm tra với các khóa học trong câu hỏi để tìm hiểu thêm.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Có một kỳ thi kết thúc khóa học đúng không?</h3>
+          <div class ="answer" id="classes_faq_answer_13">
+            <p>Các khóa học khác nhau có cấu trúc khác nhau. Vui lòng kiểm tra trang mô tả để xem thêm thông tin nếu có thể một kỳ thi cuối cùng hoặc cũng có thể là 1 dự án cuối cùng.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Các khóa học tương tự sẽ được tiếp tục trong tương lai?</h3>
+          <div class ="answer" id="classes_faq_answer_14">
+            <p>Các khóa học VNOA hiện tại sẽ được mở lại sau đó và các khóa học mới cũng được thêm vào hệ thống .</p>
+          </div>
+        </article>
+      </section>
+
+          
+      <section id="certificates_and_credits_faq" class="category">
+          <h2>Giúp đỡ về Giấy chứng nhận & Tín dụng</h2>
+
+        <article class="response">
+          <h3 class="question">Tôi sẽ nhận được một giấy chứng nhận tham gia một khóa học tại VNOA?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_0">
+            <p>Sau hi hoàn thành khóa học sẽ nhận được một giấy chứng nhận theo quyết định của VNOA trường đại học liên kết cấp. Nếu bạn thông qua khóa học, chứng chỉ của bạn làm chủ sẽ được gửi trực tuyến thông qua VNOA.org . Vì vậy, hãy chắc chắn kiểm tra email của bạn trong những tuần sau khi chấm điểm cuối cùng - bạn sẽ có thể tải về và in chứng chỉ của bạn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Làm thế nào được chứng nhận được chứng chỉ VNOA ?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_1">
+            <p>Giấy chứng nhận được cung cấp trực tuyến thông qua VNOA. Vì vậy, hãy chắc chắn kiểm tra email của bạn những tuần sau khi kết thúc khóa học- Bạn có thể tải về và in chứng chỉ của bạn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Sự khác biệt giữa một giấy chứng nhận và một giấy chứng nhận Proctored Mã danh dự là gì?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_2">
+            <p>Giấy chứng nhận Proctored được trao cho những sinh viên có và vượt qua một kỳ thi trong điều kiện Proctored . Giấy chứng nhận danh dự đang được trao cho những sinh viên đã hoàn thành tất cả các khóa học trực tuyến cần thiết kết hợp với một khóa học và đã ký mã vinh dự VNOA.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể nhận được cả hai giấy chứng nhận Proctored và Giấy chứng nhận danh dự được không ?</h3>
+          <div class="answer" id="certificates_and_credits_faq_answer_3">
+            <p>Được. Bạn có nhận cả hai giấy chứng nhận đó.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Lớp học của tôi có được in trên giấy chứng nhận của tôi ?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_4">
+            <p>Tên lớp học không được in trên chứng chỉ.Chỉ in hai chữ tượng trưng.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Làm thế nào tôi có thể nói chuyện với các giáo sư , nghiên cứu sinh và trợ giảng ?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_5">
+            <p>Diễn Đàn là nơi tốt nhất để tiếp cận với đội ngũ giảng dạy cho khóa học của bạn , và bạn chỉ cần gửi câu hỏi. Bạn sẽ nhận được lời giải đáp trong thời gian sớm nhất.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Giấy chứng nhận chỉ được cấp một lần cho một khóa học?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_6">
+            <p>Bạn có thể hủy đăng ký khóa học bất cứ lúc nào , không có hình phạt liên quan đến việc học tập không đầy đủ một khóa học và bạn có thể đăng ký cùng một khóa học đó sau đó. Đương nhiên, nếu kết thúc bạn cũng sẽ nhận được chứng chỉ.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Trường đại học của tôi sẽ chấp nhận VNOA khóa học của tôi cho việc thanh toán tín dụng hay không ?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_7">
+            <p>Mỗi cơ sở giáo dục sẽ có quyết định riêng của mình liên quan đến việc chấp nhận việc thanh toán tín dụng cho khóa học. Liên hệ trường đại học của bạn để biết thêm về chính sách đó.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi bị mất giấy chứng nhận của hệ thống VNOA - Bạn có thể gửi lại nó cho tôi?</h3>
+          <div class ="answer" id="certificates_and_credits_faq_answer_8">
+            <p>Xin vui lòng đăng nhập lại vào tài khoản của bạn để tìm giấy chứng nhận từ trang hồ sơ cá nhân cùng nơi mà chúng đã được đăng . Bạn sẽ có thể in lại chứng chỉ của bạn từ đó.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="open_source_faq" class="category">
+        <h2>Mã nguồn mở edX & VNOA</h2>
+        <article class="response">
+          <h3 class="question">Mã nguồn mở là gì?</h3>
+          <div class ="answer" id="open_source_faq_answer_0">
+            <p>Mã nguồn mở là một định nghĩa thường dùng để làm phần mềm miễn phí sử dụng hoặc sửa đổi khi người sử dụng cảm thấy phù hợp. Để đổi lấy việc sử dụng các phần mềm, người dùng thường thêm đóng góp cho phần mềm. Nền tảng hệ thống VNOA được cung cấp dưới dạng mã nguồn mở để cho phép những tài năng trên thế giới có thể cải thiện và chia sẻ nó trên cơ sở liên tục giúp cho hệ thống ngày một hoàn thiệm hơn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Khi / làm thế nào tôi có thể nhận biết công nghệ trên nền tảng mã nguồn mở ?</h3>
+          <div class ="answer" id="open_source_faq_answer_1">
+            <p>Chúng tôi vẫn đang xây dựng nền tảng VNOA và sẽ được thực hiện thông báo trong tương lai về tính sẵn có của nó .</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="other_help_faq" class="category">
+        <h2>Các Câu hỏi về Tài khoản và các câu hỏi khác</h2>
+        <article class="response">
+          <h3 class="question">Tên truy nhập của tôi đã tồn tại trong hệ thống.</h3>
+          <div class ="answer" id="other_help_faq_answer_0">
+            <p>Hãy nghĩ một tên truy cập độc đáo hơn, có cả kí tự số và chữ.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tại sao mật khẩu của tôi hiển thị trên trang đăng nhập khóa học của tôi ?</h3>
+          <div class ="answer" id="other_help_faq_answer_1">
+            <p>Rất tiếc ! Điều này có thể là do cách bạn tạo tài khoản của bạn . Ví dụ , bạn có thể gõ mật khẩu nhầm vào ô đăng nhập .</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi đang gặp vấn đề đăng nhập ( mật khẩu / email không được công nhận ) .</h3>
+          <div class ="answer" id="other_help_faq_answer_2">
+            <p>Vui lòng kiểm tra cài đặt trình duyệt của bạn để đảm bảo rằng bạn có phiên bản hiện tại của Firefox hoặc Chrome, và sau đó thử đăng nhập lại . Nếu bạn thấy không thể truy cập , bạn chỉ cần tạo một tài khoản mới sử dụng một địa chỉ email thay thế - người già, tài khoản không sử dụng sẽ biến mất sau đó.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi không nhận được email kích hoạt.</h3>
+          <div class ="answer" id="other_help_faq_answer_3">
+            <p>Nếu bạn không nhận được email kích hoạt nó có thể là do :</p>
+            <ul>
+              <li>Có một lỗi đánh máy trong địa chỉ email của bạn.</li>
+              <li>Bộ lọc thư rác của bạn có thể đã bắt được email kích hoạt. Vui lòng kiểm tra thư mục thư rác của bạn .</li>
+              <li>Bạn có thể sử dụng một trình duyệt cũ hơn . Chúng tôi khuyên bạn nên tải về phiên bản hiện tại của Firefox hoặc Chrome .</li>
+              <li>JavaScript bị vô hiệu hóa trong trình duyệt của bạn . Vui lòng kiểm tra cài đặt trình duyệt của bạn và xác nhận rằng JavaScript được kích hoạt.</li>
+            </ul>
+            <p>Nếu bạn tiếp tục có vấn đề kích hoạt tài khoản của bạn , chúng tôi khuyên bạn hãy thử tạo một tài khoản mới. Không cần phải làm bất cứ điều gì về tài khoản cũ . Nếu nó không được kích hoạt thông qua các liên kết trong email , email cũ của bạn sẽ biến mất sau đó.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể xóa tài khoản của tôi ?</h3>
+          <div class ="answer" id="other_help_faq_answer_4">
+            <p>Không cần xóa tài khoản của bạn . Nếu bạn không sử dụng tài khoản của bạn cùng những liên kết liên quan sẽ biến mất.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi đã làm sai tạo tên đăng nhập của tôi - làm thế nào để tôi sửa chữa nó?</h3>
+          <div class ="answer" id="other_help_faq_answer_4.5">
+            <p>Đơn giản và nhanh nhất là bạn có thể tạo một tài khoản mới . Và tài khoản cũ của bạn sẽ biến mất nếu không sử dụng nữa. Hoặc bạn có thể gởi cho chúng tôi chi tiết yêu cầu thay đổi và chúng tôi sẽ chỉnh sửa tên đăng nhập của bạn. Và bạn chỉ có thể yêu cầu thay đổi tên đăng nhập của bạn.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi đang gặp vấn đề với màn hình hiển thị . Ví dụ: có các công cụ bị mất từ màn hình khóa học, hoặc tôi không thể xem video.</h3>
+          <div class ="answer" id="other_help_faq_answer_5">
+            <p>Hãy kiểm tra trình duyệt và các thiết lập của bạn . Chúng tôi khuyên bạn nên tải về phiên bản hiện tại của Firefox hoặc Chrome . Ngoài ra, bạn có thể đăng ký lại với một tài khoản email khác nhau . Không cần phải xóa các tài khoản cũ , vì nó sẽ biến mất nếu không sử dụng.</p>
+          </div>
+        </article>
+        <article class="response">
+          <h3 class="question">Tôi có thể giúp hệ thống bằng cách nào?</h3>
+          <div class ="answer" id="edx_basics_faq_answer_6">
+            <p>Bạn không thể nhận ra nó , nhưng chỉ bằng cách tham gia một khóa học , bạn đã giúp hệ thống rồi . Đó là bởi vì hệ thống đã được thiết kế đặc biệt để không chỉ dạy , nhưng cũng thu thập dữ liệu về học tập. Hệ thống sẽ sử dụng dữ liệu này để tìm hiểu làm thế nào để cải thiện giáo dục trực tuyến.</p>
+          </div>
+        </article>
+
+      </section>
+
+    </section>
+
+    <nav class="categories">
+      <a href="#edx_basics_faq">Những trợ giúp cơ bản</a>
+      <a href="#classes_faq">Những trợ giúp về lớp học</a>
+      <a href="#certificates_and_credits_faq">Giúp đỡ về Giấy chứng nhận & Tín dụng</a>
+      <a href="#open_source_faq">Mã nguồn mở edX & VNOA</a>
+      <a href="#other_help_faq">Các Câu hỏi về Tài khoản và các câu hỏi khác</a>
+    </nav>
+
+  </section>
+</section>

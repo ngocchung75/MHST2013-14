@@ -1,0 +1,1 @@
+Bạn bị huỷ ghi danh khoá học ${course_id}

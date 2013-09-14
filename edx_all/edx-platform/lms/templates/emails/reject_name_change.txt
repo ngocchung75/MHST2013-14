@@ -1,0 +1,11 @@
+<%namespace file="../main.html" import="stanford_theme_enabled" />
+(Not currently used)
+
+## TODO: fix this ugly hack
+% if stanford_theme_enabled():
+  Chúng tôi rất xin lỗi. Giáo viên khoá học của chúng tôi không chấp nhận yêu cầu của bạn để thay đổi
+tên của bạn từ ${old_name} sang ${new_name}. Nếu bạn cần thêm hỗ trợ, xin vui lòng e-mail hỗ trợ kỹ thuật tại vn.open.academy@gmail.com.
+% else:
+  Chúng tôi rất xin lỗi. Giáo viên khoá học của chúng tôi không chấp nhận yêu cầu của bạn để thay đổi
+tên của bạn từ ${old_name} sang ${new_name}. Nếu bạn cần thêm hỗ trợ, xin vui lòng e-mail hỗ trợ kỹ thuật tại vn.open.academy@gmail.com.
+% endif
