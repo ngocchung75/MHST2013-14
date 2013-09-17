@@ -89,7 +89,7 @@ clone_repos() {
         if [[ -d "$BASE/edx-platform/.git" ]]; then
             output "Pulling edx platform"
             cd "$BASE/edx-platform"
-            git pull
+            
         else
             output "Cloning edx platform"
             if [[ -d "$BASE/edx-platform" ]]; then
@@ -97,7 +97,7 @@ clone_repos() {
                 
             fi
 	    cd "$BASE/edx-platform"
-	    git pull
+	    
 
         fi
     fi
