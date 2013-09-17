@@ -15,6 +15,12 @@ Ghi chú công việc tại Jupo: http://play.jupo.com/group/476738306579628033
 
 Quản lý Issues dự án: https://github.com/ngocchung75/MHST2013-14/issues
 
+Link hệ thống thử nghiệm:
+
++ Xem Studio (dành cho giáo viên xây dựng và phân phối các khoá học):  http://edx.dtu.vn:8001/
++ Xem LMS (người học tìm, xem và đăng ký khoá học): http://edx.dtu.vn/ 
++ User demo: demo@gmail.com  - Pass: mooc@2013
+
 Mentor: Thầy Trương Anh Hoàng - hoangta@vnu.edu.vn - Skype: hoangta
 
 Co-mentor: Thầy Nguyễn Đức Mận - mannd@duytan.edu.vn - Skype: mand.123
