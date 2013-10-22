@@ -15,6 +15,10 @@ Ghi chú công việc tại Jupo: http://play.jupo.com/group/476738306579628033
 
 Quản lý Issues dự án: https://github.com/ngocchung75/MHST2013-14/issues
 
+Mailing list: vietnam-edx@googlegroups.com
+
+Forum Vietnam edX Community: https://groups.google.com/forum/#!forum/vietnam-edx
+
 Link hệ thống thử nghiệm:
 
 + Xem Studio (dành cho giáo viên xây dựng và phân phối các khoá học):  http://edx.dtu.vn:8001/
